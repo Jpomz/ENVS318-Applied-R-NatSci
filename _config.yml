@@ -11,7 +11,7 @@ permalink:        pretty
 # Setup
 title:            Intro to R for Bio and Enviro Sciences
 description:      'Teaching the tools to use R to do cool science'
-url:              
+url:              https://jpomz.github.io/ENVS396-FA-2023/
 baseurl:          /ENVS396-FA-2023
 email:            jpomeranz@coloradomesa.edu
 feedbackurl:      
