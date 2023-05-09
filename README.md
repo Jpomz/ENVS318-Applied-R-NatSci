@@ -1,30 +1,27 @@
-# Data Carpentry for Biologists - Semester Course
+# Introduction to R for Bio. and Enviro Sciences
 
 [![JOSE DOI](https://jose.theoj.org/papers/10.21105/jose.00139/status.svg)](https://doi.org/10.21105/jose.00139)
 [![Zenodo DOI](https://zenodo.org/badge/31911336.svg)](https://zenodo.org/badge/latestdoi/31911336)
 
-This is a [forkable](https://help.github.com/articles/fork-a-repo/) set of teaching materials for teaching biologists how to work
-with data through programming, database management and computing more generally.
+This is a [forkable](https://help.github.com/articles/fork-a-repo/) set of teaching materials for teaching biologists and evnironmental scientists how to work
+with data through programming and computing more generally.
 
 This repository contains the complete teaching materials (excluding exams and
-answers to assignments) and [website](http://datacarpentry.org/semester-biology) for a university style and self-guided 
-course teaching computational data skills to biologists. The course is designed
+answers to assignments) and [website]() for a university style and self-guided 
+course teaching computational data skills. The course is designed
 to work primarily as a flipped classroom, with students reading and viewing
 videos before coming to class and then spending the bulk of class time working
 on exercises with the teacher answering questions and demoing the concepts.
 
-[Helpful information](http://www.datacarpentry.org/semester-biology/docs/) 
-is available regarding the structure and function of the course and website
-materials for customized development and delivery of the course.
-
-We encourage collaborative development. This repository was used by 
-@ethanwhite to teach a version of this course (Fall 2016) at the University of
-Florida. The course remains under active development. We welcome contributions
-to all aspects of the course/site and are especially seeking exercises and
-assignments for a range of disciplines. Key site and course materials are
+This repository was forked from [Data Carpentry Biology Semester](http://www.datacarpentry.org/semester-biology/docs/) developed by 
+@ethanwhite at the University of
+Florida. Key site and course materials are
 available as templates for contributions of new materials and other materials
 that are specific to the course (e.g., the syllabus) are developed in a way to
 facilitate easy customization. 
+The original course site has [helpful information](http://www.datacarpentry.org/semester-biology/docs/) 
+regarding the structure and function of the course and website
+materials for customized development and delivery of the course.
 
 Here are some examples of courses using the infrastructure and material from this course:
 
@@ -74,11 +71,6 @@ same content. In particularly we actively use
 [Software Carpentry](http://software-carpentry.org/lessons.html) workshop
 materials. However, in cases where the necessary material doesn't exist
 elsewhere it can certainly be added here.
-
-## Accessibility
-
-New pull requests to this site are scanned using [pa11y](https://github.com/pa11y/pa11y) and [pa11y-ci](https://github.com/pa11y/pa11y-ci) to ensure that additions to the site follow best practices for accessibility.
-If you discover any accessibility issues with the site please open an issue and we'll get them fixed.
 
 
 ## Using Jekyll to build your own course website
