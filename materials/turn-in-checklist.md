@@ -7,7 +7,7 @@ title: Assignment Submission & Checklist
 
 - What files to submit: 
     - **Week 1** - one text form, one .xlsx file
-    - **Weeks 2-18** - an R script
+    - **Weeks 2-17** - an R script
 
 **NOTE for Fall 2023:** 
   - Week 4 will be remote
