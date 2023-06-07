@@ -29,14 +29,18 @@ Email: [{{ page.email }}](mailto:%7B%7B%20page.email%20%7D%7D)
 
 ### Location
 
-{{location}}
+{{ page.location }}
 
 ### Times
 
+{{ page.schedule }}
 
 ### Office Hours
 
-Times: {{ page.office_hours }}
+Times: 
+{% for class in page.office_hours %}
+  {{ class }}
+{% endfor %}
 
 Location: {{ page.office_hours_location }}
 
