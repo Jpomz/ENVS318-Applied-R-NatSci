@@ -1,19 +1,16 @@
 ---
 layout: page
 title: Syllabus
-catalog: ALS 6501
+catalog: ENVS396
 credits: 3
-semester: Fall 2022
-professor: Dr. Ethan White (he/him)
-office: Room 1 Building 150
-email: ethanwhite@ufl.edu
-phone: 352-294-2081
-schedule: ['Tuesdays, 12:50-1:40 pm ET', 'Fridays, 11:45-1:40 pm ET']
-location: Newins-Ziegler Hall (NZH) 222
-office_hours: "TBD"
+semester: Fall 2023
+professor: Dr. Justin Pomeranz (he/him)
+office: 230E Wubben Science
+email: jpomeranz@coloradomesa.edu
+schedule: ['MWF, 3:00-3:50 pm MT']
+location: Wubben Science (WS) 245
+office_hours: ['MWF, 11:00-11:50 am MT', `Tuesday, Zoom by appointment'] 
 office_hours_location: "TBD"
-TA: Virnaliz Cruz
-TA_email: virnaliz.cruzher@ufl.edu
 ---
 
 ## Course
