@@ -7,9 +7,9 @@ semester: Fall 2023
 professor: Dr. Justin Pomeranz (he/him)
 office: 230E Wubben Science
 email: jpomeranz@coloradomesa.edu
-schedule: ['MWF, 3:00-3:50 pm MT']
+schedule: ['Monday, 3:00-3:50 pm MT']
 location: Wubben Science (WS) 245
-office_hours: ['MWF, 11:00-11:50 am MT', `Tuesday, Zoom by appointment'] 
+office_hours: ['MWF, 11:00-11:50 am MT', 'Tuesday, Zoom by appointment'] 
 office_hours_location: "TBD"
 ---
 
@@ -54,13 +54,6 @@ please try to schedule appointments as far in advance as possible. In general it
 will be very difficult to set up appointments less than 24 hours in advance.*
 
 
-### Teaching Assistant
-
-{{ page.TA }}
-
-Email: [{{ page.TA_email }}](mailto:{{ page.TA_email }})
-
-
 ### Website
 
 The syllabus and other relevant class information and resources will be posted
@@ -71,10 +64,10 @@ periodically for updates.
 
 ### Course Communications
 
-Canvas: Messages in canvas are the preferred method for course communication
-
 Email: [{{ page.email }}](mailto:{{ page.email }})
+This is the best way to get in touch with me. Please include the course code [ENVS396] and a brief description of the topic in the email subject line. 
 
+D2L: Course announcements and class-wide emails will be delivered via D2L. Please check it regularly. 
 
 ### Required Texts
 
@@ -89,24 +82,25 @@ available on the web.
 ### Course Description
 
 An introduction to data management, manipulation, and analysis, with an emphasis
-on biological problems. Class consists of short introductions to new concepts
-followed by hands on computing exercises using R and SQLite, but the concepts
-apply to programming languages and databases more generally. No background in
-computing is required.
+on environmental and biological problems. Class consists of short introductions 
+to new concepts followed by hands on computing exercises using R, but the 
+concepts apply to programming languages and databases more generally. 
+No background in computing is required.
 
 
 ### Prerequisite Knowledge and Skills
 
-Knowledge of basic biology to provide context for exercises.
+Knowledge of basic environmental science and biology to provide context for exercises.
 
 
 ### Purpose of Course
 
 In this course you will learn all of the fundamental aspects of computer
-programming that are necessary for conducting biological research. By the end of
-the course you will be able to use these tools to import data into R, perform
-analysis on that data, and export the results to graphs, text files, and
-databases. By learning how to get the computer to do your work for you, you will
+programming that are necessary for conducting research in the environmental and
+biological sciences. By the end of the course you will be able to use these 
+tools to import data into R, perform analysis on that data, and export the 
+results to graphs, text files, and .csv (comma separated value) files. 
+By learning how to get the computer to do your work for you, you will
 be able to do more science faster.
 
 
@@ -118,17 +112,14 @@ Students completing this course will be able to:
 * Extract information from data
 * Write computer programs in R
 * Automate data analysis
-* Apply these tools to address biological questions
+* Apply these tools to address environmental and biological questions
 * Apply general data management and analysis concepts to other programming
   languages and database management systems
 
 
-### How this course relates to the Student Learning Outcomes in Wildlife Ecology and Conservation
-
-This course contributes to the 'Quantitative Skills' and 'Conducting and
-Analyzing Independent/Original Research' Student Learning Outcomes specified in
-the
-[Ph.D. and MS in Wildlife Ecology and Conservation Academic Assessment Plans](https://fora.aa.ufl.edu/docs/1//16Apr13//CALS_WIE_PHD_GAAP_2012-2013_final.pdf),
+### How this course relates to the Student Learning Outcomes in Environmental Science 
+This course contributes to the 'Quantitative Skills' Student Learning Outcomes
+specified in the [Environmental Science and Technology (BS) page](https://catalog.coloradomesa.edu/areas-study/environmental-science-technology/environmental-science-technology-bs/),
 by providing students the skills and knowledge they need to manage and analyze
 the data used in research.
 
@@ -178,14 +169,14 @@ However, it is highly recommended that you submit assignments on time when
 possible because assignments build on one another and it can be hard to catch up
 if you fall behind. Reasonable requests for longer extensions will also be granted.
 Assignments turned in after the 48 hour grace period without an extension will be
-be graded with a 20% penalty.
+be graded with a 50% penalty.
 
 
 ### Assignment policy
 
-Assignments are due Monday night by 11:59 pm Eastern Time.
+Assignments are due Sunday night by 11:59 pm Mountain Time.
 This timing allows you to be finished with one week's material before starting the next week's material.
-Assignments should be submitted via either RStudio Cloud (for R assignments) or Canvas (for other assignments).
+Assignments should be submitted via the course D2L webpage.
 
 ### Course Technology
 
@@ -194,7 +185,7 @@ source software on those laptops (see [Setup]({{ site.baseurl }}/computer-setup)
 for installation instructions). Support will be provided by the instructor in
 the installation of required software. If you don't have access to a laptop
 please contact the instructor and they will do their best to provide you with
-one.
+a departmental machine.
 
 
 ### Materials and Supplies Fees
@@ -202,65 +193,47 @@ one.
 There are no materials and supplies fees for this course.
 
 
-## UF Policies
+## CMU Policies
 
-
-### University Policy on Accommodating Students with Disabilities
-
-The Disability Resource Center coordinates the needed accommodations of students
-with disabilities. This includes registering disabilities, recommending academic
-accommodations within the classroom, accessing special adaptive computer
-equipment, providing interpretation services and mediating faculty-student
-disability related issues.Students requesting classroom accommodation must first
-register with the Dean of Students Office. The Dean of Students Office will
-provide documentation to the student who must then provide this documentation to
-the Instructor when requesting accommodation0001 Reid Hall, 352-392-8565,
-www.dso.ufl.edu/drc/
+Students should be aware of all official [CMU policies](https://d2l.coloradomesa.edu/content/Policies%20and%20Services/CMU%20Policies.html) 
+as well as the Student Code of Conduct as described in the 
+[The Maverick Guide](https://www.coloradomesa.edu/student-services/maverick-guide.html)
 
 My policy: If you are in my class I want to help you learn and will happily work
 with you to make the learning environment equitable for you and others.
 
+### Academic Honesty and Integrity
 
-### Online Course Evaluation Process
+The faculty, administration, and students of Colorado Mesa University support 
+the principle that all individuals associated with the academic community have 
+a responsibility for establishing, maintaining, and fostering an understanding 
+and appreciation for academic integrity. 
 
-Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at https://gatorevals.aa.ufl.edu/students/. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via https://ufl.bluera.com/ufl/. Summaries of course evaluation results are available to students at https://gatorevals.aa.ufl.edu/public-results/.
+Academic dishonesty undermines the educational experience, lowers morale by
+engendering a skeptical attitude about the quality of education, and negatively 
+affects the relationship between students and faculty. Academic dishonesty is 
+the intentional act of fraud in an academic environment/situation/exercise 
 
+Academic dishonesty includes, but is not limited to:
 
-### University Policy on Academic Misconduct
+* Forgery/fabrication/falsification/plagiarism of academic documents
+* Intentionally impeding or damaging the academic work of others
+* Assisting others in acts of academic dishonesty
+* Cheating in the classroom
+* Unauthorized attendance
+* Multiple submissions of the same material to two or more different classes without the permission of all instructors involved
+* Unauthorized collaboration
+* Lying/misrepresentation/omission of information to obtain an unfair advantage in an academic environment/situation/exercise
+* Unauthorized use of materials or equipment to complete an academic requirement
+* Any academic misconduct may be reported to the Department Head and Office of Academic Affairs and may result in a failing grade, suspension, or dismissal.  
 
-Academic honesty and integrity are fundamental values of the University
-community. Students should be sure that they understand the UF Student Honor
-Code at http://www.dso.ufl.edu/students.php.
-
+These policies are outlined in [The Maverick Guide](https://www.coloradomesa.edu/student-services/maverick-guide.html)
 
 ### Netiquette and Communication Courtesy
 
 All members of the class are expected to follow rules of common
 courtesy in all email messages, threaded discussions and chats.
 
-
-### Academic Honesty
-
-As a student at the University of Florida, you have committed yourself to uphold
-the Honor Code, which includes the following pledge:"We, the members of the
-University of Florida community, pledge to hold ourselves and our peers to the
-highest standards of honesty and integrity. "You are expected to exhibit behavior
-consistent with this commitment to the UF academic community, and on all work
-submitted for credit at the University of Florida, the following pledge is
-either required or implied: "On my honor, I have neither given nor received
-unauthorized aid in doing this assignment."
-
-It is assumed that you will complete all work independently in each course
-unless the instructor provides explicit permission for you to collaborate on
-course tasks (e.g. assignments, papers, quizzes, exams). Furthermore, as part of
-your obligation to uphold the Honor Code, you should report any condition that
-facilitates academic misconduct to appropriate personnel. It is your individual
-responsibility to know and comply with all university policies and procedures
-regarding academic integrity and the Student Honor Code.Violations of the Honor
-Code at the University of Florida will not be tolerated. Violations will be
-reported to the Dean of Students Office for consideration of disciplinary
-action. For more information regarding the Student Honor Code, please see:
-http://www.dso.ufl.edu/sccr/process/student-conduct-honor-code
 
 
 ### Software Use
@@ -270,13 +243,6 @@ obey the laws and legal agreements governing software use. Failure to do so can
 lead to monetary damages and/or criminal penalties for the individual violator.
 Because such violations are also against university policies and rules,
 disciplinary action will be taken as appropriate.
-
-
-### Student Privacy
-
-There are federal laws protecting your privacy with regards to grades earned in
-courses and on individual assignments.  For more information, please see:
-http://registrar.ufl.edu/catalog0910/policies/regulationferpa.html
 
 
 ## Grading Policies
@@ -295,60 +261,41 @@ Exercises in assignments will be graded as follows:
 
 ### Grading scale
 
-- **A 93-100**
-- **A- 90-92.9**
-- **B+ 87-89.9**
-- **B 83-86.9**
-- **B- 80-82.9**
-- **C+ 77-79.9**
-- **C 73-76.9**
-- **C- 70-72.9**
-- **D+ 67-69.9**
-- **D 60-66.9**
-- **E <60**
+- **A 89.5-100**
+- **B 79.5-89.4**
+- **C 69.5-79.4**
+- **D 59.5-69.4**
+- **F <60**
 
 
-### UF grading policies for assigning grade points
+## Student Services
 
-[https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/)
+As a student at CMU, you are entitled to services and have access to numerous
+resources. A full description can be found at the [student services web page](https://d2l.coloradomesa.edu/content/Policies%20and%20Services/Student%20Services.html) 
 
+### It's Ok to Not Be OK
 
-## Campus Helping Resources
+Everyone struggles with their mental health at times, and college students are 
+no exception. In fact, mental health struggles can impact your academic 
+performance, and is associated with higher rates of drop out. Don’t let being 
+stressed, depressed, anxious, or struggles with alcohol and drugs hinder your 
+success at CMU. Please reach out for help if you need it!
 
-Students experiencing crises or personal problems that interfere with
-their general well-being are encouraged to utilize the university’s counseling
-resources. The Counseling& Wellness Center provides confidential counseling
-services at no cost for currently enrolled students. Resources are available on
-campus for students having personal problems or lacking clear career or academic
-goals, which interfere with their academic performance.
-
-### Health and Wellness 
-
-U Matter, We Care: If you or a friend is in distress, please contact umatter@ufl.edu or 352 392-1575 so that a team member can reach out to the student. 
-
-Counseling and Wellness Center: http://www.counseling.ufl.edu/cwc, 392-1575. 
-
-Sexual Assault Recovery Services (SARS): Student Health Care Center, 392-1161. 
-
-University Police Department: 392-1111 (or 9-1-1 for emergencies), or http://www.police.ufl.edu/. 
+CMU offers affordable counseling sessions at the [CMU Student Wellness Center](https://www.coloradomesa.edu/student-services/wellness/index.html). 
+Call 970-644-3740, ext #4 to set up an appointment or connect with Student 
+Services at 970-248-1633 for resources on how to get help. Further, when people 
+become overwhelmed with life, they can begin to have thoughts of suicide or 
+self-harm. If you find yourself in this place, you can also call the 
+[National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/) 
+at 800-273-8255. It is just as important that we look out for other Mavs if we 
+see them struggling with their mental health. You may report your concerns about 
+a friend or anyone else on campus using the [Report It](https://www.coloradomesa.edu/safety/report.html) function.
 
 ### Academic Resources
 
-E-learning technical support: 352-392-4357 (select option 2) or e-mail to Learning-support@ufl.edu. https://lss.at.ufl.edu/help.shtml.
-
-Career Connections Center: Reitz Union, 392-1601.  Career assistance and counseling. https://career.ufl.edu/.
-
-Library Support: http://cms.uflib.ufl.edu/ask. Various ways to receive assistance with respect to using the libraries or finding resources.
-
-Teaching Center: Broward Hall, 392-2010 or 392-6420. General study skills and tutoring. https://teachingcenter.ufl.edu/.
-
-Writing Studio: 302 Tigert Hall, 846-1138. Help brainstorming, formatting, and writing papers. https://writing.ufl.edu/writing-studio/.
-
-### Student Complaints
-
-Student Complaints Campus: https://www.dso.ufl.edu/documents/UF_Complaints_policy.pdf.
-
-On-Line Students Complaints: http://www.distance.ufl.edu/student-complaint-process.
+A full list of academic resources, including the Tutorial Learning Center (TLC), 
+the Writing center, library resources, and IT help can be found in the 
+[Academic Services page](https://d2l.coloradomesa.edu/content/Policies%20and%20Services/Student%20Services.html) 
 
 ## Course Schedule
 
