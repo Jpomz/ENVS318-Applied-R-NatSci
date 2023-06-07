@@ -27,11 +27,11 @@ Office: {{ page.office }}
 
 Email: [{{ page.email }}](mailto:%7B%7B%20page.email%20%7D%7D)
 
-### Location
+### Class Location
 
 {{ page.location }}
 
-### Times
+### Class Meeting Times
 
 {{ page.schedule }}
 
