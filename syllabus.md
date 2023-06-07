@@ -305,5 +305,5 @@ page](https://d2l.coloradomesa.edu/content/Policies%20and%20Services/Student%20S
 
 ## Course Schedule
 
-The details course schedule is available on the course website at: [{{
-site.url }}/schedule](%7B%7B%20site.baseurl%20%7D%7D/schedule).
+The details course schedule is available on the course website at: 
+[{{ site.url }}/schedule]({{ site.baseurl }}/schedule).
