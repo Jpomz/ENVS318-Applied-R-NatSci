@@ -17,7 +17,7 @@ office_hours_location: 230E Wubben Science
 
 {{ site.title}}
 
-{{ catalog }}, {{ page.credits}} Credits, {{ page.semester}}
+{{ page.catalog }}, {{ page.credits}} Credits, {{ page.semester}}
 
 ### Instructor
 
