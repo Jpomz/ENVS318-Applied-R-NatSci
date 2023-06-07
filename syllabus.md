@@ -7,7 +7,7 @@ semester: Fall 2023
 professor: Dr. Justin Pomeranz (he/him)
 office: 230E Wubben Science
 email: jpomeranz@coloradomesa.edu
-schedule: ['Monday, 3:00-3:50 pm MT']
+schedule: ['MWF, 3:00-3:50 pm MT']
 location: Wubben Science (WS) 245
 office_hours: ['MWF, 11:00-11:50 am MT', 'Tuesday, Zoom by appointment'] 
 office_hours_location: "TBD"
