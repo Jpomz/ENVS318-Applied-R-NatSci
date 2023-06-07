@@ -7,8 +7,7 @@ title: Assignment Submission & Checklist
 
 - What files to submit: 
     - **Week 1** - one text form, one .xlsx file
-    - **Weeks 2-13** - a link to your RStudio Cloud project
-    - **Week 14** - a link to a GitHub repository
+    - **Weeks 2-16** - an R script
 
 
 ## Code Checklist
