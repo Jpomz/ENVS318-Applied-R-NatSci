@@ -10,7 +10,7 @@ email: jpomeranz@coloradomesa.edu
 schedule: ['MWF, 3:00-3:50 pm MT']
 location: Wubben Science (WS) 245
 office_hours: ['MWF, 11:00-11:50 am MT', 'Tuesday, Zoom by appointment'] 
-office_hours_location: "TBD"
+office_hours_location: 230E Wubben Science
 ---
 
 ## Course
@@ -26,9 +26,7 @@ office_hours_location: "TBD"
 Office: {{ page.office }}
 
 Email:
-[{{ page.email }}](mailto:{{ page.email }})
-
-Phone: {{ page.phone }}
+[{{ page.email }}](mailto:{{ page.email }})d
 
 
 ### Location
