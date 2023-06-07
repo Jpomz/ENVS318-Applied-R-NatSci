@@ -3,12 +3,17 @@ layout: page
 title: Assignment Submission & Checklist
 ---
 
-- All assignments should be submitted through [Canvas](http://ufl.instructure.com/)
+- All assignments should be submitted through [D2L](https://d2l.coloradomesa.edu/d2l/home/233299)
 
 - What files to submit: 
     - **Week 1** - one text form, one .xlsx file
-    - **Weeks 2-16** - an R script
+    - **Weeks 2-18** - an R script
 
+**NOTE for Fall 2023:** 
+  - Week 4 will be remote
+  - Week 8 will be remote
+  - Week 14 is Fall Break
+  - Week 17 is Finals week
 
 ## Code Checklist
 
