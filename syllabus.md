@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-catalog: ENVS396
+catalog: ENVS 396
 credits: 3
 semester: Fall 2023
 professor: Dr. Justin Pomeranz (he/him)
@@ -15,9 +15,9 @@ office_hours_location: 230E Wubben Science
 
 ## Course
 
-{{ site.title }}
+{{ site.title}}
 
-{{ page.catalog }}, {{ page.credits }} Credits, {{ page.semester }}
+{{ page.catalog}}, {{ page.credits}} Credits, {{ page.semester}}
 
 ### Instructor
 
