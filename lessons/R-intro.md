@@ -24,9 +24,15 @@ language: R
 
 <iframe title="Expressions and Variables in R video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/BFVX0CKY67g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-5\. Watch the two videos on formatting and submitting assignments:
+5\. Watch the two videos on formatting and submitting assignments (video is only relevant to ~5:30):
 
 <iframe title="Formatting assignments video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Inuvup-g090" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**NOTES**  
+
+* This is not a fully remote class (these videos were recorded during the pandemic) 
+
+* We are not using Rstudio Cloud. You will submit your assignment scripts using the appropriate link on our D2L course page. 
 
 <iframe title="Submitting assignments video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/sv5J1FKMVLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
