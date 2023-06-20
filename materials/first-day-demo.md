@@ -24,47 +24,19 @@ title: First Day Demo
 library(dplyr)
 library(ggplot2)
 library(raster)
-library(rdataretriever)
-library(DBI)
 ```
 
-* Now let's download the BBS data and install it in a database
-* This data is distributed as ~100 different files that need to be combined in
-  various ways
-* It's also pretty large, making a database a good option 
+* Download breeding bird survey from website
+
+* Load data
 
 ```
-  rdataretriever::get_updates()
-  rdataretriever::install('breed-bird-survey', 'sqlite', 'bbs.sqlite')
-```
-
-* This takes a little time
-* So instead of installing it every time we run our code let's check to see if
-  the database we just created exists, and only do this step if it isn't there
-  already
-
-```
-if (!file.exists('bbs.sqlite')){
-  rdataretriever::get_updates()
-  rdataretriever::install('breed-bird-survey', 'sqlite', 'bbs.sqlite')
-}
-```
-
-* If we rerun the code we see that it doesn't rerun this step
-
-* Now let's connect from R to the database
-
-```
-bbs_db <- dbConnect(RSQLite::SQLite(), 'bbs.sqlite')
+surveys <- read.csv("....csv")
+sites <- read.csv("....csv")
 ```
 
 * Once we've done this we can use tables in the database in R
 
-```
-surveys <- tbl(bbs_db, "breed_bird_survey_counts")
-sites <- tbl(bbs_db, "breed_bird_survey_routes") %>%
-  data.frame()
-```
 
 * *Show tables*
 * Surveys: data on how many individuals of each species are sampled at each site
