@@ -3,10 +3,9 @@ layout: page
 title: Assignments
 ---
 
-## SQL
+## Excel
 
 * [Introduction to Databases](sql-data)
-* [Database Structure and Joins](sql-queries)
 
 ## R
 
@@ -24,20 +23,4 @@ title: Assignments
 * [Advanced Topics](r-advanced)
 * [Review](r-review)
 
-## Git
-* [Git with R](r-git)
 
-## Python
-
-*Python assignments were used in [previous iterations](http://www.programmingforbiologists.org/) of the course at Utah State University, but
-are no longer under active development.*
-
-* [Assignment 1](python-1)
-* [Assignment 2](python-2)
-* [Assignment 3](python-3)
-* [Assignment 4](python-4)
-* [Assignment 5](python-5)
-* [Assignment 6](python-6)
-* [Assignment 7](python-7)
-* [Assignment 8](python-8)
-* [Assignment 9](python-9)
