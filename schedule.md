@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Assignment Schedule
-assignments: ['Data Entry and Storage',
+assignments: ['Introduction to Course',
 'Introduction to R and RStudio',
 'Data in Tables',
-'Remote Week',
+'Data Entry and Storage',
 'Grouping & Joining Data',
 'Data Visualization',
 'Review + Reproducibility',
