@@ -26,7 +26,7 @@ library(ggplot2)
 library(raster)
 ```
 
-* Download breeding bird survey from website
+* Download [data]({{ site.baseurl }}/materials/datasets/) from the course website
 
 * Load data
 
