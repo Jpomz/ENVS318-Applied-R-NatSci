@@ -7,8 +7,7 @@ title: Course Introduction
 ### Welcome
 
 * Introduce yourself (include your pronouns)
-* Introduce co-instructors/TAs
-* Depending on class size have students introduce themselves
+* Have students introduce themselves
 
 ### Course goals
 
@@ -49,11 +48,11 @@ title: Course Introduction
 * Practice is really important for learning skills like this
 * All exercises are part of the assignments.
 * Work on them until you get stuck and then ask for help, don't struggle for hours on online help sites
-* Assignments for the first 12 weeks of class and then optional ungraded content though the end of the semester
-* Assignments due end of the day on Monday
+* Weekly assignments 
+* Assignments due end of the day on Sunday (11:59 pm)
 * I encourage you to keep up with deadlines whenever possible.
 Each step of the course builds on the last step and students who get behind often have a hard time catching up.
-* That said, life happens, so there is an automatic 48 hour extension if you need it. You don't need to ask, you can just turn things in up to 48 hours late.
+* That said, life happens, so there is an automatic 48 hour extension if you need it. You don't need to ask, you can just turn things in up to 48 hours late (Tuesday at 11:59 pm).
 * If you need a longer extension just ask. You don't need to disclose personal information to me to get an extension. Just let me know how long you need.
 
 ### Website
@@ -71,11 +70,11 @@ Each step of the course builds on the last step and students who get behind ofte
 * Lectures
     * Lectures notes used in class
 	* Not expected to read in advance; may be useful for review
-	* May not match lecture precisely
+	* May not match in-class lecture precisely
 * Assignments
     * Answers provided
 
-### Syllabus
+### [Syllabus]({{ site.baseurl }}/syllabus)
 
 * Grading
     * Produces the correct answer using the requested approach: 100%
@@ -84,17 +83,12 @@ Each step of the course builds on the last step and students who get behind ofte
     * No answer or answer lacking basic understanding of core concept: 0%
 * Give it a read and let me know if you have any questions
 
-### Office Hours
+### D2L
 
-* Wednesday: 10-11 am
-
-
-### Canvas
-
-* Show Canvas
+* Show D2L
 * Will publish modules as soon as the material is ready to be worked on
 * First thing Monday at the latest, but hopefully much earlier
-* Handle assignment submission, grading, and announcements through Canvas
+* Handle assignment submission, grading, and announcements through D2L
 
 ### Inclusive and Accessible Course
 
@@ -104,7 +98,7 @@ Each step of the course builds on the last step and students who get behind ofte
 * If that is not the experience you are having for any reason, just let me know and I'll actively work to correct it.
 
 
-### First day demo
+### [First day demo]({{ site.baseurl }}materials/first-day-demo/)
 
 * With the little time we have left I just want to do a quick demo of some of
   the things you'll be able to do by the time we're half way through the class
