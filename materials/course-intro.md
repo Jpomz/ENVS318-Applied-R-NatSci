@@ -98,7 +98,7 @@ Each step of the course builds on the last step and students who get behind ofte
 * If that is not the experience you are having for any reason, just let me know and I'll actively work to correct it.
 
 
-### [First day demo]({{ site.baseurl }}materials/first-day-demo/)
+### [First day demo]({{ site.baseurl }}/materials/first-day-demo/)
 
 * With the little time we have left I just want to do a quick demo of some of
   the things you'll be able to do by the time we're half way through the class
