@@ -6,10 +6,9 @@ language: R
 ---
 
 1. [Computer setup]({{ site.baseurl }}/computer-setup)
-2. Project Setup (*video still needs to be recorded)
+2. Watch the Project Setup video:
 
-Example of link to youtube video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o6i7-WaOvNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-3\. Watch the Introduction RStudio Cloud Video:
+3. Complete [Introduction to Course assignment]({{ site.baseurl }}/assignments/Introduction-to-course/).
 
-<iframe title="Introduction RStudio Cloud Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5eJ5sdKKi9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
