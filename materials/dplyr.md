@@ -6,11 +6,6 @@ language: R
 time: 1
 ---
 
-> Remember to:
->
-> * If teaching with RStudio Cloud or RStudio Server pre-load `surveys.csv`, `species.csv`, and `plots.csv` into the student's working directory
-> * Consider removing the `dplyr` package so you can demonstrate installing it.
->     * Linux users: you may not want to do this because the source install is slow
 
 ### Introduction to tabular data
 
@@ -19,14 +14,9 @@ time: 1
 
 #### Setup local RStudio
 
-* Download `surveys`, `species`, and `plots` from `Datasets` into folder.
+* Download `surveys`, `species`, and `plots` from `Datasets` into `Data` folder.
 * Need to know where the data is: Right click -> `Save link as`.
-* Start/open a project (modeling good practice)
 
-#### Setup RStudio Cloud
-
-* Go to the class space on RStudio Cloud
-* Click on this weeks assignment
 
 #### Dataset
 
@@ -244,4 +234,4 @@ filter(surveys, !is.na(weight))
 filter(surveys, species_id == "DS", !is.na(weight))
 ```
 
-> Do [Shrub Volume Data Basics 8]({{ site.baseurl }}/exercises/Dplyr-shrub-volume-data-basics-R).
+> Do [Shrub Volume Data Basics]({{ site.baseurl }}/exercises/Dplyr-shrub-volume-data-basics-R).

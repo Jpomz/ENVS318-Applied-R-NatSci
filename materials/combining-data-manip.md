@@ -26,12 +26,12 @@ ds_data_by_year <- arrange(ds_data, year)
 ds_weight_by_year <- select(ds_data_by_year, year, weight)
 ```
 
-> Do [Portal Data Manipulation Exercise 1-2]({{ site.baseurl }}/exercises/Portal-data-manip-R)
+> Do [Portal Data Manipulation Exercise]({{ site.baseurl }}/exercises/Portal-data-manip-R)
 
 ### Pipes
 
 * Intermediate variables can get cumbersome if their are lots of steps.
-* `|>` ("pipe") takes the output of one command and passes it as input to the
+* `|>` or `%>%` ("pipe") takes the output of one command and passes it as input to the
   next command
 * Want to take the mean of a vector
 * Normally we would run the `mean` function with the vector as the input:
@@ -45,6 +45,7 @@ mean(x)
 
 ```
 x |> mean()
+x %>% mean
 ```
 
 * So `x` becomes the first argument in `mean`
@@ -70,12 +71,12 @@ ds_weight_by_year <- surveys |>
   select(year, weight)
 ```
 
-> Do [Portal Data Manipulation Pipes 1]({{ site.baseurl }}/exercises/Portal-data-manip-pipes-R).
+> Do [Portal Data Manipulation Pipes]({{ site.baseurl }}/exercises/Portal-data-manip-pipes-R).
 
 ### The magrittr pipe
 
 * You will also see another type of pipe character `%>%`
-* This is the original pipe in R and you had to load the magrittr package to use it (this gets loaded automatically by dplyr)
+* This is the original pipe in R and you had to load the `magrittr` package to use it (this gets loaded automatically by `dplyr`)
 * Either pipe is fine for this class
     * `|>` will work everywhere as long as you have a new enough version of R
     * magrittr has some fancier functionality that may be useful in some cases

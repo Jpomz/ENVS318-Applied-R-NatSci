@@ -38,3 +38,4 @@ density <- number / area
 * The third line first looks up the variable `density` and replaces it with its value
 * It then looks up the the variable area and replaces it with its value
 * It then multiplies those two vectors and assigns them to the variable `total_number` 
+> Do [Code Shuffle]({{ site.baseurl }}/exercises/Data-analysis-code-shuffle-R/).
