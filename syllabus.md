@@ -52,7 +52,7 @@ hours in advance.*
 ### Website
 
 The syllabus and other relevant class information and resources will be
-posted at [{{ site.url }}](%7B%7B%20site.baseurl%20%7D%7D/). Changes to
+posted at [https://jpomz.github.io/ENVS396-FA-2023/](https://jpomz.github.io/ENVS396-FA-2023/). Changes to
 the schedule will be posted to this site so please try to check it
 periodically for updates.
 
