@@ -248,7 +248,7 @@ appropriate.
 
 ## Grading Policies
 
-Grading for this course is based on 12 equally weighted assignments.
+Grading for this course is based on 15 equally weighted homework assignments.
 
 Exercises in assignments will be graded as follows:
 
