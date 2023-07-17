@@ -9,7 +9,7 @@ title: First Day Demo
 * Use data from the Breeding Bird Survey of North America
 * Continental scale community science project where thousands of birders count
   birds at locations across North America
-* Look at how the number of species at a site responsds to environmental factors
+* Look at how the number of species at a site responds to environmental factors
 * We only have a few minutes, so I'm going to move quickly and use tools you
   won't have installed yet, so this is the one day of the course where I won't
   encourage you to code along with me.
@@ -31,7 +31,7 @@ library(raster)
 * Load data
 
 ```
-surveys <- read.csv("....csv")
+surveys <- read.csv("surveys.csv")
 sites <- read.csv("....csv")
 ```
 

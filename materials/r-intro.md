@@ -6,15 +6,8 @@ title: Introduction to R
 language: R
 ---
 
-> Remind students to install R and RStudio or setup access to RStudio Cloud/Server
 
 > Have students open RStudio and check to see if console "sees" R.
-
-### Logging into RStudio Cloud
-
-* Open a browser
-* Go to https://rstudio.cloud/
-* ...
 
 
 ### R
@@ -39,24 +32,6 @@ language: R
     * Creates a plain text file that stores the code we've written
     * We can open it by clicking the `New File` button or using the `Ctrl-Shift-N` keyboard shortcut (`Cmd-Shift-N`) on Mac
 
-### RStudio Cloud
-
-* An online version of RStudio that runs in your browser
-* We're using it because it:
-  1. Avoids installation difficulties
-  2. Makes sharing code with instructors for debugging easier
-  3. Let's us leave some of the complexities of working with R until after we've learned the basics
-* Folks with limited internet access, please checkout the video on working with RStudio installed on your own computer
-
-#### RStudio Cloud in Class
-
-* All work for this class will be done in a class workspace
-* To join this space follow the link provided via Canvas and sign in using your UF email address
-* When you open RStudio Cloud click on the three lines in the top corner and select `Data Carpentry` from `Spaces`
-* Click on the appropriate week, which should say `Start` by it the first time you open it
-* This is your own copy of the assignment, which should include everything you need to both follow along with the lessons and complete the assignment
-* This is also where we can come look at your code to help if you get stuck
-* If you want to start a separate project, not for class, just click on `New Project` instead
 
 ### Basic expressions
 

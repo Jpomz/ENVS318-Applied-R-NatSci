@@ -15,7 +15,7 @@ language: R
 > - Be able to download packages and load them into your working session
 
 1. Download R and Rstudio
-2. Make a new Project called "ENVS_396" or similar
+2. Make a new Project called "ENVS396" 
 3. In the console, enter the following command and run it:
 
 ```
@@ -23,6 +23,9 @@ install.packages("tidyverse")
 ```
 
 **NOTE:** Do *NOT* put `install.packages()` commands in your scripts. Only ever run them in the console. 
+
+* You can also install packages by clicking `Tools` --> `Install Packages` and then entering the package name in the text box and clicking `Install`  
+
 
 4. Make a new script in your Project and save it as "first-day.R". 
 
