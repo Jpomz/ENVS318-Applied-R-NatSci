@@ -49,7 +49,7 @@ language: R
 * Run selection
 * `Source` & `Source with Echo`
 
-* Save as `krat_weight_analysis.R`
+* Save as `krat_weight_analysis.R` in your `Scripts` folder
 * Can see in the `Files` tab that we've created this file 
 * We can also use this tab to create, delete, and rename files & folders
 
@@ -58,10 +58,12 @@ language: R
 * To save the values we calculate for later use we use variables 
 * A variable is a name that has a value associated with it
     * Assign using `<-` or `=`
+    * you can insert `<-` using `Alt` + `-` (Windows) or `Option` + `-` (Mac)
 
 ```
 weight_g <- 50
 weight_g = 50
+weight_g
 ```
 
 * We can see that this variable has been created by looking in the Environment tab
@@ -124,15 +126,20 @@ length = 1.5
 volume = width * height * length
 volume
 ```
+
+* save assignment scripts as "lastname_HW-number"
+  * i.e., "Pomeranz_HW2"
+  
 > Create assignment script, put in new folder
 
 * Now we're going to work on some exercises to get a feel for this
 * In class we will often only do part of an exercise and save the rest for later
 
-> Do [Exercise 1.1-1.3 - Basic Expressions]({{ site.baseurl }}/exercises/Expressions-and-variables-basic-expressions-R/)
+> Do [Exercise 1 - Basic Expressions]({{ site.baseurl }}/exercises/Expressions-and-variables-basic-expressions-R/)
 
 > Do [Exercise 2 - Basic Variables]({{ site.baseurl }}/exercises/Expressions-and-variables-basic-variables-R/)
 
+> Do [Exercise 3 - More Variables]({{ site.baseurl }}/exercises/Expressions-and-variables-more-variables-R/) at home
 
 ### Functions
 
@@ -154,12 +161,13 @@ weight_lb <- 0.11
 sqrt(weight_lb)
 ```
 
-* Another function that we'll use a lot is `str()`
+* Another function that we'll use a lot is `str()` and `class()`
 * All values and therefore all variables have types
 * `str`, short for "structure", lets us look at them
 
 ```r
 str(weight_lb)
+class(weight_lb)
 ```
 
 * Another data type is for text data
@@ -173,16 +181,25 @@ str(weight_lb)
 
 ```r
 str("hello world")
+class("hello world")
 ```
 
 * Functions can take multiple arguments.
     * Round `weight_lb` to one decimal place
     * Typing `round()` shows there are two arguments
-    * Number to be rounded and number of digits
+      * `x` Number to be rounded
+      * `digits`  number of digits
+
+```r
+round(weight_lb, digits = 1)
+```
+* Functions also work without naming arguments
 
 ```r
 round(weight_lb, 1)
 ```
+  * Must put arguments in correct order
+  * When learning, it's best to name all arguments
 
 * Functions return values, so as with other values and expressions, if we don't save the output of a function then there is no way to access it later
 * It is common to forget this when dealing with functions and expect the
@@ -201,4 +218,4 @@ weight_rounded
 ```
 
 
-> Do [Exercise 4.1-4.3 - Built-in Functions]({{ site.baseurl }}/exercises/Functions-built-in-functions-R/)
+> Do [Exercise 4 - Built-in Functions]({{ site.baseurl }}/exercises/Functions-built-in-functions-R/)

@@ -48,7 +48,7 @@ min(count)
 sum(count)
 ```
 
-> Do [Basic Vectors]({{ site.baseurl }}/exercises/Vectors-basic-vectors-R/).
+> Do [Exercise 6 - Basic Vectors]({{ site.baseurl }}/exercises/Vectors-basic-vectors-R/).
 
 ### Null values
 
@@ -78,7 +78,7 @@ mean(count_na)
 mean(count_na, na.rm = TRUE)
 ```
 
-> Do [Nulls in Vectors]({{ site.baseurl }}/exercises/Vectors-nulls-in-vectors-R/).
+> Do [Exercise 7 - Nulls in Vectors]({{ site.baseurl }}/exercises/Vectors-nulls-in-vectors-R/).
 
 ### Working with multiple vectors
 
@@ -141,4 +141,4 @@ density[density > 3]
 * Multiple vectors can be used together to perform element-wise math, where we do the same calculation for each position in the vectors
 * We can also filter the values in vector based on the values in another vector or itself
 
-> Do [Shrub Volume Vectors 1-3]({{ site.baseurl }}/exercises/Vectors-shrub-volume-vectors-R/).
+> Do [Exercise 8 - Shrub Volume Vectors]({{ site.baseurl }}/exercises/Vectors-shrub-volume-vectors-R/).
