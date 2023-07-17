@@ -58,7 +58,7 @@ title: Project Setup
 
 * R doesn't always do well with spaces in file names
 * avoid potential issues by using "_" or "-" in file names instead of spaces  
-* Don't use any other special characters like ".", ",", "@", "!" 
+* Don't use any other special characters like `.`, `,`, `@`, `!` 
 * Don't begin a file name with a number  
 
 * **Do**: 
