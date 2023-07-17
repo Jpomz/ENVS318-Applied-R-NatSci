@@ -27,7 +27,7 @@ install.packages("tidyverse")
 * You can also install packages by clicking `Tools` --> `Install Packages` and then entering the package name in the text box and clicking `Install`  
 
 
-4. Make a new script in your Project and save it as "first-day.R". 
+4. Make a new script called "lastname_first-assignment.R" and save it in your `Assignments` folder in your ENVS396 Project. 
 
 5. In your script, type in the following code and make sure it runs correctly:
 
