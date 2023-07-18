@@ -10,5 +10,5 @@ language: R
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o6i7-WaOvNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-3. Complete [Introduction to Course assignment]({{ site.baseurl }}/assignments/Introduction-to-course/).
+> Complete [Introduction to Course assignment]({{ site.baseurl }}/assignments/Introduction-to-course/).
 
