@@ -6,9 +6,8 @@ title: First Day Demo
 
 * Quickly show some of the sorts of things we'll be able to do by the end of the
   course
-* Use data from the Breeding Bird Survey of North America
-* Continental scale community science project where thousands of birders count
-  birds at locations across North America
+* Use data from the National Ecological Observation Network NEON
+* Continental scale science project where systematic, quantitative data is collected repeatedly through time
 * Look at how the number of species at a site responds to environmental factors
 * We only have a few minutes, so I'm going to move quickly and use tools you
   won't have installed yet, so this is the one day of the course where I won't
@@ -21,87 +20,147 @@ title: First Day Demo
   to make our lives easier
 
 ```
-library(dplyr)
-library(ggplot2)
-library(raster)
+library(tidyverse)
+library(maps)
 ```
 
-* Download [data]({{ site.baseurl }}/materials/datasets/) from the course website
+* Download [neon-stream data]({{ site.baseurl }}/materials/datasets/) from the course website
 
 * Load data
 
 ```
-surveys <- read.csv("surveys.csv")
-sites <- read.csv("....csv")
+bugs <- read_csv("data/neon-stream-macros.csv")
+sites <- read_csv("data/neon-stream-information.csv")
 ```
 
 * Once we've done this we can use tables in the database in R
 
 
 * *Show tables*
-* Surveys: data on how many individuals of each species are sampled at each site
-* Sites: information on where each site is
+* `bugs`: data on how many individuals of each size class (dr weight, `dw`) for each species are sampled at each site
+* `sites`: information on where each site is and its mean annual temperature in C (`mat.c`)
 
-* First, let's convert the surveys data into numbers of species at each site
-
-```
-rich_data <- surveys %>%
-  filter(year == 2015) %>%
-  group_by(statenum, route) %>%
-  summarize(richness = n()) %>%
-  collect()
-```
-
-* Second, we need to get environmental data for each site
+* First, let's convert the `bugs` data into total biomass at each site
 
 ```
-bioclim <- getData('worldclim', var = 'bio', res = 10)
-sites_spatial <- SpatialPointsDataFrame(sites[c('longitude', 'latitude')], sites)
-plot(bioclim$bio12)
+biomass <- bugs %>%
+  mutate(biomass = estimatedTotalCount * dw) %>%
+  group_by(siteID) %>%
+  summarise(tot_b = sum(biomass))
+```
+
+* Combine our site data with our species richness data
+
+```
+biomass_env <- inner_join(biomass, sites)
 ```
 
 * Let's see where our sites are located
+* first need to load base-map data
 
 ```
-plot(sites_spatial, add = TRUE)
+world <- map_data("world")
+states <- map_data("state")
+
+ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, 
+               y = lat, 
+               group = group),
+               color = "white",
+               fill = "gray") +
+  geom_polygon(data = states,
+               aes(x = long,
+                   y = lat,
+                   group = group),
+               color = "white",
+               fill = "grey") +
+  coord_quickmap(ylim = c(18,70),
+                 xlim = c(-160,-50)) +
+  theme_void()
 ```
 
-* Extract environmental data for each site
+* Now we can plot our sites over the map
 
 ```
-bioclim_bbs <- extract(bioclim, sites_spatial) %>%
-  cbind(sites)
+ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, y = lat, group = group),
+               color = "white",
+               fill = "gray") +
+  geom_polygon(data = states,
+               aes(x = long,
+                   y = lat,
+                   group = group),
+               color = "white",
+               fill = "grey") +
+  coord_quickmap(ylim = c(18,70),
+                 xlim = c(-160,-50)) +
+  geom_point(data = rich_env,
+             aes(x = longitude,
+                 y = latitude),
+             size = 4) +
+  theme_void()
 ```
 
-* Combine this data with our species richness data
+* Let's add color to the sites to show the mean annual temperature
 
 ```
-richness_w_env <- inner_join(rich_data, bioclim_bbs)
+ggplot() +
+  geom_polygon(data = world,
+               aes(x = long, y = lat, group = group),
+               color = "white",
+               fill = "gray") +
+  geom_polygon(data = states,
+               aes(x = long,
+                   y = lat,
+                   group = group),
+               color = "white",
+               fill = "grey") +
+  coord_quickmap(ylim = c(18,70),
+                 xlim = c(-160,-50)) +
+  geom_point(data = rich_env,
+             aes(x = longitude,
+                 y = latitude,
+                 color = mat.c),
+             size = 4) +
+  scale_color_viridis_c(option = "plasma") +
+  theme_void()
+
 ```
 
-* Now let's see how richness relates to the precipitation
-* Annual precipition is stored in `bio12`
 
+* Now let's see how biomass relates to the mean annual temperature
 ```
-ggplot(richness_w_env, aes(x = bio12, y = richness)) +
+ggplot(biomass_env,
+       aes(x = mat.c,
+           y = t_b)) +
   geom_point()
 ```
 
-* It looks like there's a pattern here, so let's fit a model through it
+* Note the scale on the y-axis
+* let's put it on the log10 scale
 
 ```
-ggplot(richness_w_env, aes(x = bio12, y = richness)) +
+ggplot(biomass_env,
+       aes(x = mat.c,
+           y = t_b)) +
   geom_point() +
-  geom_smooth()
+  scale_y_log10()
 ```
 
-* Low bird richess in really dry areas, peak at intermediate precips, drop at
-  really high precips
-* Maybe we want to use this kind of information to inform conservation decisions at the state level, in which case we'd want to understand these patterns within each state
+* It looks like there's a pattern here, so let's fit a linear model to it
+* we will also change the theme to be easier to view
 
 ```
-ggplot(richness_w_env, aes(x = bio12, y = richness)) +
+ggplot(biomass_env,
+       aes(x = mat.c,
+           y = t_b)) +
   geom_point() +
-  geom_smooth() +
-  facet_wrap(~statenum, scales = 'free')
+  scale_y_log10()+
+  stat_smooth(method = "lm")
 ```
+
+* Look like total biomass on the log~10~ scale increases with temperature
+* This could help us with management decisions for fisheries
+  * i.e., "colder" sites have less biomass, so may not be able to support large fish biomass
