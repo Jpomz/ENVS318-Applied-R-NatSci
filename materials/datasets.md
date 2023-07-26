@@ -5,6 +5,8 @@ title: List of datasets
 
 | Name | File type | Download from |
 |:--------|:-------|:--------|
+|NEON stream information| CSV| <https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/neon-stream-information.csv> |
+|NEON stream Macroinvertebrates| CSV| <https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/neon-stream-macros.csv> |
 | Portal messy | Excel | <https://ndownloader.figshare.com/files/2252083> |
 | Portal surveys | csv | <https://ndownloader.figshare.com/files/2292172> |
 | Portal plots | csv | <https://ndownloader.figshare.com/files/3299474> |
