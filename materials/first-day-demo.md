@@ -158,7 +158,8 @@ ggplot(biomass_env,
            y = t_b)) +
   geom_point() +
   scale_y_log10()+
-  stat_smooth(method = "lm")
+  stat_smooth(method = "lm") +
+  theme_bw()
 ```
 
 * Look like total biomass on the log~10~ scale increases with temperature
