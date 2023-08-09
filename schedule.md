@@ -14,7 +14,7 @@ assignments: ['Introduction to Course',
 'Repeating Things 1',
 'Repeating Things 2',
 'Cleaning Messy Data',
-'Fall Break',
+'Thanksgiving Break',
 'Spatial Data 1',
 'Spatial Data 2',
 'Putting It All Together']
