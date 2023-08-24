@@ -5,20 +5,12 @@ title: Introduction to R and RStudio
 language: R
 ---
 
-1\. Setup an RStudio Cloud account linked to course by using the following steps:
-* In Canvas, click on the RStudio Signup Link on the Course Links page.
-* Click "Sign up" (under the "Log in" button)
-* Enter you UF email address
-* Click out of the email address box, which will cause the screen to change
-* Click "Log in via University of Florida", which will redirect you to the UF login page
-* Log in through UF, which will return you to RStudio Cloud
-* Enter your name and finish creating the account
+1\. Check with instructor that you have turned in HW1. (Basically, do you have R and RStudio successfully downloaded and you can run code?)
 
 2\. Watch the Introduction to R and RStudio Video:
 
 <iframe title="Introduction to R and RStudio Video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/zqUQL8OOtMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-3\. Make sure you have RStudio installed 
 
 4\. Watch the Expressions and Variables in R video:
 
