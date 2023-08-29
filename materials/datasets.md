@@ -14,7 +14,7 @@ title: List of datasets
 | Portal all | SQLite | <https://ndownloader.figshare.com/files/11188550> |
 | Shrub dimensions | csv | <http://www.datacarpentry.org/semester-biology/data/shrub-dimensions-labeled.csv> |
 | Gainesville precipitation | csv | <http://www.datacarpentry.org/semester-biology/data/gainesville-precip.csv> |
-| Shrub dimensions experiment | csv | <http://www.datacarpentry.org/semester-biology/data/shrub-volume-data.csv> |
+| Shrub volume data | csv | <http://www.datacarpentry.org/semester-biology/data/shrub-volume-data.csv> |
 | UHURU acacia experiment | tsv | <https://ndownloader.figshare.com/files/5629542> |
 | UHURU tree survey | tsv | <https://ndownloader.figshare.com/files/5629536> |
 | Mammal masses | tsv | <https://ndownloader.figshare.com/files/5593343> |
