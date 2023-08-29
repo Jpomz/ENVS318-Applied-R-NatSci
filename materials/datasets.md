@@ -8,7 +8,7 @@ title: List of datasets
 |NEON stream information| CSV| [GitHub](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/neon-stream-information.csv){:target="_blank"} |
 |NEON stream Macroinvertebrates| CSV| [GitHub](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/neon-stream-macros.csv){:target="_blank"} |
 | Portal messy | Excel | <https://ndownloader.figshare.com/files/2252083> |
-| Portal surveys | csv | <https://ndownloader.figshare.com/files/2292172> |
+| Portal surveys (surveys.csv) | csv | <https://ndownloader.figshare.com/files/2292172> |
 | Portal plots | csv | <https://ndownloader.figshare.com/files/3299474> |
 | Portal species | csv | <https://ndownloader.figshare.com/files/3299483> |
 | Portal all | SQLite | <https://ndownloader.figshare.com/files/11188550> |
