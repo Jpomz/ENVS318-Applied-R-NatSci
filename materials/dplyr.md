@@ -63,7 +63,7 @@ plots <- read.csv("data/plots.csv")
 * R has a rich ecosystem of packages for data manipulation & analysis
 * Download and install packages with the R console:
     * `install.packages("dplyr")`
-* Even if we've installed a package it is automatically available to do analysis with
+* Even if we've installed a package it is *not* automatically available to do analysis with
 * This because different packages may have functions with the same names
 * So don't want to have to worry about all of the packages we've installed every time we right a piece of code
 * Using a package:
@@ -115,7 +115,7 @@ surveys_plus <- mutate(surveys,
 
 ```r
 surveys <- mutate(surveys,
-                  hindfoot_length_cm = hindfoot_length / 10)
+                  hindfoot_length = hindfoot_length / 10)
 ```
 
 > Do [Shrub Volume Data Basics 3]({{ site.baseurl }}/exercises/Dplyr-shrub-volume-data-basics-R).
