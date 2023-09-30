@@ -94,5 +94,5 @@ surveys |>
   filter(species_id == "DS", !is.na(weight)) |>
   arrange(year) |>
   select(year, weight) |>
-  lm(weight ~ year, data = _)
+  lm(weight ~ year, data = .)
 ```
