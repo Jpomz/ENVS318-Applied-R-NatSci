@@ -9,19 +9,18 @@ Larger organisms have larger offspring. We want to explore the form of this
 relationship in mammals.
 
 Check to see if `Mammal_lifehistories_v2.txt` is in your working directory.
-If not [download it](http://esapubs.org/archive/ecol/E084/093/Mammal_lifehistories_v2.txt)
-from the web.
-This is tab delimited data,  so you'll want to
-use `sep = "\t"` as an optional argument when calling `read.csv()`. The `\t` is
-how we indicate a tab character to R (and most other programming languages).
-
-When you import the data there are some extra blank lines at
-the end of this file. Get rid of them by using the optional `read.csv()`
-argument `nrows = 1440` to import only the first 1440 rows.
+If not [download it](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/Mammal_lifehistories_v2.csv){:target="_blank"} it to your `data/` folder.
 
 Missing data in this file is specified by `-999` and `-999.00`. Tell R that
 these are null values using the optional `read.csv()` argument,
 `na.strings = c("-999", "-999.00")`. This will stop them from being plotted.
+
+To read in the data, run the following command:
+
+```r
+mammal_histories <- read.csv("data/Mammal_lifehistories_v2.csv",
+          na.strings = c("-999", "-999.00"))
+```
 
 1. Graph adult mass vs. newborn mass. Label the axes with clearer labels than
    the column names.
