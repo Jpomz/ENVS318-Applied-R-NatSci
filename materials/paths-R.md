@@ -5,12 +5,6 @@ title: Paths
 language: R
 ---
 
-### (optional) If Using RStudio Cloud
-
-* So far in this course we've been using RStudio Cloud and placing data files where R knows to find them for you
-* Working with data files on your own computer is a little more complicated
-* But in this lesson we'll learn how to do this effectively
-
 ### Introduction to Paths
 
 * To use data stored on a computer we need to tell R where it is
