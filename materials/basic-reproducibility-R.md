@@ -6,7 +6,7 @@ language: R
 ---
 
 > Make sure that `Tools` -> `Global Options` -> `General` ->
-> `Save workspace to ~/.RData on exit` is set to the default `Ask`
+> `Save workspace to ~/.RData on exit` is set to the default `Never`
 
 ### Introduction to Reproducibility
 
