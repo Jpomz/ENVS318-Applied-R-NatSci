@@ -22,9 +22,15 @@ than once in this dataset. Also let's ignore species that went extinct in the
 very recent past (designated by the word `"historical"` in the `status`
 column).
 
-Import the data into R. If you've looked at a lot of data you'll realize
+Import the data into R. If you've looked at the raw data file you'll realize
 that this dataset is tab delimited. Use the argument `sep = "\t"` in 
 `read.csv()` to properly format the data. There is no header row, so use `head = FALSE`.
+
+```
+mammal_sizes <- read.csv("data/MOMv3.3.txt",
+                          head = FALSE,
+                          sep = "\t")
+```
 
 Add column names to help identify columns.
  
@@ -42,7 +48,7 @@ To start let's explore the data a little and then start looking at the major que
    nrow(distinct(select(mammal_sizes, genus)))
 
    ```
-   Modify this code into a function to determine the number of species. 
+   Modify this code into a data wrangling work flow using `dplyr` and pipes (`%>%` or `|>`) to determine the number of species. 
    Remember that a species is uniquely defined by the combination of its 
    genus name and its species name. Print the result to the screen. The number 
    should be between 4000 and 5000.

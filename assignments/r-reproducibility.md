@@ -4,17 +4,17 @@ layout: page
 element: assignment
 title: Review + Reproducibility
 language: R
-exercises: ["Bird Banding Multiple Vectors", "Portal Data Review"]
-points: [50, 50]
+exercises: ["Bird Banding Multiple Vectors", "Portal Data Review", "Mammal Body Size"]
+points: [50, 50, 50]
 ---
 
 ### Learning Objectives
 
-> Following this assignment students should be able to:
+> The following assignment reviews:
 >
-> - understand the basic plot function of `ggplot2`
-> - import 'messy' data with missing values and extra lines
-> - execute and visualize a regression analysis
+> - Basic translation between vector and data frame types
+> - Data wrangling pipelines using `dplyr`
+> - Basic `ggplot2` functions
 
 {% include reading.html %}
 
