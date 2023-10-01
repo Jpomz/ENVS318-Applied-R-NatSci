@@ -11,10 +11,11 @@ happened scientists are interested in understanding whether there were
 differences in the body size of those species that went extinct and
 those that did not.
 
-To address this question we can use the
-[largest dataset on mammalian body size in the world](https://esapubs.org/archive/ecol/E084/094/#data),
-which has data on the mass of recently extinct mammals as well as extant mammals
-(i.e., those that are still alive today). Take a look at the
+To address this question we can use the "Mammal masses" data on the [datasets]({{ site.baseurl }}/materials/datasets), which has data on the mass of recently extinct mammals as well as extant mammals
+(i.e., those that are still alive today). Download the "MOMv3.3.txt" file and put it in your `data/` folder. 
+
+The original [dataset is archived on ESA pubs](https://esapubs.org/archive/ecol/E084/094/#data). 
+You can take a look at the
 [metadata](https://esapubs.org/archive/ecol/E084/094/metadata.htm) to
 understand the structure of the data. One key thing to remember is that species
 can occur on more than one continent, and if they do then they will occur more
