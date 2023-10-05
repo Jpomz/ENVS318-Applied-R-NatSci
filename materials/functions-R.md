@@ -219,12 +219,15 @@ make_plot(surveys, hindfoot_length, "Hindfoot Length [mm]")
 
 * To fix this we have to tell our code which inputs/arguments are this special type of data variable
 * We do this by "embracing" them in double braces
+`aes(x = {{column}})`  
+
+  * NOTE: sometimes the code display doesn't render correctly. In the `make_plot()` function below, the `aes()` function should have the variable `column` inside of two curly braces `{{`  
 
 ```r
 library(ggplot2)
 
 make_plot <- function(df, column, label) {
-  ggplot(data = df, mapping = aes(x = {{ column }})) +
+  ggplot(data = df, mapping = aes(x = {{column}})) +
     geom_histogram() +
     xlab(label)
 }
