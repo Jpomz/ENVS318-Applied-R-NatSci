@@ -221,7 +221,7 @@ make_plot(surveys, hindfoot_length, "Hindfoot Length [mm]")
 * We do this by "embracing" them in double curly braces \{\{
 `aes(x = \{\{column\}\})`  
 
-  * NOTE: sometimes the code display doesn't render correctly. In the `make_plot()` function below, the `aes()` function should have the variable `column` inside of two curly braces {{  
+  * NOTE: sometimes the code display doesn't render correctly. In the `make_plot()` function below, the `aes()` function should have the variable `column` inside of two curly braces \{
 
 ```r
 library(ggplot2)
