@@ -227,7 +227,7 @@ make_plot(surveys, hindfoot_length, "Hindfoot Length [mm]")
 library(ggplot2)
 
 make_plot <- function(df, column, label) {
-  ggplot(data = df, mapping = aes(x = \{\{column\}\})) +
+  ggplot(data = df, mapping = aes(x = {{column}})) +
     geom_histogram() +
     xlab(label)
 }
