@@ -8,15 +8,16 @@ language: R
 The UHURU experiment in Kenya has conducted a survey of *Acacia* and other tree species in ungulate exclosure treatments.
 Each of the individuals surveyed were measured for tree height (`HEIGHT`), circumference (`CIRC`) and canopy size in two directions (`AXIS_1` and `AXIS_2`).
 If the file `TREE_SURVEYS.txt` isn't already in your working directory,
-[download the data file here](https://ndownloader.figshare.com/files/5629536).
+download the data from the data sets menu on the homepage (UHURU tree survey).
 
 Read the data in using the following code: 
 
 ```r
-tree_data <- read.csv("https://ndownloader.figshare.com/files/5629536",
-                 sep = '\t',
-                 na.strings = c("dead", "missing", "MISSING",
-                                "NA", "?", "3.3."))
+tree_data <- read.csv(here::here("data/TREE_SURVEYS.txt"),
+                      sep = '\t',
+                      na.strings = c("dead", "missing", "MISSING",
+                                     "NA", "?", "3.3."),
+                      stringsAsFactors = FALSE)
 ```
 
 1. Write a function named `get_growth()` that takes two inputs, a vector of `sizes` and a vector of `years`, and calculates the average annual growth rate. Pseudo-code for calculating this rate is `(size_in_last_year - size_in_first_year) / (last_year - first_year)`. Test this function by running `get_growth(c(40.2, 42.6, 46.0), c(2020, 2021, 2022))`.
