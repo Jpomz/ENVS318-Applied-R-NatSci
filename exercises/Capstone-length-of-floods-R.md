@@ -14,3 +14,9 @@ Download the
 on the St. Johns River in Florida. Find the continuous pieces of the time-series
 where the stream level is above the flood threshold of 2.26 feet and store the
 information on the start date and length of each flood in a data frame.
+
+Once you download the csv, you will need to load it into R with the following code:
+
+```
+data = read.csv("data/st_johns_stream_data.csv", sep = "\t", skip = 34, stringsAsFactors = FALSE)
+```
