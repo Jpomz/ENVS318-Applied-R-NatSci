@@ -7,6 +7,10 @@ exercises: ['Harvard Forest Soils Analysis', 'Cropping NEON Data']
 points: [50, 50]
 ---
 
+## This homework is extra credit  
+
+Complete and correct assignments will be worth the points of half of one normal homework assignment. 
+
 ### Learning Objectives
 
 > Following this assignment students should be able to:
