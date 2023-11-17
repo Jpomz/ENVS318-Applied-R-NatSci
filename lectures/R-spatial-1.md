@@ -5,6 +5,15 @@ title: Spatial Data 1
 language: R
 ---
 
+### Set up 
+
+```
+install.packages(c("ggplot2", "stars", "sf"))
+download.file("www.datacarpentry.org/semester-biology/data/neon-geospatial-data.zip", "neon-geospatial-data.zip", mode = "wb")
+unzip("neon-geospatial-data.zip")
+file.rename("neon-geospatial-data/", "harv/")
+```
+
 * [Spatial Data Raster]({{ site.baseurl }}/materials/spatial-data-raster-R)
 * [Spatial Data Raster Math]({{ site.baseurl }}/materials/spatial-data-raster-math-R)
 * [Spatial Data Vector]({{ site.baseurl }}/materials/spatial-data-vector-R)

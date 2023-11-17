@@ -42,7 +42,7 @@ Polygons: Shows two polygons composed of connected sets of x,y points where the 
 
 ```r
 library(sf)
-plots_harv <- read_sf("data/HARV/harv_plots.shp")
+plots_harv <- read_sf("harv/harv/harv_plots.shp")
 ```
 
 * When read read the data in we see information about it including
@@ -85,7 +85,7 @@ ggplot() +
 * So let's load another vector object that shows the boundary of the research site
 
 ```r
-boundary_harv <- read_sf("data/HARV/harv_boundary.shp")
+boundary_harv <- read_sf("harv/harv/harv_boundary.shp")
 ```
 
 * We can plot them together by adding two `geom_sf` layers in `ggplot`
