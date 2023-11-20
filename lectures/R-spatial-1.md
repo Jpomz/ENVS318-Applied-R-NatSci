@@ -11,7 +11,7 @@ language: R
 install.packages(c("ggplot2", "stars", "sf"))
 download.file("www.datacarpentry.org/semester-biology/data/neon-geospatial-data.zip", "neon-geospatial-data.zip", mode = "wb")
 unzip("neon-geospatial-data.zip")
-file.rename("neon-geospatial-data/", "harv/")
+file.rename("neon-geospatial-data/", "harv_data/")
 ```
 
 * [Spatial Data Raster]({{ site.baseurl }}/materials/spatial-data-raster-R)

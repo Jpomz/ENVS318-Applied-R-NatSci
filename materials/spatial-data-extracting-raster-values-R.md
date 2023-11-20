@@ -11,8 +11,8 @@ language: R
 > library(ggplot2)
 > library(sf)
 > library(stars)
-> dtm_harv <- read_stars("data/HARV/HARV_dtmCrop.tif")
-> plots_harv <- read_sf("data/HARV/harv_plots.shp")
+> dtm_harv <- read_stars("harv_data/harv/HARV_dtmCrop.tif")
+> plots_harv <- read_sf("harv_data/harv/harv_plots.shp")
 > ```
 
 ### Extract raster data at points

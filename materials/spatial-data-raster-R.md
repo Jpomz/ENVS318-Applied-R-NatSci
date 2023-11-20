@@ -5,14 +5,10 @@ title: Spatial Data Raster
 language: R
 --- 
 
-> Remember to download and put into data subdirectory:
->
-> * [LiDAR rasters and plot locations]({{ site.baseurl }}/data/neon-airborne.zip)
 
 > Load the following into browser window:
 
-> * [Raster description](https://datacarpentry.org/organization-geospatial/01-intro-raster-data/)
-> * [Canopy Height Model picture](https://datacarpentry.org/r-raster-vector-geospatial/images/dc-spatial-raster/lidarTree-height.png)
+> * [Raster description](https://datacarpentry.org/r-raster-vector-geospatial/01-raster-structure.html)
 
 > Set-up R Console:
 
@@ -47,7 +43,7 @@ A brown line along the top of the terrain indicates the Digital Terrain Model]({
 
 ```r
 library(stars)
-dtm_harv <- read_stars("data/HARV/HARV_dtmCrop.tif")
+dtm_harv <- read_stars("harv_data/harv/HARV_dtmCrop.tif")
 ```
 
 * Looking at this object provides information on the data it contains
