@@ -3,8 +3,6 @@ layout: page
 title: Home
 ---
 
-**DOES THIS CHANGE THE HOMEPAGE???**
-
 An introduction to working with data for environmental scientists and biologists including: data structure, data manipulation, visualization, and basic programming.
 Designed to be used as a flipped university course and also for self-guided
 students.
