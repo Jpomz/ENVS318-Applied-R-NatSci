@@ -1,0 +1,48 @@
+# solution for solutions/Object-classes-types
+
+char_num <- c("a", "b", 3)
+char <- c("z", "x", "y")
+numbers2 <- c(7, 6, NA)
+numbers3 <- c(8, 16, 1)
+logical1 <- c(TRUE, TRUE)
+logical2 <- c(TRUE, FALSE)
+logical3 <- c(FALSE, FALSE)
+char_num2 <- c("1", "2", "3")
+char_num3 <- c("1", "2", "b")
+
+date1 <- as.Date("1982-01-13")
+date2 <- as.Date("2022-01-13")
+
+class(char_num)
+char_num + char
+
+class(numbers2)
+class(numbers3)
+
+numbers2 + numbers3
+
+as.character(numbers2)
+
+class(logical1)
+
+logical1 + logical2
+logical1 - logical3
+
+as.numeric(logical2)
+
+as.character(logical2)
+
+as.numeric(char_num2)
+as.numeric(char_num3)
+
+as.logical(char_num2)
+as.logical(char_num3)
+
+date1 <- as.Date("1982-01-13")
+date2 <- as.Date("2022-01-13")
+
+class(date1)
+as.numeric(date1)
+as.character(date1)
+
+date2 - date1
