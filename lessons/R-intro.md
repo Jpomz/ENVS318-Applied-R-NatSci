@@ -22,7 +22,7 @@ language: R
 
 **NOTES**  
 
-* This is not a fully remote class (these videos were recorded during the pandemic) 
+* This is **NOT** a fully remote class (these videos were recorded during the pandemic) 
 
 * We are not using Rstudio Cloud. You will submit your assignment scripts using the appropriate link on our D2L course page. 
 

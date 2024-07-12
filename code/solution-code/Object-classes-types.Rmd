@@ -5,6 +5,12 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/Object-classes-types.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
 char_num <- c("a", "b", 3)
 char <- c("z", "x", "y")
 numbers2 <- c(7, 6, NA)
