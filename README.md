@@ -1,13 +1,10 @@
 # Introduction to R for Bio. and Enviro Sciences
 
-[![JOSE DOI](https://jose.theoj.org/papers/10.21105/jose.00139/status.svg)](https://doi.org/10.21105/jose.00139)
-[![Zenodo DOI](https://zenodo.org/badge/31911336.svg)](https://zenodo.org/badge/latestdoi/31911336)
-
 This is a [forkable](https://help.github.com/articles/fork-a-repo/) set of teaching materials for teaching biologists and evnironmental scientists how to work
 with data through programming and computing more generally.
 
 This repository contains the complete teaching materials (excluding exams and
-answers to assignments) and [website]() for a university style and self-guided 
+answers to assignments) and [website](https://jpomz.github.io/ENVS396-FA-2024/) for a university style and self-guided 
 course teaching computational data skills. The course is designed
 to work primarily as a flipped classroom, with students reading and viewing
 videos before coming to class and then spending the bulk of class time working
