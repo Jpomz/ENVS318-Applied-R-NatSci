@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Syllabus
-catalog: ENVS 396
+catalog: ENVS 396-001 
 credits: 3
-semester: Fall 2023
+semester: Fall 2024
 professor: Dr. Justin Pomeranz (he/him)
 office: 230E Wubben Science
 email: jpomeranz@coloradomesa.edu
-schedule: ['MWF, 3:00-3:50 pm MT']
+schedule: ['MWF, 1:00-1:50 pm MT']
 location: Wubben Science (WS) 245
-office_hours: ['MWF, 11:00-11:50 am MT', 'Tuesday, Zoom by appointment'] 
+office_hours: ['MWF, 11:00-11:50 am MT'] 
 office_hours_location: 230E Wubben Science
 ---
 
@@ -52,7 +52,7 @@ hours in advance.*
 ### Website
 
 The syllabus and other relevant class information and resources will be
-posted at [https://jpomz.github.io/ENVS396-FA-2023/](https://jpomz.github.io/ENVS396-FA-2023/). Changes to
+posted at [https://jpomz.github.io/ENVS396-FA-2024/](https://jpomz.github.io/ENVS396-FA-2024/). Changes to
 the schedule will be posted to this site so please try to check it
 periodically for updates.
 
@@ -168,7 +168,7 @@ penalty.
 
 ### Assignment policy
 
-Assignments are due Sunday night by 11:59 pm Mountain Time. This timing
+Assignments are due Friday night by 11:59 pm Mountain Time. This timing
 allows you to be finished with one week's material before starting the
 next week's material. Assignments should be submitted via the course D2L
 webpage.
