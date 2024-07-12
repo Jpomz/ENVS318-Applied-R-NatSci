@@ -4,8 +4,8 @@ layout: page
 element: assignment
 title: Introduction to R and RStudio
 language: R
-exercises: ['Basic Expressions', 'Basic Variables', 'More Variables', 'Built-in Functions', 'Modify the Code', 'Basic Vectors', 'Nulls in Vectors', 'Shrub Volume Vectors', 'Variable Names']
-points: [10, 10, 10, 10, 15, 15, 15, 15, optional]
+exercises: ['Basic Expressions', 'Basic Variables', 'More Variables', 'Built-in Functions', 'Modify the Code', 'Basic Vectors', 'Nulls in Vectors', 'Shrub Volume Vectors', 'Variable Names', 'Vector classes']
+points: [10, 10, 10, 10, 15, 15, 15, 15, optional, 15]
 ---
 
 ### Learning Objectives
@@ -19,7 +19,6 @@ points: [10, 10, 10, 10, 15, 15, 15, 15, optional]
 > - understand the vector and data frame object structures
 > - assign, subset, and manipulate data in a vector
 > - execute vector algebra
-> - import data frames and interact with columns as vectors
 
 {% include reading.html %}
 
