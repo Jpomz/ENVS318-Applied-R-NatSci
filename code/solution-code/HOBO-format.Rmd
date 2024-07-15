@@ -1,0 +1,64 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/Object-classes-types.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+dat_orig <- read.csv(here::here("data/HOBO_temperature_single.csv"),
+                           skip = 2)
+library(tidyverse)
+```
+
+```{r}
+print("3420 rows and 7 columns")
+print("Column names are in row 3")
+print("The data we want is in column 2 (date-time) and in column 3 (temperature measurements). We may want the data in column 1 (observation number)")
+
+head(dat_orig)
+
+dat <- dat_orig[,1:3]
+dim(dat)
+
+class(dat[,1])
+class(dat[,2])
+class(dat[,3])
+
+names(dat) <- c("obs", "date_time_chr", "temperature")
+head(dat)
+
+
+dat2 <- dat %>%
+  mutate(date_time = mdy_hm(date_time_chr))
+head(dat2)
+
+dat2 <- dat2 %>%
+  mutate(year = year(date_time),
+         month = month(date_time),
+         day = day(date_time))
+head(dat2)
+
+daily <- dat2 %>%
+  group_by(year, month, day) %>%
+  summarize(daily_mean = mean(temperature))
+head(daily)
+
+daily_date <- daily %>% 
+  mutate(date = make_date(year, month, day)) 
+head(daily_date)
+
+daily_date %>% 
+  ggplot(aes(x = date, 
+             y = daily_mean))+
+  geom_point() +
+  labs(
+       x = "Date",
+       y = "Daily Mean Temperature")
+```
+
