@@ -48,18 +48,7 @@ char_num3 <- c("1", "2", "b")
 
 15. Why do you think some classes can be converted while others cannot? Convert `char_num2` vector to a number using the `as.numeric()` function.
 
-Dates and times are a special type of class in R. Copy the following vectors into your assignment and answer the questions below. 
-```
-date1 <- as.Date("1982-01-13")
-date2 <- as.Date("2022-01-13")
-```
-16. What is the `class()` of `date1`?  
 
-17. Subtract `date2` from `date1` and print the output. 
-
-18. Convert `date1` to a number using `as.numeric()` function. 
-
-19. Convert `date1` to a character using the `as.character()` function. 
 
 
 

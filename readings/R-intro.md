@@ -11,9 +11,7 @@ language: R
 * Expressions & Variables
 * Types
 * Errors
-* Vectors & Data Frames
-* Importing Data
-* Readable Code
+* Vectors 
 
 ### Readings
 
