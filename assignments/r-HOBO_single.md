@@ -3,7 +3,7 @@ layout: page
 element: assignment
 title: HOBO Temperature Data
 language: R
-exercises: ['Hobo format']
+exercises: ['HOBO format']
 points: [100]
 ---
 
