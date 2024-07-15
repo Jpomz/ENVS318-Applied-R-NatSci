@@ -46,8 +46,7 @@ char_num3 <- c("1", "2", "b")
 
 14. Convert `char_num3` using the `as.logical()` function.  
 
-15. Why do you think some classes can be converted while others cannot? Convert `char_num2` vector to a number using the `as.numeric()` function.
-
+15. Why do you think some classes can be converted while others cannot? 
 
 
 
