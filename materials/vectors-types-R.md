@@ -65,6 +65,7 @@ v_num_10 - v_num_3
 * you will get a warning telling you that the lengths are not multiples  
 * In this example, there is one "extra" place in `v_num_10` so the first element of `v_num_3` is used  
 * when the vectors are multiples of each other the shorter one is recycled, but you do not get a warning message.  
+
 ```
 v_num_5 <- 16:20
 v_num_10 - v_num_5
@@ -92,6 +93,7 @@ v_numeric - v_logical
 ```
 as.numeric(v_logical)
 ```
+
 * see that `TRUE = 1` and `FALSE = 0`.  
 * only certain inputs can be converted to `numeric` or `logical`, but everything can be converted to `character` 
 
@@ -99,13 +101,15 @@ as.numeric(v_logical)
 as.numeric(v_char)
 as.logical(v_char)
 ```
+
 * these return `NA` values the same length as the input  
 
 ```
 as.logical(v_numeric)
 ```
 * if the input is a number that does not equal 0, it will return `TRUE`
-* if the input is 0 it will return `FALSE`
+* if the input is 0 it will return `FALSE`  
+
 ```
 v_num_0s <- c(0, 0, 1, 1)
 as.logical(v_num_0s)
@@ -123,16 +127,19 @@ as.character(v_numeric)
 ```
 v_char_num <- c("20", "40", "60")
 v_char_num + v_numeric
-```
+```  
+
 * check the class  
+
 ```
 class(v_char_num)
-```
+```  
+
 * convert before performing math  
+
 ```
 as.numeric(v_char_num) + v_numeric
 ```
-
 
 
 > Do [Exercise 9 - Vector classes]({{ site.baseurl }}/exercises/Objects-classes-types/).
