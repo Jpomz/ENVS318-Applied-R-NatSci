@@ -9,7 +9,7 @@ Collecting data in the field is important for characterizing environmental condi
 
 We're going to look at temperature data recorded by a [HOBO pendant logger](https://www.onsetcomp.com/products/data-loggers/ua-001-64). 
 
-If the [`HOBO_temperature_single.csv`](https://jpomz.github.io/ENVS396-FA-2024/data/HOBO_temperature_single.csv) is not already in your `data/` folder, download a copy.
+If the [`HOBO_temperature_single.csv (link)`](https://jpomz.github.io/ENVS396-FA-2024/data/HOBO_temperature_single.csv) is not already in your `data/` folder, download a copy.
 
 1. Open the `HOBO_temperature_single.csv` file in a spreadsheet software such as Microsoft Excel or Google Sheets. How many rows and columns have data in this file? Which row number has the column names? How many columns have data that we actually want to keep?  
 
@@ -31,4 +31,3 @@ If the [`HOBO_temperature_single.csv`](https://jpomz.github.io/ENVS396-FA-2024/d
 
 10. Plot the daily mean data you calculated with date on the x-axis and daily mean temperature on the y-axis. 
 
-~ 7 problems

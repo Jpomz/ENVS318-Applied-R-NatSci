@@ -7,14 +7,10 @@ title: Assignment Submission & Checklist
 
 - What files to submit: 
     - **Week 1** - Show instructor that you have completed assignment
-    - **Week 2-3** - an R script
-    - **Weeks 4** - one text form, one .xlsx file
-    - **Weeks 5-17** - an R script
-
-**NOTE for Fall 2023:** 
-  - Week 4 will be remote
-  - Week 8 will be remote
-  - Week 14 is Fall Break
+    - **Week 2-17** - an R script
+    
+**NOTE for Fall 2024:** 
+  - Week 15 is Thanksgiving Break
   - Week 17 is Finals week
 
 ## Code Checklist

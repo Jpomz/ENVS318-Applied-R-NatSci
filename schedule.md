@@ -13,8 +13,8 @@ assignments: ['Introduction to Course',
 'Repeating Things 2',
 'Cleaning Messy Data',
 'HOBO Temperature Data', 
-'Thanksgiving Break',
 'Spatial Data 1',
+'Thanksgiving Break',
 'Spatial Data 2',
 'Putting It All Together']
 ---
