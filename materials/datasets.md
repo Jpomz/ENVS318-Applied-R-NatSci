@@ -35,5 +35,7 @@ title: List of datasets
 | Backup Bioclim Data | zip | <https://www.datacarpentry.org/semester-biology/data/wc10.zip>
 | Backup US Elevation Data | zip | <https://www.datacarpentry.org/semester-biology/data/wc10.zip>
 | Gappy Data | csv | <https://www.datacarpentry.org/semester-biology/data/gappy-data.csv>
+| NEON Harvard Forest 2001-2006 | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/NEON_Harvardforest_date_2001_2006.csv>
+| NEON Harvard Forest date and time | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/NEON_Harvardforest_datetime.csv>
 | HOBO short data example | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/HOBO_temperature_single.csv>
 | HOBO temperature data | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/HOBO-short.csv>

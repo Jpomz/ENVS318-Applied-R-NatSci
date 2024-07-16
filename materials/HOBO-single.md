@@ -52,6 +52,7 @@ head(hobo)
 > Do [HOBO format 1-3]({{ site.baseurl }}/exercises/HOBO-format-R).
 
 * It's looking better, but let's look at our column names now  
+
 ```
 names(hobo)
 ```
@@ -116,7 +117,8 @@ hobo %>%
 ```
 
 * This looks better, the information is now from largest (year) to smallest (minute)  
-* We can also check the class to make sure it is correct
+* We can also check the class to make sure it is correct  
+
 ```
 hobo %>%
   select(hobo_time) %>%

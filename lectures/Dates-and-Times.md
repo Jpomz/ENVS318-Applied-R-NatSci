@@ -1,7 +1,7 @@
 ---
 layout: page
 element: lecture
-title: HOBO Temperature Data
+title: Dates and Times
 language: R
 ---
 
