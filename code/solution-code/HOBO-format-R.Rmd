@@ -19,7 +19,7 @@ library(tidyverse)
 ```{r}
 print("3420 rows and 7 columns")
 print("Column names are in row 3")
-print("The data we want is in column 2 (date-time) and in column 3 (temperature measurements). We may want the data in column 1 (observation number)")
+cat("The data we want is in column 2 (date-time) \n and in column 3 (temperature measurements). \n We may want the data in column 1 (observation number)")
 
 head(dat_orig)
 
