@@ -1,0 +1,77 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/Object-classes-types.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+library(tidyverse)
+```
+
+```{r}
+date_01 <- "2019-07-28"
+date_02 <- "02-15-2019"
+date_03 <- "22-01-2002"
+date_04 <- "May 4th 1977"
+date_05 <- "03-July-1901"
+
+class(ymd(date_01))
+mdy(date_02)
+dmy(date_03)
+mdy(date_04)
+dmy(date_05)
+
+date_06 <- mdy("06-08-2024")
+year(date_06)
+month(date_06)
+day(date_06)
+yday(date_06)
+wday(date_06)
+
+cat("make sure days makes sense \n for example, a 20 year old is 7300 days old")
+
+
+date_table <- data.frame(
+  month = c(10, 11, 6, 1, 8, 4),
+  day = c(17, 28, 19, 30, 10, 14),
+  year = c(2003, 2002, 1995, 2022, 2007, 2016)
+)
+
+dt_table %>%
+  mutate(date = make_date(year, month, day))
+
+neon <- read.csv(here::here("data/NEON_Harvardforest_datetime.csv"))
+
+neon %>%
+  mutate(datetime = 
+           ymd_hm(datetime)) %>%
+  ggplot(aes(x = datetime, 
+             y = airt)) +
+  geom_point() +
+  labs(y = "air temperature",
+       x = "Timestamp",
+       title = "15-minute temperature readings, Harvard Forest")
+
+
+neon %>%
+  mutate(datetime = 
+           ymd_hm(datetime),
+         month = month(datetime),
+         day = day(datetime)) %>%
+  filter(month < 2,
+         day >=12, 
+         day <=16) %>%
+  ggplot(aes(x = datetime, 
+             y = airt)) +
+  geom_point() +
+  labs(y = "air temperature",
+       x = "Timestamp",
+       title = "January 12-16,  15-minute temperature readings, Harvard Forest")
+```
+
