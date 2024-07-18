@@ -5,7 +5,7 @@ title: Dates and Times
 language: R
 ---
 
-## Handling Dates and Times in R
+### Handling Dates and Times in R
 
 ### Written notes (may vary slightly from video in details, but main content is the same)
 

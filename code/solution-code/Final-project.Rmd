@@ -1,0 +1,107 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/Object-classes-types.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+library(tidyverse)
+
+
+```
+
+
+
+```{r, File names and table of file metadata}
+file_table <- read.csv(here::here("data/final_project_CMU/HOBO_file_metadata.csv"))
+upperDir <- here::here("data/final_project_CMU/HOBO_files" )
+
+list_of_files <- list.files(upperDir,
+                            full.names = TRUE, 
+                            pattern = "*.csv")
+
+file_names <- list.files(upperDir, 
+                         pattern = "*.csv")
+```
+
+
+```{r for loop}
+dataset <- NULL
+
+
+for(i in 1:length(list_of_files)){
+  
+  temp_dataset <- read.csv(list_of_files[i], skip = 2)[, 1:3]
+  names(temp_dataset) <- c("obs", "Date_time_chr", "Temperature")
+  temp_dataset$file <- file_names[i]
+  
+  dataset <- rbind(dataset, temp_dataset)
+}
+dim(dataset)
+```
+
+
+```{r join}
+dat <- dataset %>%
+  left_join(file_table, by = join_by(file == file_name))
+head(dat)
+```
+
+
+```{r extract site}
+dat <- dat %>%
+  select(Date_time_chr, Temperature, site) %>%
+  separate(site, 
+           into = c("logger_number", "site")) %>%
+  select(-logger_number)
+
+head(dat)
+```
+
+
+```{r convert date}
+dat_date <- dat %>%
+  mutate(date_time = mdy_hms(Date_time_chr),
+         year = year(date_time),
+         month = month(date_time),
+         day = day(date_time))
+head(dat_date)
+```
+
+```{r daily summary, warning=FALSE}
+dat_date %>%
+  group_by(site, year, month, day) %>%
+  summarize(daily_mean = mean(Temperature)) %>%
+  mutate(date = make_date(year, month, day)) %>%
+  ggplot(aes(x = date, 
+             y = daily_mean,
+             color = site)) +
+  geom_point() +
+  geom_smooth() +
+  theme_bw()
+
+```
+
+```{r min med max, warning=FALSE}
+dat_date %>%
+  group_by(site, year, month, day) %>%
+  summarize(daily_min = min(Temperature),
+            daily_median = median(Temperature),
+            daily_max = max(Temperature)) %>%
+  mutate(date = make_date(year, month, day)) %>%
+  pivot_longer(daily_min:daily_max) %>%
+  ggplot(aes(x = date, 
+             y = value,
+             color = site)) +
+  facet_wrap(~name) +
+  #geom_point() +
+  geom_smooth() +
+  theme_bw()
+
+```
