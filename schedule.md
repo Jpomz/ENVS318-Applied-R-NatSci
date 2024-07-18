@@ -17,7 +17,7 @@ assignments: ['Introduction to Course',
 'Spatial Data 1',
 'Thanksgiving Break',
 'Spatial Data 2',
-'Putting It All Together']
+'Final project']
 ---
 
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)
