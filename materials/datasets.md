@@ -39,3 +39,4 @@ title: List of datasets
 | NEON Harvard Forest date and time | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/NEON_Harvardforest_datetime.csv>
 | HOBO short data example | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/HOBO_temperature_single.csv>
 | HOBO temperature data | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/HOBO-short.csv>
+| Final Project | multiple csv files | <https://jpomz.github.io/ENVS396-FA-2024/data/final_project_CMU.zip>
