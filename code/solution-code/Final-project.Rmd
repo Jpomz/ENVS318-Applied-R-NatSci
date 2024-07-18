@@ -6,7 +6,7 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# rmarkdown::render("code/solution-code/Object-classes-types.RMD", output_dir = "solutions")
+# rmarkdown::render("code/solution-code/Final-project.RMD", output_dir = "solutions")
 
 # rmarkdown::render("current-file-name.RMD",
 #                   output_dir = "solutions")

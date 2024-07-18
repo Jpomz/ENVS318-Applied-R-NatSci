@@ -6,18 +6,17 @@ assignments: ['Introduction to Course',
 'Data in Tables',
 'Grouping & Joining Data',
 'Data Visualization',
+'Cleaning Messy Data',
 'Review + Reproducibility',
 'Functions',
 'Making Choices',
 'Repeating Things 1',
 'Repeating Things 2',
-'Cleaning Messy Data',
 'Dates and Times', 
 'HOBO Temperature Data', 
-'Spatial Data 1',
 'Thanksgiving Break',
-'Spatial Data 2',
-'Final project']
+'Final project
+']
 ---
 
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)
