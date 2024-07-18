@@ -41,7 +41,7 @@ for(i in 1:length(list_of_files)){
   names(temp_dataset) <- c("obs", "Date_time_chr", "Temperature")
   temp_dataset$file <- file_names[i]
   
-  dataset <- rbind(dataset, temp_dataset)
+  dataset <- bind_rows(dataset, temp_dataset)
 }
 dim(dataset)
 ```
@@ -74,7 +74,7 @@ dat_date <- dat %>%
 head(dat_date)
 ```
 
-```{r daily summary, warning=FALSE}
+```{r daily summary, warning=FALSE, message=FALSE}
 dat_date %>%
   group_by(site, year, month, day) %>%
   summarize(daily_mean = mean(Temperature)) %>%
@@ -84,11 +84,12 @@ dat_date %>%
              color = site)) +
   geom_point() +
   geom_smooth() +
-  theme_bw()
+  theme_bw() +
+  labs(y = "Daily mean temperature")
 
 ```
 
-```{r min med max, warning=FALSE}
+```{r min med max, warning=FALSE, message=FALSE}
 dat_date %>%
   group_by(site, year, month, day) %>%
   summarize(daily_min = min(Temperature),
@@ -102,6 +103,7 @@ dat_date %>%
   facet_wrap(~name) +
   #geom_point() +
   geom_smooth() +
-  theme_bw()
+  theme_bw() +
+  labs(y = "Temperature")
 
 ```

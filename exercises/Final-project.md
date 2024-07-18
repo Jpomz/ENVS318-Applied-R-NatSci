@@ -18,6 +18,14 @@ For your final project, you will be going through one of the typical data analys
   * Grouping and Summarizing data  
 * and finally, Plotting your results  
 
+### Data background  
+
+You will be working with a real data set from a former CMU student's independent research project. The student deployed temperature loggers at a site in the Colorado National Monument. The hypothesis was that a sheltered canyon created a microclimate suitable for Ponderosa Pines (*Pinus ponderosa*) to survive. They deployed a number of HOBO temperature loggers in the Ponderosa grove as well as near an adjacent valley for comparison. 
+
+The loggers were deployed for a few months at a time and then returned to the lab so the data could be downloaded. This resulted in numerous files for each logger.  
+
+Your final assignment is to work with this data to re-create two of the plots (see below) from their completed project. 
+
 ### Setup  
 
 You will need to load necessary libraries (at a minimum, the `tidyverse`). You will also need to download the final project data from the website. Copy, paste, and run the following code in your assignment.  
@@ -35,15 +43,15 @@ After running the above code, make sure that:
 * Inside of `final_project_CMU` you should have a file called `HOBO_file_metadata.csv` as well as a folder called `HOBO_files/`.  
 * The `HOBO_files/` folder should have 25 `.csv` files inside of it.  
 * The names of the files inside of `HOBO_files/` include the serial number of the HOBO logger (7 digits) and the "part" of the data (the timeframe the logger was deployed).  
-* Note that there is only part_2, part_3, or part_4, and not all loggers have all parts (some loggers malfunctioned in the field).  
+* Note that there is only part_2, part_3, or part_4, and not all loggers have all parts (some loggers malfunctioned or were lost in the field).  
 * The `HOBO_file_metadata.csv` object has information related to the files in the  `HOBO_files/` folder including relating the filename to the datalogger, and the site information.  
 
 ### Assignment  
 
 Your assignment is to create the following two figures.  
-[Figure 1.]({{ site.baseurl }}/exercises/final_fig_01.png)
+![Figure 1.]({{ site.baseurl }}/exercises/final_fig_01.png)
 
-[Figure 2.]({{ site.baseurl }}/exercises/final_fig_02.png) 
+![Figure 2.]({{ site.baseurl }}/exercises/final_fig_02.png) 
 
 Your assignment script needs to start with the raw data downloaded above and create these two figures. There are multiple ways of getting this accomplished, and you are free to choose your own adventure as long as you end with these figures. You are also free to customize the plots as you wish (i.e., colors, shapes, themes and axis labels). You need to ensure that the figures are interpretable and have reasonable axis labels.  
 
