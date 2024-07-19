@@ -1,0 +1,65 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/dplyr-matching-joins.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+library(tidyverse)
+bugs_01 = read.csv(here::here("data/AMD_bugs_01.csv"))
+bugs_02 = read.csv(here::here("data/AMD_bugs_02.csv"))
+gradient = read.csv(here::here("data/AMD_gradient.csv"))
+
+```
+
+```{r}
+head(bugs_01)
+head(bugs_02)
+head(gradient)
+```
+
+
+
+```{r}
+setdiff(bugs_02$site, gradient$site)
+setdiff(gradient$site, bugs_02$site)
+```
+
+```{r}
+gradient_fixed <- gradient |>
+    mutate(site = case_when(site == "Burnet_Trib" ~ "Burnet Tributary",
+                            site == "Lank" ~ "Lankey",
+                            site == "Mine_01" ~ "Mine",
+                            site == "OH Creek" ~ "One Horse Creek",
+                            site == "Sull_East" ~ "Sullivan East",
+                            site == "Sull_West" ~ "Sullivan West",
+                            site == "Stream_X" ~ "Stream X",
+                            site == "Stream_y" ~ "Stream Y",
+                                      .default = site))
+unique(gradient_fixed$site)
+```
+
+
+```{r}
+bugs <- bind_rows(bugs_01, bugs_02)
+dim(bugs_01)
+dim(bugs_02)
+dim(bugs)
+```
+
+```{r}
+AMD_bugs <- left_join(bugs, gradient_fixed)
+dim(AMD_bugs)
+```
+
+```{r, echo=TRUE, eval=FALSE}
+write_csv(AMD_bugs, "data/my_AMD_bugs.csv")
+
+```
+

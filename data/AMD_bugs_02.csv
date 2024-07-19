@@ -1,0 +1,212 @@
+site,taxa,mean_dm_g
+Kiwi,Acari,1.96E-06
+Kiwi,Aoteapsyche,6.74E-05
+Kiwi,Austrosimulium,6.79E-05
+Kiwi,Ceratopogonidae,0.000367748
+Kiwi,Chironominae,0.0000382
+Kiwi,Coloburiscus,0.000144227
+Kiwi,Copepoda,0.00000326
+Kiwi,Deleatidium,9.25E-05
+Kiwi,Diamesinae,0.000171494
+Kiwi,Elmidae,0.000161114
+Kiwi,Empididae,0.000152811
+Kiwi,Hydraenidae,0.001118112
+Kiwi,Hydrobiosis,0.000338819
+Kiwi,Oligochaetae,9.50E-06
+Kiwi,Olinga,3.47E-05
+Kiwi,Orthocladiinae,0.000106267
+Kiwi,Ostracoda,0.0000965
+Kiwi,Potamopyrgus,3.89E-05
+Kiwi,Psilochorema,0.000124509
+Kiwi,Pycnocentria,9.99E-06
+Kiwi,Scirtidae,0.00012349
+Kiwi,Tipulidae,0.00085068
+Kiwi,Zelandobius,0.000115229
+Lankey,Acari,0.00000193
+Lankey,Aoteapsyche,0.00015968
+Lankey,Aphrophila,0.000309886
+Lankey,Archichauliodes,0.004600529
+Lankey,Austroperla,0.00044983
+Lankey,Austrosimulium,5.39E-05
+Lankey,Beraeoptera,1.25E-05
+Lankey,Ceratopogonidae,0.000377704
+Lankey,Chironominae,0.000125888
+Lankey,Coloburiscus,0.000266795
+Lankey,Copepoda,0.00000505
+Lankey,Cristaperla,7.25E-05
+Lankey,Deleatidium,0.000321309
+Lankey,Diamesinae,0.000214243
+Lankey,Elmidae,0.000485919
+Lankey,Empididae,0.000298753
+Lankey,Eriopterini,0.001242152
+Lankey,Eukiefferiella,0.0000592
+Lankey,Hydraenidae,0.00157055
+Lankey,Hydrobiosella,0.000872489
+Lankey,Hydrobiosis,0.00022218
+Lankey,Hydrochorema,0.004604722
+Lankey,Nesameletus,0.005943719
+Lankey,Oligochaetae,1.62E-05
+Lankey,Olinga,6.77E-05
+Lankey,Orthocladiinae,0.000322566
+Lankey,Ostracoda,0.000089309
+Lankey,Paralimnophila,0.000905042
+Lankey,Platyhelminthes,5.71E-05
+Lankey,Potamopyrgus,1.20E-05
+Lankey,Psilochorema,0.001860095
+Lankey,Pycnocentrella,0.00002725
+Lankey,Pycnocentria,0.000009158
+Lankey,Pycnocentrodes,0.00000452
+Lankey,Scirtidae,0.000082
+Lankey,Stenoperla,0.000064771
+Lankey,Tanypodinae,0.000097316
+Lankey,Tipulidae,0.000282802
+Lankey,Zelandobius,7.70E-05
+Lankey,Zelandoperla,0.000146605
+Miller,Diamesinae,0.000316167
+Miller,Oligochaetae,0.0000249
+Miller,Orthocladiinae,0.000420223
+Miller,Mine,0.000328256
+Miller,Ceratopogonidae,0.000244867
+Miller,Diamesinae,0.000373807
+Miller,Diptera,0.000152111
+Miller,Elmidae,0.00046127
+Miller,Orthocladiinae,0.000271185
+Miller,Zelolessica,0.0000123
+Murray,Acari,1.74E-06
+Murray,Aoteapsyche,0.000282798
+Murray,Austroperla,0.000138256
+Murray,Austrosimulium,9.01E-05
+Murray,Beraeoptera,9.14E-06
+Murray,Blephariceridae,0.000144178
+Murray,Ceratopogonidae,0.00025184
+Murray,Coloburiscus,6.00E-05
+Murray,Copepoda,0.00000637
+Murray,Cristaperla,5.30E-05
+Murray,Deleatidium,0.000195653
+Murray,Elmidae,0.000553948
+Murray,Empididae,0.000108899
+Murray,Hydraenidae,0.001866882
+Murray,Hydrobiosella,0.000932702
+Murray,Hydrobiosis,0.000141512
+Murray,Hydrochorema,0.003267885
+Murray,Nesameletus,0.00088169
+Murray,Oligochaetae,1.09E-05
+Murray,Olinga,0.0000522
+Murray,Onychohydrus,0.002024038
+Murray,Orthocladiinae,0.000303114
+Murray,Ostracoda,0.0000965
+Murray,Potamopyrgus,0.00000669
+Murray,Pycnocentria,0.00000604
+Murray,Stenoperla,0.006151043
+Murray,Tanypodinae,7.72E-05
+Murray,Zelandobius,0.000052375
+One Horse Creek,Acari,4.22E-06
+One Horse Creek,Ameletopsis,0.000203691
+One Horse Creek,Archichauliodes,0.002058396
+One Horse Creek,Austroperla,0.000649565
+One Horse Creek,Austrosimulium,0.000049
+One Horse Creek,Ceratopogonidae,0.000362236
+One Horse Creek,Chironominae,0.000863061
+One Horse Creek,Coloburiscus,0.001632689
+One Horse Creek,Costachorema,0.000163405
+One Horse Creek,Deleatidium,0.000614428
+One Horse Creek,Diamesinae,0.001303463
+One Horse Creek,Elmidae,0.000327328
+One Horse Creek,Empididae,0.000295738
+One Horse Creek,Helicopsyche,2.11E-05
+One Horse Creek,Hydraenidae,0.001344156
+One Horse Creek,Hydrophilidae,0.027291473
+One Horse Creek,Nesameletus,0.003589776
+One Horse Creek,Oligochaetae,1.34E-05
+One Horse Creek,Orthocladiinae,0.000180339
+One Horse Creek,Platyhelminthes,0.0000485
+One Horse Creek,Potamopyrgus,0.000125005
+One Horse Creek,Psilochorema,0.000595537
+One Horse Creek,Stenoperla,0.009598703
+One Horse Creek,Tanypodinae,0.00115194
+One Horse Creek,Taraperla,0.000184954
+One Horse Creek,Zelandobius,0.000121704
+One Horse Creek,Zelolessica,6.99E-05
+One Horse Creek,Zephlebia,0.000177472
+Packtrack,Acari,4.43E-06
+Packtrack,Diamesinae,0.000382759
+Packtrack,Empididae,0.000247512
+Packtrack,Orthocladiinae,0.000219896
+Packtrack,Ostracoda,0.000108475
+Packtrack,Portal,0.000195661
+Packtrack,Acari,0.00000243
+Packtrack,Orthocladiinae,0.000196305
+Stream X,Acari,3.78E-06
+Stream X,Aoteapsyche,5.84E-06
+Stream X,Beraeoptera,1.42E-05
+Stream X,Diamesinae,0.000087812
+Stream X,Ephemeroptera,0.0000157
+Stream X,Hydrochorema,0.000491773
+Stream X,Leptophlebiidae,0.0000436
+Stream X,Oligochaetae,1.22E-05
+Stream X,Orthocladiinae,0.00081753
+Stream X,Plecoptera,3.62E-05
+Stream X,Spaniocerca,6.72E-05
+Stream X,Stenoperla,0.0000315
+Stream Y,Acari,0.00000144
+Stream Y,Chironominae,0.000462363
+Stream Y,Copepod,0.0000122
+Stream Y,Diamesinae,0.000507918
+Stream Y,Diptera,0.000127414
+Stream Y,Empididae,0.000120879
+Stream Y,Oligochaetae,0.0000161
+Stream Y,Orthocladiinae,0.000274338
+Stream Y,Scirtidae,0.000003785
+Sullivan East,Acari,0.00000169
+Sullivan East,Ameletopsis,0.004795843
+Sullivan East,Aoteapsyche,2.41E-06
+Sullivan East,Aphrophila,0.000932626
+Sullivan East,Austrosimulium,0.00000313
+Sullivan East,Ceratopogonidae,0.000375402
+Sullivan East,Chironominae,0.000144082
+Sullivan East,Deleatidium,0.000190053
+Sullivan East,Diamesinae,0.000202165
+Sullivan East,Elmidae,0.00019663
+Sullivan East,Hydraenidae,0.001865751
+Sullivan East,Hydrobiosis,2.92E-05
+Sullivan East,Oligochaetae,1.89E-05
+Sullivan East,Orthocladiinae,0.000382734
+Sullivan East,Oxyethira,0.0000242
+Sullivan East,Psilochorema,0.000512458
+Sullivan East,Zelandobius,0.000155951
+Sullivan West,Aoteapsyche,0.000024
+Sullivan West,Austroclima,0.000542643
+Sullivan West,Austrosimulium,0.0000953
+Sullivan West,Diamesinae,0.000371017
+Sullivan West,Hydraenidae,0.001660918
+Sullivan West,Orthocladiinae,0.000151343
+Sullivan West,Oxyethira,0.0000351
+Sullivan West,Pycnocentria,0.000055
+Sullivan West,Zelandobius,0.0000644
+Sullivan West,Zelolessica,0.000025
+Warne,Acari,3.87E-06
+Warne,Aoteapsyche,9.04E-06
+Warne,Austrosimulium,0.000147044
+Warne,Ceratopogonidae,0.000395283
+Warne,Coloburiscus,0.000221014
+Warne,Deleatidium,0.000690178
+Warne,Empididae,0.00014985
+Warne,Hydraenidae,0.001016188
+Warne,Hydrobiosis,7.33E-05
+Warne,Orthocladiinae,0.00021175
+Warne,Oxyethira,5.05E-05
+Warne,Potamopyrgus,0.00001071
+Warne,Pycnocentria,0.0000136
+Warne,Spaniocercoides,3.73E-05
+Warne,Stenoperla,0.00033101
+Warne,Tanypodinae,0.000284994
+Warne,Zelandobius,3.74E-05
+Warne,Zephlebia,0.008592675
+Mine,Ceratopogonidae,0.000244867
+Mine,Diamesinae,0.000373807
+Mine,Diptera,0.000152111
+Mine,Elmidae,0.00046127
+Mine,Orthocladiinae,0.000271185
+Mine,Zelolessica,0.0000123
+Portal,Acari,0.00000243
+Portal,Orthocladiinae,0.000196305

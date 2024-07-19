@@ -5,6 +5,6 @@ title: Grouping & Joining Data
 language: R
 ---
 
-* [dplyr Aggregation]({{ site.baseurl }}/materials/dplyr-aggregation)
 * [dplyr Joins]({{ site.baseurl }}/materials/dplyr-joins)
 * [Converting between data frames and vectors]({{ site.baseurl }}/materials/converting-dataframes-vectors)
+* [dplyr matching joins and binding]({{ site.baseurl }}/materials/dplyr-matching-joins)

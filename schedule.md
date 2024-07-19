@@ -4,7 +4,7 @@ title: Assignment Schedule
 assignments: ['Introduction to Course',
 'Introduction to R and RStudio',
 'Data in Tables',
-'Grouping & Joining Data',
+'Joining & Binding Data',
 'Data Visualization',
 'Cleaning Messy Data',
 'Review + Reproducibility',
