@@ -16,8 +16,7 @@ assignments: ['Introduction to Course',
 'Dates and Times', 
 'HOBO Temperature Data', 
 'Thanksgiving Break',
-'Final project
-']
+'Final project']
 ---
 
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)
