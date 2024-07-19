@@ -1,7 +1,7 @@
 ---
 layout: page
 element: lesson
-title: Grouping & Joining Data
+title: Joining & Binding Data
 language: R
 ---
 

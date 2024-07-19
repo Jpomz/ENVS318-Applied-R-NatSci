@@ -11,6 +11,9 @@ title: List of datasets
 | Portal surveys (surveys.csv) | csv | <https://ndownloader.figshare.com/files/2292172> |
 | Portal plots | csv | <https://ndownloader.figshare.com/files/3299474> |
 | Portal species | csv | <https://ndownloader.figshare.com/files/3299483> |
+| AMD bugs 01 | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_bugs_01.csv>|
+| AMD bugs 02 | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_bugs_02.csv>|
+| AMD gradient | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_gradient.csv>|
 | Portal all | SQLite | <https://ndownloader.figshare.com/files/11188550> |
 | Shrub dimensions | csv | <http://www.datacarpentry.org/semester-biology/data/shrub-dimensions-labeled.csv> |
 | Gainesville precipitation | csv | <http://www.datacarpentry.org/semester-biology/data/gainesville-precip.csv> |
