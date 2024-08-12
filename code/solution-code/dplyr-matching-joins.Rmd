@@ -40,7 +40,7 @@ gradient_fixed <- gradient |>
                             site == "Sull_East" ~ "Sullivan East",
                             site == "Sull_West" ~ "Sullivan West",
                             site == "Stream_X" ~ "Stream X",
-                            site == "Stream_y" ~ "Stream Y",
+                            site == "Stream_Y" ~ "Stream Y",
                                       .default = site))
 unique(gradient_fixed$site)
 ```

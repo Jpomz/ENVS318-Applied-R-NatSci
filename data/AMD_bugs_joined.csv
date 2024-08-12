@@ -1,430 +1,430 @@
 site,taxa,mean_dm_g,pca1,category
-Burke,Acari,7.2475e-6,-2.444464387,reference
-Burke,Aoteapsyche,2.16358e-5,-2.444464387,reference
-Burke,Austroperla,2.43873e-4,-2.444464387,reference
-Burke,Austrosimulium,1.18194e-4,-2.444464387,reference
-Burke,Ceratopogonidae,2.47095e-4,-2.444464387,reference
-Burke,Chironominae,1.7851e-4,-2.444464387,reference
-Burke,Coloburiscus,9.74843e-4,-2.444464387,reference
-Burke,Copepoda,7.19222e-6,-2.444464387,reference
-Burke,Deleatidium,6.20445e-4,-2.444464387,reference
-Burke,Diamesinae,3.7623e-4,-2.444464387,reference
+Burke,Acari,7.25E-06,-2.444464387,reference
+Burke,Aoteapsyche,2.16E-05,-2.444464387,reference
+Burke,Austroperla,2.44E-04,-2.444464387,reference
+Burke,Austrosimulium,1.18E-04,-2.444464387,reference
+Burke,Ceratopogonidae,2.47E-04,-2.444464387,reference
+Burke,Chironominae,1.79E-04,-2.444464387,reference
+Burke,Coloburiscus,9.75E-04,-2.444464387,reference
+Burke,Copepoda,7.19E-06,-2.444464387,reference
+Burke,Deleatidium,6.20E-04,-2.444464387,reference
+Burke,Diamesinae,3.76E-04,-2.444464387,reference
 Burke,Dytiscidae,0.001340658,-2.444464387,reference
-Burke,Elmidae,3.94248e-4,-2.444464387,reference
-Burke,Empididae,1.6795e-4,-2.444464387,reference
-Burke,Eriopterini,6.98281e-4,-2.444464387,reference
+Burke,Elmidae,3.94E-04,-2.444464387,reference
+Burke,Empididae,1.68E-04,-2.444464387,reference
+Burke,Eriopterini,6.98E-04,-2.444464387,reference
 Burke,Hydraenidae,0.001628069,-2.444464387,reference
-Burke,Hydrobiosella,6.36664e-4,-2.444464387,reference
-Burke,Hydrobiosis,1.99859e-4,-2.444464387,reference
-Burke,Oligochaetae,2.88616e-5,-2.444464387,reference
-Burke,Orthocladiinae,1.91256e-4,-2.444464387,reference
-Burke,Ostracoda,1.0319e-4,-2.444464387,reference
-Burke,Oxyethira,1.38e-5,-2.444464387,reference
-Burke,Paralimnophila,6.88515e-4,-2.444464387,reference
-Burke,Potamopyrgus,7.90721e-5,-2.444464387,reference
-Burke,Psilochorema,4.65362e-4,-2.444464387,reference
-Burke,Pycnocentrella,1.20383e-5,-2.444464387,reference
-Burke,Pycnocentria,2.6e-5,-2.444464387,reference
-Burke,Scirtidae,8.9425e-6,-2.444464387,reference
-Burke,Spaniocerca,8.09229e-5,-2.444464387,reference
-Burke,Zelandobius,5.78924e-5,-2.444464387,reference
-Burnet Tributary,Acari,2.66e-6,-3.198439108,reference
-Burnet Tributary,Aoteapsyche,3.6175e-5,-3.198439108,reference
-Burnet Tributary,Austrosimulium,1.53446e-4,-3.198439108,reference
-Burnet Tributary,Ceratopogonidae,2.92016e-4,-3.198439108,reference
-Burnet Tributary,Chironominae,8.68152e-4,-3.198439108,reference
-Burnet Tributary,Deleatidium,6.40903e-4,-3.198439108,reference
-Burnet Tributary,Diamesinae,2.12356e-4,-3.198439108,reference
+Burke,Hydrobiosella,6.37E-04,-2.444464387,reference
+Burke,Hydrobiosis,2.00E-04,-2.444464387,reference
+Burke,Oligochaetae,2.89E-05,-2.444464387,reference
+Burke,Orthocladiinae,1.91E-04,-2.444464387,reference
+Burke,Ostracoda,1.03E-04,-2.444464387,reference
+Burke,Oxyethira,1.38E-05,-2.444464387,reference
+Burke,Paralimnophila,6.89E-04,-2.444464387,reference
+Burke,Potamopyrgus,7.91E-05,-2.444464387,reference
+Burke,Psilochorema,4.65E-04,-2.444464387,reference
+Burke,Pycnocentrella,1.20E-05,-2.444464387,reference
+Burke,Pycnocentria,2.60E-05,-2.444464387,reference
+Burke,Scirtidae,8.94E-06,-2.444464387,reference
+Burke,Spaniocerca,8.09E-05,-2.444464387,reference
+Burke,Zelandobius,5.79E-05,-2.444464387,reference
+Burnet Tributary,Acari,2.66E-06,-3.198439108,reference
+Burnet Tributary,Aoteapsyche,3.62E-05,-3.198439108,reference
+Burnet Tributary,Austrosimulium,1.53E-04,-3.198439108,reference
+Burnet Tributary,Ceratopogonidae,2.92E-04,-3.198439108,reference
+Burnet Tributary,Chironominae,8.68E-04,-3.198439108,reference
+Burnet Tributary,Deleatidium,6.41E-04,-3.198439108,reference
+Burnet Tributary,Diamesinae,2.12E-04,-3.198439108,reference
 Burnet Tributary,Elmidae,0.001020372,-3.198439108,reference
-Burnet Tributary,Empididae,2.4323e-4,-3.198439108,reference
-Burnet Tributary,Oligochaetae,7.34821e-6,-3.198439108,reference
-Burnet Tributary,Orthocladiinae,6.7192e-4,-3.198439108,reference
-Burnet Tributary,Psilochorema,7.07428e-5,-3.198439108,reference
-Burnet Tributary,Pycnocentria,8.74e-6,-3.198439108,reference
-Burnet Tributary,Rakiura,4.575e-5,-3.198439108,reference
+Burnet Tributary,Empididae,2.43E-04,-3.198439108,reference
+Burnet Tributary,Oligochaetae,7.35E-06,-3.198439108,reference
+Burnet Tributary,Orthocladiinae,6.72E-04,-3.198439108,reference
+Burnet Tributary,Psilochorema,7.07E-05,-3.198439108,reference
+Burnet Tributary,Pycnocentria,8.74E-06,-3.198439108,reference
+Burnet Tributary,Rakiura,4.58E-05,-3.198439108,reference
 Burnet Tributary,Stenoperla,0.013015179,-3.198439108,reference
 Burnet Tributary,Tanypodinae,0.001626717,-3.198439108,reference
-Burnet Tributary,Zelandobius,1.19272e-4,-3.198439108,reference
+Burnet Tributary,Zelandobius,1.19E-04,-3.198439108,reference
 Burnet Tributary,Zelandoperla,0.001864392,-3.198439108,reference
-Burnett,Acari,1.72628e-6,-3.121002761,reference
-Burnett,Ameletopsis,6.30901e-4,-3.121002761,reference
-Burnett,Aoteapsyche,7.6302e-5,-3.121002761,reference
-Burnett,Austroperla,3.78127e-4,-3.121002761,reference
-Burnett,Austrosimulium,5.50719e-5,-3.121002761,reference
-Burnett,Beraeoptera,7.07853e-5,-3.121002761,reference
-Burnett,Ceratopogonidae,2.52184e-4,-3.121002761,reference
-Burnett,Copepoda,3.45407e-6,-3.121002761,reference
-Burnett,Deleatidium,2.85184e-4,-3.121002761,reference
-Burnett,Elmidae,1.31822e-4,-3.121002761,reference
-Burnett,Empididae,2.69048e-4,-3.121002761,reference
+Burnett,Acari,1.73E-06,-3.121002761,reference
+Burnett,Ameletopsis,6.31E-04,-3.121002761,reference
+Burnett,Aoteapsyche,7.63E-05,-3.121002761,reference
+Burnett,Austroperla,3.78E-04,-3.121002761,reference
+Burnett,Austrosimulium,5.51E-05,-3.121002761,reference
+Burnett,Beraeoptera,7.08E-05,-3.121002761,reference
+Burnett,Ceratopogonidae,2.52E-04,-3.121002761,reference
+Burnett,Copepoda,3.45E-06,-3.121002761,reference
+Burnett,Deleatidium,2.85E-04,-3.121002761,reference
+Burnett,Elmidae,1.32E-04,-3.121002761,reference
+Burnett,Empididae,2.69E-04,-3.121002761,reference
 Burnett,Eriopterini,0.001681231,-3.121002761,reference
-Burnett,Helicopsyche,9.04e-6,-3.121002761,reference
+Burnett,Helicopsyche,9.04E-06,-3.121002761,reference
 Burnett,Hydraenidae,0.001383,-3.121002761,reference
-Burnett,Hydrobiosella,1.5277e-4,-3.121002761,reference
-Burnett,Hydrobiosis,1.37542e-4,-3.121002761,reference
-Burnett,Limonia,4.20835e-4,-3.121002761,reference
-Burnett,Oligochaetae,1.65839e-5,-3.121002761,reference
-Burnett,Orthocladiinae,2.86755e-4,-3.121002761,reference
-Burnett,Oxyethira,2.05225e-5,-3.121002761,reference
-Burnett,Paraleptamphopus,2.34e-6,-3.121002761,reference
-Burnett,Psilochorema,2.74697e-4,-3.121002761,reference
-Burnett,Pycnocentrodes,8.44e-6,-3.121002761,reference
+Burnett,Hydrobiosella,1.53E-04,-3.121002761,reference
+Burnett,Hydrobiosis,1.38E-04,-3.121002761,reference
+Burnett,Limonia,4.21E-04,-3.121002761,reference
+Burnett,Oligochaetae,1.66E-05,-3.121002761,reference
+Burnett,Orthocladiinae,2.87E-04,-3.121002761,reference
+Burnett,Oxyethira,2.05E-05,-3.121002761,reference
+Burnett,Paraleptamphopus,2.34E-06,-3.121002761,reference
+Burnett,Psilochorema,2.75E-04,-3.121002761,reference
+Burnett,Pycnocentrodes,8.44E-06,-3.121002761,reference
 Burnett,Stenoperla,0.002359457,-3.121002761,reference
-Burnett,Tanypodinae,5.85256e-4,-3.121002761,reference
-Burnett,Zelandobius,1.82221e-4,-3.121002761,reference
-Cannel,Acari,4.265e-6,-0.583653285,impact
+Burnett,Tanypodinae,5.85E-04,-3.121002761,reference
+Burnett,Zelandobius,1.82E-04,-3.121002761,reference
+Cannel,Acari,4.27E-06,-0.583653285,impact
 Cannel,Aoteapsyche,0.002199869,-0.583653285,impact
-Cannel,Deleatidium,9.60176e-4,-0.583653285,impact
-Cannel,Oligochaetae,4.65e-6,-0.583653285,impact
-Cannel,Orthocladiinae,8.90654e-5,-0.583653285,impact
-Charming,Acari,1.92333e-6,-2.789648014,reference
-Charming,Aoteapsyche,2.016e-6,-2.789648014,reference
+Cannel,Deleatidium,9.60E-04,-0.583653285,impact
+Cannel,Oligochaetae,4.65E-06,-0.583653285,impact
+Cannel,Orthocladiinae,8.91E-05,-0.583653285,impact
+Charming,Acari,1.92E-06,-2.789648014,reference
+Charming,Aoteapsyche,2.02E-06,-2.789648014,reference
 Charming,Archichauliodes,0.002150703,-2.789648014,reference
-Charming,Austroperla,4.985e-5,-2.789648014,reference
-Charming,Austrosimulium,2.41e-5,-2.789648014,reference
-Charming,Ceratopogonidae,3.64678e-4,-2.789648014,reference
-Charming,Chironominae,1.30969e-4,-2.789648014,reference
+Charming,Austroperla,4.99E-05,-2.789648014,reference
+Charming,Austrosimulium,2.41E-05,-2.789648014,reference
+Charming,Ceratopogonidae,3.65E-04,-2.789648014,reference
+Charming,Chironominae,1.31E-04,-2.789648014,reference
 Charming,Coloburiscus,0.002814023,-2.789648014,reference
-Charming,Deleatidium,2.11831e-4,-2.789648014,reference
-Charming,Elmidae,9.81e-5,-2.789648014,reference
-Charming,Empididae,1.02559e-4,-2.789648014,reference
-Charming,Hydraenidae,8.1737e-4,-2.789648014,reference
-Charming,Hydrobiosis,1.58426e-4,-2.789648014,reference
-Charming,Oligochaetae,1.04352e-5,-2.789648014,reference
-Charming,Olinga,3.26e-5,-2.789648014,reference
-Charming,Orthocladiinae,2.03226e-4,-2.789648014,reference
-Charming,Oxyethira,4.904e-5,-2.789648014,reference
-Charming,Paraleptamphopus,6.76205e-5,-2.789648014,reference
-Charming,Scirtidae,3.15546e-5,-2.789648014,reference
-Charming,Stenoperla,4.53e-6,-2.789648014,reference
-Charming,Tanypodinae,2.1359e-4,-2.789648014,reference
-Charming,Zelandobius,5.73286e-5,-2.789648014,reference
-Chasm,Acari,1.8e-6,-2.538072774,reference
-Chasm,Aoteapsyche,1.75091e-5,-2.538072774,reference
-Chasm,Aphrophila,4.73e-5,-2.538072774,reference
-Chasm,Archichauliodes,5.37623e-4,-2.538072774,reference
-Chasm,Austrosimulium,1.17205e-4,-2.538072774,reference
+Charming,Deleatidium,2.12E-04,-2.789648014,reference
+Charming,Elmidae,9.81E-05,-2.789648014,reference
+Charming,Empididae,1.03E-04,-2.789648014,reference
+Charming,Hydraenidae,8.17E-04,-2.789648014,reference
+Charming,Hydrobiosis,1.58E-04,-2.789648014,reference
+Charming,Oligochaetae,1.04E-05,-2.789648014,reference
+Charming,Olinga,3.26E-05,-2.789648014,reference
+Charming,Orthocladiinae,2.03E-04,-2.789648014,reference
+Charming,Oxyethira,4.90E-05,-2.789648014,reference
+Charming,Paraleptamphopus,6.76E-05,-2.789648014,reference
+Charming,Scirtidae,3.16E-05,-2.789648014,reference
+Charming,Stenoperla,4.53E-06,-2.789648014,reference
+Charming,Tanypodinae,2.14E-04,-2.789648014,reference
+Charming,Zelandobius,5.73E-05,-2.789648014,reference
+Chasm,Acari,1.80E-06,-2.538072774,reference
+Chasm,Aoteapsyche,1.75E-05,-2.538072774,reference
+Chasm,Aphrophila,4.73E-05,-2.538072774,reference
+Chasm,Archichauliodes,5.38E-04,-2.538072774,reference
+Chasm,Austrosimulium,1.17E-04,-2.538072774,reference
 Chasm,Coloburiscus,0.002427799,-2.538072774,reference
-Chasm,Cristaperla,2.35048e-4,-2.538072774,reference
-Chasm,Deleatidium,6.57732e-4,-2.538072774,reference
-Chasm,Diamesinae,9.4478e-5,-2.538072774,reference
-Chasm,Elmidae,1.33521e-4,-2.538072774,reference
+Chasm,Cristaperla,2.35E-04,-2.538072774,reference
+Chasm,Deleatidium,6.58E-04,-2.538072774,reference
+Chasm,Diamesinae,9.45E-05,-2.538072774,reference
+Chasm,Elmidae,1.34E-04,-2.538072774,reference
 Chasm,Eriopterini,0.00176493,-2.538072774,reference
 Chasm,Hexatomini,0.001102298,-2.538072774,reference
 Chasm,Hydraenidae,0.00151785,-2.538072774,reference
-Chasm,Hydrobiosis,1.20783e-4,-2.538072774,reference
+Chasm,Hydrobiosis,1.21E-04,-2.538072774,reference
 Chasm,Nesameletus,0.00514579,-2.538072774,reference
-Chasm,Oligochaetae,6.16544e-5,-2.538072774,reference
-Chasm,Olinga,9.65e-6,-2.538072774,reference
-Chasm,Orthocladiinae,2.99015e-4,-2.538072774,reference
-Chasm,Ostracoda,9.95323e-5,-2.538072774,reference
-Chasm,Oxyethira,1.09e-5,-2.538072774,reference
-Chasm,Paraleptamphopus,1.60519e-4,-2.538072774,reference
-Chasm,Platyhelminthes,7.43e-6,-2.538072774,reference
-Chasm,Potamopyrgus,2.60567e-5,-2.538072774,reference
+Chasm,Oligochaetae,6.17E-05,-2.538072774,reference
+Chasm,Olinga,9.65E-06,-2.538072774,reference
+Chasm,Orthocladiinae,2.99E-04,-2.538072774,reference
+Chasm,Ostracoda,9.95E-05,-2.538072774,reference
+Chasm,Oxyethira,1.09E-05,-2.538072774,reference
+Chasm,Paraleptamphopus,1.61E-04,-2.538072774,reference
+Chasm,Platyhelminthes,7.43E-06,-2.538072774,reference
+Chasm,Potamopyrgus,2.61E-05,-2.538072774,reference
 Chasm,Psilochorema,0.001096383,-2.538072774,reference
-Chasm,Pycnocentria,8.585e-6,-2.538072774,reference
-Chasm,Pycnocentrodes,3.688e-5,-2.538072774,reference
-Chasm,Scirtidae,3.81922e-5,-2.538072774,reference
-Chasm,Tanypodinae,2.31155e-4,-2.538072774,reference
-Chasm,Zelandobius,5.74767e-5,-2.538072774,reference
-Chasm,Zephlebia,3.74539e-4,-2.538072774,reference
-Coal,Acari,3.53e-6,3.783120621,heavy_impact
-Coal,Aoteapsyche,2.1745e-5,3.783120621,heavy_impact
-Coal,Austrosimulium,1.48128e-4,3.783120621,heavy_impact
-Coal,Chironominae,2.06027e-4,3.783120621,heavy_impact
-Coal,Diamesinae,1.96e-5,3.783120621,heavy_impact
-Coal,Diptera,3.8504e-4,3.783120621,heavy_impact
-Coal,Dixidae,9.06735e-5,3.783120621,heavy_impact
+Chasm,Pycnocentria,8.59E-06,-2.538072774,reference
+Chasm,Pycnocentrodes,3.69E-05,-2.538072774,reference
+Chasm,Scirtidae,3.82E-05,-2.538072774,reference
+Chasm,Tanypodinae,2.31E-04,-2.538072774,reference
+Chasm,Zelandobius,5.75E-05,-2.538072774,reference
+Chasm,Zephlebia,3.75E-04,-2.538072774,reference
+Coal,Acari,3.53E-06,3.783120621,heavy_impact
+Coal,Aoteapsyche,2.17E-05,3.783120621,heavy_impact
+Coal,Austrosimulium,1.48E-04,3.783120621,heavy_impact
+Coal,Chironominae,2.06E-04,3.783120621,heavy_impact
+Coal,Diamesinae,1.96E-05,3.783120621,heavy_impact
+Coal,Diptera,3.85E-04,3.783120621,heavy_impact
+Coal,Dixidae,9.07E-05,3.783120621,heavy_impact
 Coal,Dytiscidae,0.002736758,3.783120621,heavy_impact
-Coal,Empididae,2.39271e-4,3.783120621,heavy_impact
-Coal,Gyrinidae,1.2638e-5,3.783120621,heavy_impact
-Coal,Hydrobiosis,2.12051e-4,3.783120621,heavy_impact
-Coal,Oligochaetae,7.48e-6,3.783120621,heavy_impact
-Coal,Orthocladiinae,2.86543e-4,3.783120621,heavy_impact
-Coal,Plecoptera,2.43e-5,3.783120621,heavy_impact
-Coal,Zelandoperla,2.11021e-4,3.783120621,heavy_impact
-Coalbrookedale,Acari,2.64e-6,-0.053765109,impact
-Coalbrookedale,Aoteapsyche,9.54e-6,-0.053765109,impact
-Coalbrookedale,Deleatidium,9.73917e-5,-0.053765109,impact
-Coalbrookedale,Diamesinae,2.8381e-4,-0.053765109,impact
-Coalbrookedale,Empididae,1.21428e-4,-0.053765109,impact
-Coalbrookedale,Oligochaetae,5.632e-6,-0.053765109,impact
-Coalbrookedale,Orthocladiinae,1.30759e-4,-0.053765109,impact
-Coalbrookedale,Oxyethira,1.01198e-4,-0.053765109,impact
-Coalbrookedale,Plecoptera,5.48e-5,-0.053765109,impact
-Coalbrookedale,Zelandobius,1.45369e-4,-0.053765109,impact
-Coalbrookedale,Zelolessica,2.765e-5,-0.053765109,impact
+Coal,Empididae,2.39E-04,3.783120621,heavy_impact
+Coal,Gyrinidae,1.26E-05,3.783120621,heavy_impact
+Coal,Hydrobiosis,2.12E-04,3.783120621,heavy_impact
+Coal,Oligochaetae,7.48E-06,3.783120621,heavy_impact
+Coal,Orthocladiinae,2.87E-04,3.783120621,heavy_impact
+Coal,Plecoptera,2.43E-05,3.783120621,heavy_impact
+Coal,Zelandoperla,2.11E-04,3.783120621,heavy_impact
+Coalbrookedale,Acari,2.64E-06,-0.053765109,impact
+Coalbrookedale,Aoteapsyche,9.54E-06,-0.053765109,impact
+Coalbrookedale,Deleatidium,9.74E-05,-0.053765109,impact
+Coalbrookedale,Diamesinae,2.84E-04,-0.053765109,impact
+Coalbrookedale,Empididae,1.21E-04,-0.053765109,impact
+Coalbrookedale,Oligochaetae,5.63E-06,-0.053765109,impact
+Coalbrookedale,Orthocladiinae,1.31E-04,-0.053765109,impact
+Coalbrookedale,Oxyethira,1.01E-04,-0.053765109,impact
+Coalbrookedale,Plecoptera,5.48E-05,-0.053765109,impact
+Coalbrookedale,Zelandobius,1.45E-04,-0.053765109,impact
+Coalbrookedale,Zelolessica,2.77E-05,-0.053765109,impact
 Coorang,Aoteapsyche,0.001277562,-3.182354786,reference
 Coorang,Austroperla,0.001224771,-3.182354786,reference
-Coorang,Austrosimulium,2.06681e-4,-3.182354786,reference
-Coorang,Ceratopogonidae,3.17487e-4,-3.182354786,reference
+Coorang,Austrosimulium,2.07E-04,-3.182354786,reference
+Coorang,Ceratopogonidae,3.17E-04,-3.182354786,reference
 Coorang,Coloburiscus,0.002689834,-3.182354786,reference
-Coorang,Deleatidium,3.39714e-4,-3.182354786,reference
-Coorang,Elmidae,5.08789e-4,-3.182354786,reference
+Coorang,Deleatidium,3.40E-04,-3.182354786,reference
+Coorang,Elmidae,5.09E-04,-3.182354786,reference
 Coorang,Elmidae Adult,0.005616852,-3.182354786,reference
-Coorang,Empididae,1.89927e-4,-3.182354786,reference
+Coorang,Empididae,1.90E-04,-3.182354786,reference
 Coorang,Hydraenidae,0.001666578,-3.182354786,reference
-Coorang,Hydrobiosella,6.08858e-4,-3.182354786,reference
-Coorang,Oligochaetae,4.5475e-6,-3.182354786,reference
-Coorang,Orthocladiinae,6.91283e-4,-3.182354786,reference
-Coorang,Potamopyrgus,2.53e-6,-3.182354786,reference
-Coorang,Pycnocentrodes,3.24e-5,-3.182354786,reference
+Coorang,Hydrobiosella,6.09E-04,-3.182354786,reference
+Coorang,Oligochaetae,4.55E-06,-3.182354786,reference
+Coorang,Orthocladiinae,6.91E-04,-3.182354786,reference
+Coorang,Potamopyrgus,2.53E-06,-3.182354786,reference
+Coorang,Pycnocentrodes,3.24E-05,-3.182354786,reference
 Coorang,Stenoperla,0.068880617,-3.182354786,reference
-Coorang,Zelandobius,2.26485e-4,-3.182354786,reference
+Coorang,Zelandobius,2.26E-04,-3.182354786,reference
 Coorang,Zelandoperla,0.001627301,-3.182354786,reference
-Granity,Aoteapsyche,4.53e-6,1.562505058,impact
-Granity,Deleatidium,2.19268e-4,1.562505058,impact
-Granity,Diamesinae,4.24018e-4,1.562505058,impact
-Granity,Orthocladiinae,2.35166e-4,1.562505058,impact
-Granity,Oxyethira,2.39356e-5,1.562505058,impact
-Granity,Potamopyrgus,1.45185e-4,1.562505058,impact
-Granity,Spaniocerca,3.52e-5,1.562505058,impact
-Granity,Zelandobius,9.34919e-4,1.562505058,impact
-Hot,Acari,6.88e-6,5.802718799,heavy_impact
-Hot,Empididae,5.42e-5,5.802718799,heavy_impact
-Hot,Oligochaetae,1.65e-5,5.802718799,heavy_impact
-Hot,Orthocladiinae,2.45463e-4,5.802718799,heavy_impact
-Italian,Acari,2.48875e-6,-3.479381321,reference
-Italian,Aoteapsyche,2.75432e-4,-3.479381321,reference
-Italian,Aphrophila,2.46857e-4,-3.479381321,reference
-Italian,Archichauliodes,7.89501e-5,-3.479381321,reference
+Granity,Aoteapsyche,4.53E-06,1.562505058,impact
+Granity,Deleatidium,2.19E-04,1.562505058,impact
+Granity,Diamesinae,4.24E-04,1.562505058,impact
+Granity,Orthocladiinae,2.35E-04,1.562505058,impact
+Granity,Oxyethira,2.39E-05,1.562505058,impact
+Granity,Potamopyrgus,1.45E-04,1.562505058,impact
+Granity,Spaniocerca,3.52E-05,1.562505058,impact
+Granity,Zelandobius,9.35E-04,1.562505058,impact
+Hot,Acari,6.88E-06,5.802718799,heavy_impact
+Hot,Empididae,5.42E-05,5.802718799,heavy_impact
+Hot,Oligochaetae,1.65E-05,5.802718799,heavy_impact
+Hot,Orthocladiinae,2.45E-04,5.802718799,heavy_impact
+Italian,Acari,2.49E-06,-3.479381321,reference
+Italian,Aoteapsyche,2.75E-04,-3.479381321,reference
+Italian,Aphrophila,2.47E-04,-3.479381321,reference
+Italian,Archichauliodes,7.90E-05,-3.479381321,reference
 Italian,Austroperla,0.001579479,-3.479381321,reference
-Italian,Austrosimulium,6.68047e-5,-3.479381321,reference
-Italian,Beraeoptera,1.62999e-4,-3.479381321,reference
-Italian,Ceratopogonidae,2.97696e-4,-3.479381321,reference
-Italian,Chironominae,3.215e-5,-3.479381321,reference
+Italian,Austrosimulium,6.68E-05,-3.479381321,reference
+Italian,Beraeoptera,1.63E-04,-3.479381321,reference
+Italian,Ceratopogonidae,2.98E-04,-3.479381321,reference
+Italian,Chironominae,3.22E-05,-3.479381321,reference
 Italian,Coloburiscus,0.00174985,-3.479381321,reference
-Italian,Deleatidium,7.8494e-4,-3.479381321,reference
-Italian,Diamesinae,1.25515e-4,-3.479381321,reference
-Italian,Elmidae,3.48464e-4,-3.479381321,reference
-Italian,Empididae,1.70741e-4,-3.479381321,reference
+Italian,Deleatidium,7.85E-04,-3.479381321,reference
+Italian,Diamesinae,1.26E-04,-3.479381321,reference
+Italian,Elmidae,3.48E-04,-3.479381321,reference
+Italian,Empididae,1.71E-04,-3.479381321,reference
 Italian,Eriopterini,0.001251153,-3.479381321,reference
-Italian,Helicopsyche,1.6925e-5,-3.479381321,reference
+Italian,Helicopsyche,1.69E-05,-3.479381321,reference
 Italian,Hydraenidae,0.001582161,-3.479381321,reference
-Italian,Hydrobiosella,4.01564e-4,-3.479381321,reference
-Italian,Hydrobiosis,6.38709e-4,-3.479381321,reference
+Italian,Hydrobiosella,4.02E-04,-3.479381321,reference
+Italian,Hydrobiosis,6.39E-04,-3.479381321,reference
 Italian,Nesameletus,0.005220489,-3.479381321,reference
-Italian,Oligochaetae,1.0899e-5,-3.479381321,reference
-Italian,Olinga,4.34611e-5,-3.479381321,reference
-Italian,Orthocladiinae,2.14693e-4,-3.479381321,reference
-Italian,Oxyethira,1.62642e-4,-3.479381321,reference
-Italian,Platyhelminthes,5.80825e-5,-3.479381321,reference
-Italian,Potamopyrgus,6.49098e-5,-3.479381321,reference
-Italian,Psilochorema,2.70366e-4,-3.479381321,reference
-Italian,Pycnocentria,1.11078e-5,-3.479381321,reference
-Italian,Pycnocentrodes,7.72e-6,-3.479381321,reference
-Italian,Spaniocerca,5.01119e-5,-3.479381321,reference
+Italian,Oligochaetae,1.09E-05,-3.479381321,reference
+Italian,Olinga,4.35E-05,-3.479381321,reference
+Italian,Orthocladiinae,2.15E-04,-3.479381321,reference
+Italian,Oxyethira,1.63E-04,-3.479381321,reference
+Italian,Platyhelminthes,5.81E-05,-3.479381321,reference
+Italian,Potamopyrgus,6.49E-05,-3.479381321,reference
+Italian,Psilochorema,2.70E-04,-3.479381321,reference
+Italian,Pycnocentria,1.11E-05,-3.479381321,reference
+Italian,Pycnocentrodes,7.72E-06,-3.479381321,reference
+Italian,Spaniocerca,5.01E-05,-3.479381321,reference
 Italian,Stenoperla,0.003871604,-3.479381321,reference
-Italian,Zelandobius,6.82e-5,-3.479381321,reference
-Kiwi,Acari,1.96e-6,-2.275964317,reference
-Kiwi,Aoteapsyche,6.74e-5,-2.275964317,reference
-Kiwi,Austrosimulium,6.79e-5,-2.275964317,reference
-Kiwi,Ceratopogonidae,3.67748e-4,-2.275964317,reference
-Kiwi,Chironominae,3.82e-5,-2.275964317,reference
-Kiwi,Coloburiscus,1.44227e-4,-2.275964317,reference
-Kiwi,Copepoda,3.26e-6,-2.275964317,reference
-Kiwi,Deleatidium,9.25e-5,-2.275964317,reference
-Kiwi,Diamesinae,1.71494e-4,-2.275964317,reference
-Kiwi,Elmidae,1.61114e-4,-2.275964317,reference
-Kiwi,Empididae,1.52811e-4,-2.275964317,reference
+Italian,Zelandobius,6.82E-05,-3.479381321,reference
+Kiwi,Acari,1.96E-06,-2.275964317,reference
+Kiwi,Aoteapsyche,6.74E-05,-2.275964317,reference
+Kiwi,Austrosimulium,6.79E-05,-2.275964317,reference
+Kiwi,Ceratopogonidae,3.68E-04,-2.275964317,reference
+Kiwi,Chironominae,3.82E-05,-2.275964317,reference
+Kiwi,Coloburiscus,1.44E-04,-2.275964317,reference
+Kiwi,Copepoda,3.26E-06,-2.275964317,reference
+Kiwi,Deleatidium,9.25E-05,-2.275964317,reference
+Kiwi,Diamesinae,1.71E-04,-2.275964317,reference
+Kiwi,Elmidae,1.61E-04,-2.275964317,reference
+Kiwi,Empididae,1.53E-04,-2.275964317,reference
 Kiwi,Hydraenidae,0.001118112,-2.275964317,reference
-Kiwi,Hydrobiosis,3.38819e-4,-2.275964317,reference
-Kiwi,Oligochaetae,9.5e-6,-2.275964317,reference
-Kiwi,Olinga,3.47e-5,-2.275964317,reference
-Kiwi,Orthocladiinae,1.06267e-4,-2.275964317,reference
-Kiwi,Ostracoda,9.65e-5,-2.275964317,reference
-Kiwi,Potamopyrgus,3.89e-5,-2.275964317,reference
-Kiwi,Psilochorema,1.24509e-4,-2.275964317,reference
-Kiwi,Pycnocentria,9.99e-6,-2.275964317,reference
-Kiwi,Scirtidae,1.2349e-4,-2.275964317,reference
-Kiwi,Tipulidae,8.5068e-4,-2.275964317,reference
-Kiwi,Zelandobius,1.15229e-4,-2.275964317,reference
-Lankey,Acari,1.93e-6,-2.20665663,reference
-Lankey,Aoteapsyche,1.5968e-4,-2.20665663,reference
-Lankey,Aphrophila,3.09886e-4,-2.20665663,reference
+Kiwi,Hydrobiosis,3.39E-04,-2.275964317,reference
+Kiwi,Oligochaetae,9.50E-06,-2.275964317,reference
+Kiwi,Olinga,3.47E-05,-2.275964317,reference
+Kiwi,Orthocladiinae,1.06E-04,-2.275964317,reference
+Kiwi,Ostracoda,9.65E-05,-2.275964317,reference
+Kiwi,Potamopyrgus,3.89E-05,-2.275964317,reference
+Kiwi,Psilochorema,1.25E-04,-2.275964317,reference
+Kiwi,Pycnocentria,9.99E-06,-2.275964317,reference
+Kiwi,Scirtidae,1.23E-04,-2.275964317,reference
+Kiwi,Tipulidae,8.51E-04,-2.275964317,reference
+Kiwi,Zelandobius,1.15E-04,-2.275964317,reference
+Lankey,Acari,1.93E-06,-2.20665663,reference
+Lankey,Aoteapsyche,1.60E-04,-2.20665663,reference
+Lankey,Aphrophila,3.10E-04,-2.20665663,reference
 Lankey,Archichauliodes,0.004600529,-2.20665663,reference
-Lankey,Austroperla,4.4983e-4,-2.20665663,reference
-Lankey,Austrosimulium,5.39e-5,-2.20665663,reference
-Lankey,Beraeoptera,1.25e-5,-2.20665663,reference
-Lankey,Ceratopogonidae,3.77704e-4,-2.20665663,reference
-Lankey,Chironominae,1.25888e-4,-2.20665663,reference
-Lankey,Coloburiscus,2.66795e-4,-2.20665663,reference
-Lankey,Copepoda,5.05e-6,-2.20665663,reference
-Lankey,Cristaperla,7.25e-5,-2.20665663,reference
-Lankey,Deleatidium,3.21309e-4,-2.20665663,reference
-Lankey,Diamesinae,2.14243e-4,-2.20665663,reference
-Lankey,Elmidae,4.85919e-4,-2.20665663,reference
-Lankey,Empididae,2.98753e-4,-2.20665663,reference
+Lankey,Austroperla,4.50E-04,-2.20665663,reference
+Lankey,Austrosimulium,5.39E-05,-2.20665663,reference
+Lankey,Beraeoptera,1.25E-05,-2.20665663,reference
+Lankey,Ceratopogonidae,3.78E-04,-2.20665663,reference
+Lankey,Chironominae,1.26E-04,-2.20665663,reference
+Lankey,Coloburiscus,2.67E-04,-2.20665663,reference
+Lankey,Copepoda,5.05E-06,-2.20665663,reference
+Lankey,Cristaperla,7.25E-05,-2.20665663,reference
+Lankey,Deleatidium,3.21E-04,-2.20665663,reference
+Lankey,Diamesinae,2.14E-04,-2.20665663,reference
+Lankey,Elmidae,4.86E-04,-2.20665663,reference
+Lankey,Empididae,2.99E-04,-2.20665663,reference
 Lankey,Eriopterini,0.001242152,-2.20665663,reference
-Lankey,Eukiefferiella,5.92e-5,-2.20665663,reference
+Lankey,Eukiefferiella,5.92E-05,-2.20665663,reference
 Lankey,Hydraenidae,0.00157055,-2.20665663,reference
-Lankey,Hydrobiosella,8.72489e-4,-2.20665663,reference
-Lankey,Hydrobiosis,2.2218e-4,-2.20665663,reference
+Lankey,Hydrobiosella,8.72E-04,-2.20665663,reference
+Lankey,Hydrobiosis,2.22E-04,-2.20665663,reference
 Lankey,Hydrochorema,0.004604722,-2.20665663,reference
 Lankey,Nesameletus,0.005943719,-2.20665663,reference
-Lankey,Oligochaetae,1.62e-5,-2.20665663,reference
-Lankey,Olinga,6.77e-5,-2.20665663,reference
-Lankey,Orthocladiinae,3.22566e-4,-2.20665663,reference
-Lankey,Ostracoda,8.9309e-5,-2.20665663,reference
-Lankey,Paralimnophila,9.05042e-4,-2.20665663,reference
-Lankey,Platyhelminthes,5.71e-5,-2.20665663,reference
-Lankey,Potamopyrgus,1.2e-5,-2.20665663,reference
+Lankey,Oligochaetae,1.62E-05,-2.20665663,reference
+Lankey,Olinga,6.77E-05,-2.20665663,reference
+Lankey,Orthocladiinae,3.23E-04,-2.20665663,reference
+Lankey,Ostracoda,8.93E-05,-2.20665663,reference
+Lankey,Paralimnophila,9.05E-04,-2.20665663,reference
+Lankey,Platyhelminthes,5.71E-05,-2.20665663,reference
+Lankey,Potamopyrgus,1.20E-05,-2.20665663,reference
 Lankey,Psilochorema,0.001860095,-2.20665663,reference
-Lankey,Pycnocentrella,2.725e-5,-2.20665663,reference
-Lankey,Pycnocentria,9.158e-6,-2.20665663,reference
-Lankey,Pycnocentrodes,4.52e-6,-2.20665663,reference
-Lankey,Scirtidae,8.2e-5,-2.20665663,reference
-Lankey,Stenoperla,6.4771e-5,-2.20665663,reference
-Lankey,Tanypodinae,9.7316e-5,-2.20665663,reference
-Lankey,Tipulidae,2.82802e-4,-2.20665663,reference
-Lankey,Zelandobius,7.7e-5,-2.20665663,reference
-Lankey,Zelandoperla,1.46605e-4,-2.20665663,reference
-Miller,Diamesinae,3.16167e-4,3.034074094,heavy_impact
-Miller,Oligochaetae,2.49e-5,3.034074094,heavy_impact
-Miller,Orthocladiinae,4.20223e-4,3.034074094,heavy_impact
-Miller,Mine,3.28256e-4,3.034074094,heavy_impact
-Miller,Ceratopogonidae,2.44867e-4,3.034074094,heavy_impact
-Miller,Diamesinae,3.73807e-4,3.034074094,heavy_impact
-Miller,Diptera,1.52111e-4,3.034074094,heavy_impact
-Miller,Elmidae,4.6127e-4,3.034074094,heavy_impact
-Miller,Orthocladiinae,2.71185e-4,3.034074094,heavy_impact
-Miller,Zelolessica,1.23e-5,3.034074094,heavy_impact
-Murray,Acari,1.74e-6,-2.9331589,reference
-Murray,Aoteapsyche,2.82798e-4,-2.9331589,reference
-Murray,Austroperla,1.38256e-4,-2.9331589,reference
-Murray,Austrosimulium,9.01e-5,-2.9331589,reference
-Murray,Beraeoptera,9.14e-6,-2.9331589,reference
-Murray,Blephariceridae,1.44178e-4,-2.9331589,reference
-Murray,Ceratopogonidae,2.5184e-4,-2.9331589,reference
-Murray,Coloburiscus,6e-5,-2.9331589,reference
-Murray,Copepoda,6.37e-6,-2.9331589,reference
-Murray,Cristaperla,5.3e-5,-2.9331589,reference
-Murray,Deleatidium,1.95653e-4,-2.9331589,reference
-Murray,Elmidae,5.53948e-4,-2.9331589,reference
-Murray,Empididae,1.08899e-4,-2.9331589,reference
+Lankey,Pycnocentrella,2.73E-05,-2.20665663,reference
+Lankey,Pycnocentria,9.16E-06,-2.20665663,reference
+Lankey,Pycnocentrodes,4.52E-06,-2.20665663,reference
+Lankey,Scirtidae,8.20E-05,-2.20665663,reference
+Lankey,Stenoperla,6.48E-05,-2.20665663,reference
+Lankey,Tanypodinae,9.73E-05,-2.20665663,reference
+Lankey,Tipulidae,2.83E-04,-2.20665663,reference
+Lankey,Zelandobius,7.70E-05,-2.20665663,reference
+Lankey,Zelandoperla,1.47E-04,-2.20665663,reference
+Miller,Diamesinae,3.16E-04,3.034074094,heavy_impact
+Miller,Oligochaetae,2.49E-05,3.034074094,heavy_impact
+Miller,Orthocladiinae,4.20E-04,3.034074094,heavy_impact
+Miller,Mine,3.28E-04,3.034074094,heavy_impact
+Miller,Ceratopogonidae,2.45E-04,3.034074094,heavy_impact
+Miller,Diamesinae,3.74E-04,3.034074094,heavy_impact
+Miller,Diptera,1.52E-04,3.034074094,heavy_impact
+Miller,Elmidae,4.61E-04,3.034074094,heavy_impact
+Miller,Orthocladiinae,2.71E-04,3.034074094,heavy_impact
+Miller,Zelolessica,1.23E-05,3.034074094,heavy_impact
+Mine,Ceratopogonidae,2.45E-04,3.616192694,heavy_impact
+Mine,Diamesinae,3.74E-04,3.616192694,heavy_impact
+Mine,Diptera,1.52E-04,3.616192694,heavy_impact
+Mine,Elmidae,4.61E-04,3.616192694,heavy_impact
+Mine,Orthocladiinae,2.71E-04,3.616192694,heavy_impact
+Mine,Zelolessica,1.23E-05,3.616192694,heavy_impact
+Murray,Acari,1.74E-06,-2.9331589,reference
+Murray,Aoteapsyche,2.83E-04,-2.9331589,reference
+Murray,Austroperla,1.38E-04,-2.9331589,reference
+Murray,Austrosimulium,9.01E-05,-2.9331589,reference
+Murray,Beraeoptera,9.14E-06,-2.9331589,reference
+Murray,Blephariceridae,1.44E-04,-2.9331589,reference
+Murray,Ceratopogonidae,2.52E-04,-2.9331589,reference
+Murray,Coloburiscus,6.00E-05,-2.9331589,reference
+Murray,Copepoda,6.37E-06,-2.9331589,reference
+Murray,Cristaperla,5.30E-05,-2.9331589,reference
+Murray,Deleatidium,1.96E-04,-2.9331589,reference
+Murray,Elmidae,5.54E-04,-2.9331589,reference
+Murray,Empididae,1.09E-04,-2.9331589,reference
 Murray,Hydraenidae,0.001866882,-2.9331589,reference
-Murray,Hydrobiosella,9.32702e-4,-2.9331589,reference
-Murray,Hydrobiosis,1.41512e-4,-2.9331589,reference
+Murray,Hydrobiosella,9.33E-04,-2.9331589,reference
+Murray,Hydrobiosis,1.42E-04,-2.9331589,reference
 Murray,Hydrochorema,0.003267885,-2.9331589,reference
-Murray,Nesameletus,8.8169e-4,-2.9331589,reference
-Murray,Oligochaetae,1.09e-5,-2.9331589,reference
-Murray,Olinga,5.22e-5,-2.9331589,reference
+Murray,Nesameletus,8.82E-04,-2.9331589,reference
+Murray,Oligochaetae,1.09E-05,-2.9331589,reference
+Murray,Olinga,5.22E-05,-2.9331589,reference
 Murray,Onychohydrus,0.002024038,-2.9331589,reference
-Murray,Orthocladiinae,3.03114e-4,-2.9331589,reference
-Murray,Ostracoda,9.65e-5,-2.9331589,reference
-Murray,Potamopyrgus,6.69e-6,-2.9331589,reference
-Murray,Pycnocentria,6.04e-6,-2.9331589,reference
+Murray,Orthocladiinae,3.03E-04,-2.9331589,reference
+Murray,Ostracoda,9.65E-05,-2.9331589,reference
+Murray,Potamopyrgus,6.69E-06,-2.9331589,reference
+Murray,Pycnocentria,6.04E-06,-2.9331589,reference
 Murray,Stenoperla,0.006151043,-2.9331589,reference
-Murray,Tanypodinae,7.72e-5,-2.9331589,reference
-Murray,Zelandobius,5.2375e-5,-2.9331589,reference
-One Horse Creek,Acari,4.22e-6,-1.739731364,reference
-One Horse Creek,Ameletopsis,2.03691e-4,-1.739731364,reference
+Murray,Tanypodinae,7.72E-05,-2.9331589,reference
+Murray,Zelandobius,5.24E-05,-2.9331589,reference
+One Horse Creek,Acari,4.22E-06,-1.739731364,reference
+One Horse Creek,Ameletopsis,2.04E-04,-1.739731364,reference
 One Horse Creek,Archichauliodes,0.002058396,-1.739731364,reference
-One Horse Creek,Austroperla,6.49565e-4,-1.739731364,reference
-One Horse Creek,Austrosimulium,4.9e-5,-1.739731364,reference
-One Horse Creek,Ceratopogonidae,3.62236e-4,-1.739731364,reference
-One Horse Creek,Chironominae,8.63061e-4,-1.739731364,reference
+One Horse Creek,Austroperla,6.50E-04,-1.739731364,reference
+One Horse Creek,Austrosimulium,4.90E-05,-1.739731364,reference
+One Horse Creek,Ceratopogonidae,3.62E-04,-1.739731364,reference
+One Horse Creek,Chironominae,8.63E-04,-1.739731364,reference
 One Horse Creek,Coloburiscus,0.001632689,-1.739731364,reference
-One Horse Creek,Costachorema,1.63405e-4,-1.739731364,reference
-One Horse Creek,Deleatidium,6.14428e-4,-1.739731364,reference
+One Horse Creek,Costachorema,1.63E-04,-1.739731364,reference
+One Horse Creek,Deleatidium,6.14E-04,-1.739731364,reference
 One Horse Creek,Diamesinae,0.001303463,-1.739731364,reference
-One Horse Creek,Elmidae,3.27328e-4,-1.739731364,reference
-One Horse Creek,Empididae,2.95738e-4,-1.739731364,reference
-One Horse Creek,Helicopsyche,2.11e-5,-1.739731364,reference
+One Horse Creek,Elmidae,3.27E-04,-1.739731364,reference
+One Horse Creek,Empididae,2.96E-04,-1.739731364,reference
+One Horse Creek,Helicopsyche,2.11E-05,-1.739731364,reference
 One Horse Creek,Hydraenidae,0.001344156,-1.739731364,reference
 One Horse Creek,Hydrophilidae,0.027291473,-1.739731364,reference
 One Horse Creek,Nesameletus,0.003589776,-1.739731364,reference
-One Horse Creek,Oligochaetae,1.34e-5,-1.739731364,reference
-One Horse Creek,Orthocladiinae,1.80339e-4,-1.739731364,reference
-One Horse Creek,Platyhelminthes,4.85e-5,-1.739731364,reference
-One Horse Creek,Potamopyrgus,1.25005e-4,-1.739731364,reference
-One Horse Creek,Psilochorema,5.95537e-4,-1.739731364,reference
+One Horse Creek,Oligochaetae,1.34E-05,-1.739731364,reference
+One Horse Creek,Orthocladiinae,1.80E-04,-1.739731364,reference
+One Horse Creek,Platyhelminthes,4.85E-05,-1.739731364,reference
+One Horse Creek,Potamopyrgus,1.25E-04,-1.739731364,reference
+One Horse Creek,Psilochorema,5.96E-04,-1.739731364,reference
 One Horse Creek,Stenoperla,0.009598703,-1.739731364,reference
 One Horse Creek,Tanypodinae,0.00115194,-1.739731364,reference
-One Horse Creek,Taraperla,1.84954e-4,-1.739731364,reference
-One Horse Creek,Zelandobius,1.21704e-4,-1.739731364,reference
-One Horse Creek,Zelolessica,6.99e-5,-1.739731364,reference
-One Horse Creek,Zephlebia,1.77472e-4,-1.739731364,reference
-Packtrack,Acari,4.43e-6,2.937278813,impact
-Packtrack,Diamesinae,3.82759e-4,2.937278813,impact
-Packtrack,Empididae,2.47512e-4,2.937278813,impact
-Packtrack,Orthocladiinae,2.19896e-4,2.937278813,impact
-Packtrack,Ostracoda,1.08475e-4,2.937278813,impact
-Packtrack,Portal,1.95661e-4,2.937278813,impact
-Packtrack,Acari,2.43e-6,2.937278813,impact
-Packtrack,Orthocladiinae,1.96305e-4,2.937278813,impact
-Stream X,Acari,3.78e-6,0.181370691,impact
-Stream X,Aoteapsyche,5.84e-6,0.181370691,impact
-Stream X,Beraeoptera,1.42e-5,0.181370691,impact
-Stream X,Diamesinae,8.7812e-5,0.181370691,impact
-Stream X,Ephemeroptera,1.57e-5,0.181370691,impact
-Stream X,Hydrochorema,4.91773e-4,0.181370691,impact
-Stream X,Leptophlebiidae,4.36e-5,0.181370691,impact
-Stream X,Oligochaetae,1.22e-5,0.181370691,impact
-Stream X,Orthocladiinae,8.1753e-4,0.181370691,impact
-Stream X,Plecoptera,3.62e-5,0.181370691,impact
-Stream X,Spaniocerca,6.72e-5,0.181370691,impact
-Stream X,Stenoperla,3.15e-5,0.181370691,impact
-Stream Y,Acari,1.44e-6,NA,NA
-Stream Y,Chironominae,4.62363e-4,NA,NA
-Stream Y,Copepod,1.22e-5,NA,NA
-Stream Y,Diamesinae,5.07918e-4,NA,NA
-Stream Y,Diptera,1.27414e-4,NA,NA
-Stream Y,Empididae,1.20879e-4,NA,NA
-Stream Y,Oligochaetae,1.61e-5,NA,NA
-Stream Y,Orthocladiinae,2.74338e-4,NA,NA
-Stream Y,Scirtidae,3.785e-6,NA,NA
-Sullivan East,Acari,1.69e-6,-3.660312877,reference
+One Horse Creek,Taraperla,1.85E-04,-1.739731364,reference
+One Horse Creek,Zelandobius,1.22E-04,-1.739731364,reference
+One Horse Creek,Zelolessica,6.99E-05,-1.739731364,reference
+One Horse Creek,Zephlebia,1.77E-04,-1.739731364,reference
+Packtrack,Acari,4.43E-06,2.937278813,impact
+Packtrack,Diamesinae,3.83E-04,2.937278813,impact
+Packtrack,Empididae,2.48E-04,2.937278813,impact
+Packtrack,Orthocladiinae,2.20E-04,2.937278813,impact
+Packtrack,Ostracoda,1.08E-04,2.937278813,impact
+Packtrack,Portal,1.96E-04,2.937278813,impact
+Packtrack,Acari,2.43E-06,2.937278813,impact
+Packtrack,Orthocladiinae,1.96E-04,2.937278813,impact
+Portal,Acari,2.43E-06,5.63745021,heavy_impact
+Portal,Orthocladiinae,1.96E-04,5.63745021,heavy_impact
+Stream X,Acari,3.78E-06,0.181370691,impact
+Stream X,Aoteapsyche,5.84E-06,0.181370691,impact
+Stream X,Beraeoptera,1.42E-05,0.181370691,impact
+Stream X,Diamesinae,8.78E-05,0.181370691,impact
+Stream X,Ephemeroptera,1.57E-05,0.181370691,impact
+Stream X,Hydrochorema,4.92E-04,0.181370691,impact
+Stream X,Leptophlebiidae,4.36E-05,0.181370691,impact
+Stream X,Oligochaetae,1.22E-05,0.181370691,impact
+Stream X,Orthocladiinae,8.18E-04,0.181370691,impact
+Stream X,Plecoptera,3.62E-05,0.181370691,impact
+Stream X,Spaniocerca,6.72E-05,0.181370691,impact
+Stream X,Stenoperla,3.15E-05,0.181370691,impact
+Stream Y,Acari,1.44E-06,5.239335222,heavy_impact
+Stream Y,Chironominae,4.62E-04,5.239335222,heavy_impact
+Stream Y,Copepod,1.22E-05,5.239335222,heavy_impact
+Stream Y,Diamesinae,5.08E-04,5.239335222,heavy_impact
+Stream Y,Diptera,1.27E-04,5.239335222,heavy_impact
+Stream Y,Empididae,1.21E-04,5.239335222,heavy_impact
+Stream Y,Oligochaetae,1.61E-05,5.239335222,heavy_impact
+Stream Y,Orthocladiinae,2.74E-04,5.239335222,heavy_impact
+Stream Y,Scirtidae,3.79E-06,5.239335222,heavy_impact
+Sullivan East,Acari,1.69E-06,-3.660312877,reference
 Sullivan East,Ameletopsis,0.004795843,-3.660312877,reference
-Sullivan East,Aoteapsyche,2.41e-6,-3.660312877,reference
-Sullivan East,Aphrophila,9.32626e-4,-3.660312877,reference
-Sullivan East,Austrosimulium,3.13e-6,-3.660312877,reference
-Sullivan East,Ceratopogonidae,3.75402e-4,-3.660312877,reference
-Sullivan East,Chironominae,1.44082e-4,-3.660312877,reference
-Sullivan East,Deleatidium,1.90053e-4,-3.660312877,reference
-Sullivan East,Diamesinae,2.02165e-4,-3.660312877,reference
-Sullivan East,Elmidae,1.9663e-4,-3.660312877,reference
+Sullivan East,Aoteapsyche,2.41E-06,-3.660312877,reference
+Sullivan East,Aphrophila,9.33E-04,-3.660312877,reference
+Sullivan East,Austrosimulium,3.13E-06,-3.660312877,reference
+Sullivan East,Ceratopogonidae,3.75E-04,-3.660312877,reference
+Sullivan East,Chironominae,1.44E-04,-3.660312877,reference
+Sullivan East,Deleatidium,1.90E-04,-3.660312877,reference
+Sullivan East,Diamesinae,2.02E-04,-3.660312877,reference
+Sullivan East,Elmidae,1.97E-04,-3.660312877,reference
 Sullivan East,Hydraenidae,0.001865751,-3.660312877,reference
-Sullivan East,Hydrobiosis,2.92e-5,-3.660312877,reference
-Sullivan East,Oligochaetae,1.89e-5,-3.660312877,reference
-Sullivan East,Orthocladiinae,3.82734e-4,-3.660312877,reference
-Sullivan East,Oxyethira,2.42e-5,-3.660312877,reference
-Sullivan East,Psilochorema,5.12458e-4,-3.660312877,reference
-Sullivan East,Zelandobius,1.55951e-4,-3.660312877,reference
-Sullivan West,Aoteapsyche,2.4e-5,2.400240868,impact
-Sullivan West,Austroclima,5.42643e-4,2.400240868,impact
-Sullivan West,Austrosimulium,9.53e-5,2.400240868,impact
-Sullivan West,Diamesinae,3.71017e-4,2.400240868,impact
+Sullivan East,Hydrobiosis,2.92E-05,-3.660312877,reference
+Sullivan East,Oligochaetae,1.89E-05,-3.660312877,reference
+Sullivan East,Orthocladiinae,3.83E-04,-3.660312877,reference
+Sullivan East,Oxyethira,2.42E-05,-3.660312877,reference
+Sullivan East,Psilochorema,5.12E-04,-3.660312877,reference
+Sullivan East,Zelandobius,1.56E-04,-3.660312877,reference
+Sullivan West,Aoteapsyche,2.40E-05,2.400240868,impact
+Sullivan West,Austroclima,5.43E-04,2.400240868,impact
+Sullivan West,Austrosimulium,9.53E-05,2.400240868,impact
+Sullivan West,Diamesinae,3.71E-04,2.400240868,impact
 Sullivan West,Hydraenidae,0.001660918,2.400240868,impact
-Sullivan West,Orthocladiinae,1.51343e-4,2.400240868,impact
-Sullivan West,Oxyethira,3.51e-5,2.400240868,impact
-Sullivan West,Pycnocentria,5.5e-5,2.400240868,impact
-Sullivan West,Zelandobius,6.44e-5,2.400240868,impact
-Sullivan West,Zelolessica,2.5e-5,2.400240868,impact
-Warne,Acari,3.87e-6,0.012318563,impact
-Warne,Aoteapsyche,9.04e-6,0.012318563,impact
-Warne,Austrosimulium,1.47044e-4,0.012318563,impact
-Warne,Ceratopogonidae,3.95283e-4,0.012318563,impact
-Warne,Coloburiscus,2.21014e-4,0.012318563,impact
-Warne,Deleatidium,6.90178e-4,0.012318563,impact
-Warne,Empididae,1.4985e-4,0.012318563,impact
+Sullivan West,Orthocladiinae,1.51E-04,2.400240868,impact
+Sullivan West,Oxyethira,3.51E-05,2.400240868,impact
+Sullivan West,Pycnocentria,5.50E-05,2.400240868,impact
+Sullivan West,Zelandobius,6.44E-05,2.400240868,impact
+Sullivan West,Zelolessica,2.50E-05,2.400240868,impact
+Warne,Acari,3.87E-06,0.012318563,impact
+Warne,Aoteapsyche,9.04E-06,0.012318563,impact
+Warne,Austrosimulium,1.47E-04,0.012318563,impact
+Warne,Ceratopogonidae,3.95E-04,0.012318563,impact
+Warne,Coloburiscus,2.21E-04,0.012318563,impact
+Warne,Deleatidium,6.90E-04,0.012318563,impact
+Warne,Empididae,1.50E-04,0.012318563,impact
 Warne,Hydraenidae,0.001016188,0.012318563,impact
-Warne,Hydrobiosis,7.33e-5,0.012318563,impact
-Warne,Orthocladiinae,2.1175e-4,0.012318563,impact
-Warne,Oxyethira,5.05e-5,0.012318563,impact
-Warne,Potamopyrgus,1.071e-5,0.012318563,impact
-Warne,Pycnocentria,1.36e-5,0.012318563,impact
-Warne,Spaniocercoides,3.73e-5,0.012318563,impact
-Warne,Stenoperla,3.3101e-4,0.012318563,impact
-Warne,Tanypodinae,2.84994e-4,0.012318563,impact
-Warne,Zelandobius,3.74e-5,0.012318563,impact
+Warne,Hydrobiosis,7.33E-05,0.012318563,impact
+Warne,Orthocladiinae,2.12E-04,0.012318563,impact
+Warne,Oxyethira,5.05E-05,0.012318563,impact
+Warne,Potamopyrgus,1.07E-05,0.012318563,impact
+Warne,Pycnocentria,1.36E-05,0.012318563,impact
+Warne,Spaniocercoides,3.73E-05,0.012318563,impact
+Warne,Stenoperla,3.31E-04,0.012318563,impact
+Warne,Tanypodinae,2.85E-04,0.012318563,impact
+Warne,Zelandobius,3.74E-05,0.012318563,impact
 Warne,Zephlebia,0.008592675,0.012318563,impact
-Mine,Ceratopogonidae,2.44867e-4,3.616192694,heavy_impact
-Mine,Diamesinae,3.73807e-4,3.616192694,heavy_impact
-Mine,Diptera,1.52111e-4,3.616192694,heavy_impact
-Mine,Elmidae,4.6127e-4,3.616192694,heavy_impact
-Mine,Orthocladiinae,2.71185e-4,3.616192694,heavy_impact
-Mine,Zelolessica,1.23e-5,3.616192694,heavy_impact
-Portal,Acari,2.43e-6,5.63745021,heavy_impact
-Portal,Orthocladiinae,1.96305e-4,5.63745021,heavy_impact

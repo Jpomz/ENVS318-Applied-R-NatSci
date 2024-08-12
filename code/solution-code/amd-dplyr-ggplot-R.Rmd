@@ -1,0 +1,111 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/amd-dplyr-ggplot-R.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+library(tidyverse)
+amd_bugs = read.csv(here::here("data/AMD_bugs_joined.csv"))
+
+```
+
+```{r}
+head(amd_bugs)
+```
+
+
+1. Summarize the data to get an average `mean_dm_g` for every site, and plot the data as a bar chart.   
+
+```{r}
+amd_bugs %>%
+  group_by(site) %>%
+  summarise(mean_dm = mean(mean_dm_g)) %>%
+  ggplot(aes(x = site, 
+             y = mean_dm)) +
+  geom_bar(stat = "identity")
+```
+
+2. Summarize the data to get an average `mean_dm_g` for each category, and plot the data as a bar chart. 
+
+```{r}
+amd_bugs %>%
+  group_by(category) %>%
+  summarise(mean_dm = mean(mean_dm_g)) %>%
+  ggplot(aes(x = category, 
+             y = mean_dm)) +
+  geom_bar(stat = "identity")
+```
+
+3. Summarize the data to get an average and a standard deviation (SD) `mean_dm_g` for each category, and plot the data as a bar chart with an errorbar. 
+
+```{r}
+amd_bugs %>%
+  group_by(category) %>%
+  summarise(mean_dm = mean(mean_dm_g),
+            sd_dm = sd(mean_dm_g)) %>%
+  ggplot(aes(x = category, 
+             y = mean_dm,
+             ymin = mean_dm - sd_dm,
+             ymax = mean_dm + sd_dm)) +
+  geom_bar(stat = "identity")+
+  geom_errorbar()
+```
+
+4. Modify the data to make a bar chart of the number of `taxa` in each category.  
+
+```{r}
+amd_bugs %>%
+  distinct(category, taxa) %>%
+  group_by(category) %>%
+  summarise(taxa_n = n()) %>%
+  ggplot(aes(x = category, 
+             y = taxa_n)) +
+  geom_bar(stat = "identity")
+```
+
+5. Modify the data to make a scatter point graph of the number of `taxa` for each values in the `pca1` column.  
+  * Make the size of the points = 3  
+  * Map color to pca1 and use `scale_color_viridis_c()`  
+  * run `?scale_color_viridis_c` to see what color `option`'s are available and choose one  
+
+```{r}
+amd_bugs %>%
+  distinct(pca1, taxa) %>%
+  group_by(pca1) %>%
+  summarise(taxa_n = n()) %>%
+  ggplot(aes(x = pca1, 
+             y = taxa_n,
+             color = pca1)) +
+  geom_point(size = 3) +
+  scale_color_viridis_c(option = "plasma",
+                        end = 0.8) +
+  theme_bw()
+```
+
+6. Modify the data to make a scatter point graph of the number of `taxa` for each values in the `pca1` column. This time, modify the code to include the `category` variable in your summary.    
+  * Make the size of the points = 3  
+  * Map color to `category` and use `scale_color_viridis_d()`  
+  * `scale_color_viridis_d` has the same color options. Choose the same option you used above.  
+  * set `direction = -1` to make the color pallette match above.   
+
+```{r}
+amd_bugs %>%
+  distinct(pca1, category, taxa) %>%
+  group_by(pca1, category) %>%
+  summarise(taxa_n = n()) %>%
+  ggplot(aes(x = pca1, 
+             y = taxa_n,
+             color = category)) +
+  geom_point(size = 3) +
+  scale_color_viridis_d(option = "plasma",
+                        direction = -1,
+                        end = 0.8) +
+  theme_bw()
+```

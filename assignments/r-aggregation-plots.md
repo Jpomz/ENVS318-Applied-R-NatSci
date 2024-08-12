@@ -3,8 +3,8 @@ layout: page
 element: assignment
 title: dplyr + ggplot
 language: R
-exercises: ['Portal Data Aggregation', 'Shrub Volume Aggregation', 'Data Join Aggregation ggplot']
-points: [10, 10, 10]
+exercises: ['Portal Data Aggregation', 'Shrub Volume Aggregation', 'Data Join Aggregation ggplot', 'Data Join Aggregation ggplot']
+points: [10, 10, 10, 10]
 ---
 
 ### Learning Objectives
