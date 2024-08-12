@@ -38,3 +38,5 @@ For Instructors
 The material is designed to be modify and remixed to create your own 
 courses. Collaborative development and contributions by 
 are welcome. 
+
+All the source files for this iteration of the course can be found at [Justin Pomeranz's GitHub page](https://github.com/Jpomz/ENVS396-FA-2024).

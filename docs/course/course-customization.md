@@ -4,10 +4,12 @@ topic: Help
 title: Customizing the Course for Your Needs
 ---
 
+All the source files for this iteration of the course can be found at [Justin Pomeranz's GitHub page](https://github.com/Jpomz/ENVS396-FA-2024). 
+
 The website is setup to be easy to run automatically through [GitHub](http://github.com):
 
 - [Fork]({{ site.baseurl }}/docs/course/forking-the-course) 
-   or [import](https://import.github.com/) the repository to 
+   or import the repository to 
    `https://github.com/yourusername/semester-biology`.
    - You may change the `Repository name` (`semester-biology`) from the 
      `Settings` tab.
