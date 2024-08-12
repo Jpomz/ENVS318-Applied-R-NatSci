@@ -4,7 +4,7 @@ topic: Help
 title: Forking the Course
 ---
 
-[Forking](https://help.github.com/articles/fork-a-repo/) the [repository]({{ site.github.repo }}) using [GitHub](http://github.com) generates a copy of the repository at `https://yourusername.github.io/semester-biology`.
+[Forking](https://help.github.com/articles/fork-a-repo/) the [repository]({{ site.github.repo }}) using [GitHub](http://github.com) generates a copy of the repository at `https://yourusername.github.io/ENVS396-FA-2024`.
 
 - Follow the [steps provided by GitHub](https://help.github.com/articles/fork-a-repo/) to fork the repository.
 
