@@ -14,6 +14,7 @@ title: List of datasets
 | AMD bugs 01 | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_bugs_01.csv>|
 | AMD bugs 02 | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_bugs_02.csv>|
 | AMD gradient | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_gradient.csv>|
+| AMD bugs joined | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/AMD_bugs_joined.csv>|
 | Portal all | SQLite | <https://ndownloader.figshare.com/files/11188550> |
 | Shrub dimensions | csv | <http://www.datacarpentry.org/semester-biology/data/shrub-dimensions-labeled.csv> |
 | Gainesville precipitation | csv | <http://www.datacarpentry.org/semester-biology/data/gainesville-precip.csv> |
