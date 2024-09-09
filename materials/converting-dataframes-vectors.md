@@ -17,14 +17,26 @@ language: R
 
 * There are several ways to extract a vector from a data frame
 * Let's look at these using the Portal data
-* We'll start by loading the `surveys` table into R
+* We'll start by loading the `surveys` table into R and looking at the `head()`  
 
 ```r
-surveys <- read.csv("surveys.csv")
+surveys <- read.csv("data/surveys.csv")
+head(surveys)
 ```
 
+#### Extracting values based on position  
+
 * One common approach to extracting a column into a vector is to use the `[]`
-* Remember that `[]` also mean "give me a piece of something"
+* Remember that `[]` also mean "give me a piece of something"  
+* The order inside of the `[]` is `rows`, and `columns`.   
+* so if we wanted the item in the first row and the second column we would write:  
+
+```
+surveys[1, 2]
+```
+
+#### Extracting columns by name  
+
 * Let's get the `species_id` column
 * `"species_id"` has to be in quotes because we we aren't using `dplyr`
 
@@ -33,7 +45,7 @@ surveys["species_id"]
 ```
 
 * This actually returns a one column data frame, not a vector
-* To extract a single column as a vector we use two sets of `[]`
+* To extract a single column as a vector we use two sets of `[[ ]]`
 * Think of the second set of `[]` as getting the single vector from inside the one column data frame
 
 ```r
@@ -48,6 +60,19 @@ surveys[["species_id"]]
 
 ```r
 surveys$species_id
+```
+
+* finally, we can extract one column as a vector by using the `,` and leaving the `rows` section empty  
+
+```
+surveys[,"species_id"]
+```
+
+* Think of this as "give me all rows in the column "species_id" "  
+* we can do this by column name (above) or by column position.  
+
+```
+surveys[,6]
 ```
 
 > Do [Extracting vectors from data frames]({{ site.baseurl }}/exercises/extracting-vectors-from-data-frames-R/).
