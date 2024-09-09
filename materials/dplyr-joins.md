@@ -23,9 +23,9 @@ time: 30
 ```r
 library(dplyr)
 
-surveys <- read.csv("surveys.csv")
-species <- read.csv("species.csv")
-plots <- read.csv("plots.csv")
+surveys <- read.csv("data/surveys.csv")
+species <- read.csv("data/species.csv")
+plots <- read.csv("data/plots.csv")
 ```
 
 * In the Portal dataset
