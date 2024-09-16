@@ -17,12 +17,10 @@ points: [20, 20, 20, 20, 20, optional]
 
 {% include reading.html %}
 
-Place this code at the start of the assignment to load all the required packages.
+Place this code at the start of the assignment to load the `tidyverse`. The `tidyverse` is a large suite of packages. This assignment will specifically be using the `ggplot2`, `dplyr` and `readr` packages.
 
 ```r
-library(dplyr)
-library(ggplot2)
-library(readr)
+library(tidyverse)
 ```
 
 {% include assignment.html %}
