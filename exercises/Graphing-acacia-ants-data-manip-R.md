@@ -7,12 +7,11 @@ language: R
 
 An experiment in Kenya has been exploring the influence of large herbivores on plants.
 
-Check to see if `TREE_SURVEYS.txt` is in your workspace.
-If not, [download `TREE_SURVEYS.txt`](https://ndownloader.figshare.com/files/5629536).
+Download the [`TREE_SURVEYS.txt` (link)](https://ndownloader.figshare.com/files/5629536) file and put it in your `data` folder.
 Use `read_tsv` from the `readr` package to read in the data using the following command:
 
 ```r
-trees <- read_tsv("TREE_SURVEYS.txt",
+trees <- read_tsv("data/TREE_SURVEYS.txt",
                   col_types = list(HEIGHT = col_double(),
                                    AXIS_2 = col_double()))
 ```
