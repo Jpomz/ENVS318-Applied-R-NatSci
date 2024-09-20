@@ -65,14 +65,14 @@ acacia <- read.csv("ACACIA_DREPANOLOBIUM_SURVEY.txt", sep="\t", na.strings = c("
 * Good plots quickly
 * Declarative - describe what you want not how to build it
 * Contrasts w/Imperative - how to build it step by step
-* Install `ggplot2` using `install.packages`
+* `ggplot2` is part of the `tidyverse`
   
 ### Basics
 
-* We load the `ggplot2` package just like we loaded `dplyr` 
+* When we load the `tidyverse`, `ggplot2` is also loaded  
 
 ```r
-library(ggplot2)
+library(tidyverse)
 ```
 
 * We'll also load the UHURU like we discussed in the video on the dataset

@@ -32,17 +32,17 @@ head(gradient)
 ```
 
 * The `bugs_01` object has information on the site, the taxa and the mean dry mass (in grams).  
-* The `gradient` object has a column for site, pca1 (a continuous measure of AMD impacts), and a category column which broadly groups the sites into reference, impact, and heavily impacted.  
+* The `gradient` object has a column for `site`, `pca1` (a continuous measure of AMD impacts), and a `category` column which broadly groups the sites into reference, impact, and heavily impacted.  
 * you can probably guess that we want to add the gradient information to the biological information based on the `site` column.  
 
 * let's first try it as-is using `left_join()`  
-* Recall that left_join()` keeps all the data from the first table, whether or not it has a match in the second table  
+* Recall that `left_join()` keeps all the data from the first table, whether or not it has a match in the second table  
 
 ```
 left_join(bugs_01, gradient)
 ```
 
-* Notice that the new table has `NA`s for the site `"Burnet Tributary".  
+* Notice that the new table has `NA`s for the site `"Burnet Tributary"`.  
 * Let's look at all the values for `site` in both tables  
 
 ```
@@ -112,8 +112,8 @@ gradient |>
 
 ```
 gradient |> # our original table
-    mutate(site = # We are overwriting the entire `site` column
-          case_when( # specifying that we only want to change certain values
+    mutate(site = # overwriting the entire `site` column
+          case_when( # we only want to change certain values
               site == "Burnet_Trib" ~ # value to search for
                   "Burnet Tributary", # replacement
               .default = site)) # for all values that don't match above, keep site the same
