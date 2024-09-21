@@ -9,7 +9,7 @@ Larger organisms have larger offspring. We want to explore the form of this
 relationship in mammals.
 
 Check to see if `Mammal_lifehistories_v2.txt` is in your working directory.
-If not [download it](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/Mammal_lifehistories_v2.csv){:target="_blank"} it to your `data/` folder. If the above link doesn't work, you can find the data on the [datasets]({{ site.baseurl }}/materials/datasets) page under Mammal life history. 
+If not [download it](https://jpomz.github.io/ENVS396-FA-2024/data/Mammal_lifehistories_v2.csv) it to your `data/` folder. If the above link doesn't work, you can find the data on the [datasets]({{ site.baseurl }}/materials/datasets) page under Mammal life history. 
 
 Missing data in this file is specified by `-999` and `-999.00`. Tell R that
 these are null values using the optional `read.csv()` argument,
