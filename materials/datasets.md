@@ -23,7 +23,7 @@ title: List of datasets
 | UHURU tree survey | tsv | <https://ndownloader.figshare.com/files/5629536> |
 | Mammal masses | tsv | <https://ndownloader.figshare.com/files/5593343> |
 | SQL practice | SQLite | <http://www.datacarpentry.org/semester-biology/data/sql-practice.sqlite> |
-| Mammal life history | csv | [GitHub](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Jpomz/ENVS396-FA-2023/blob/main/data/Mammal_lifehistories_v2.csv){:target="_blank"} |
+| Mammal life history | csv | <https://jpomz.github.io/ENVS396-FA-2024/data/Mammal_lifehistories_v2.csv> |
 | Bird size | tsv | <https://esapubs.org/archive/ecol/E088/096/avian_ssd_jan07.txt> |
 | Example project | zip | <http://www.datacarpentry.org/semester-biology/data/example_project.zip> |
 | Fish scale length | csv | <https://lter.limnology.wisc.edu/sites/default/files/Gaeta_etal_CLC_data.csv> |
