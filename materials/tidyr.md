@@ -13,12 +13,10 @@ language: SQL
 
 * Unfortunately lots of existing data doesn't follow these rules
 * Need to convert them to this tidy structure for analysis
-* Use a package called `tidyr`
+* Use a package called `tidyr`, which is included in the `tidyverse`
 
 ```r
-install.packages("tidyr")
-library(tidyr)
-library(dplyr)
+library(tidyverse)
 ```
 
 ### Pivot data from wide to long
@@ -115,16 +113,20 @@ clean_data <- raw_data %>%
 * This attempts to convert the values from characters to their actual type
 * This is a good addition when extracting numbers because then you can work with the column as numbers
 
+> Do Tasks 1-5 in [Tree Biomass]({{ site.baseurl }}/exercises/Tidyr-tree-biomass-R).
+
 ### Separate
 
-* Genus and species information are combined in a single column
-* `separate()`
-    * Separates multiple values in single column
+* Genus and species information are combined in a single column  
+* the first 4 letters are the genus code, and the second set of 4 letters are the specific epithet (species) code.  
+* We will use the `separate()` function
+    * Separates values from one column into 2+
     * Arguments:
         * `data.frame`
         * Column name
         * New column names
-        * Separator value, character, or position
+        * Separator value, character, or position  
+          * In this case, we will separate at position = 4
 
 ```r
 clean_data <- raw_data %>%
