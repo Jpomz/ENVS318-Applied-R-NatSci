@@ -1,0 +1,74 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/Tidyr-tree-biomass-R.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+library(tidyverse)
+raw_data = read.csv(
+  "http://jpomz.github.io/ENVS396-FA-2024/data/Macroplot_data_Rev.txt",
+  sep = "\t")
+
+```
+
+
+1. Use the data pipeline (including `mutate()` and `pivot_longer()`) we developed in class to create a longer data frame with one row for each measured stem. Use dplyr's `filter` function to remove all of the girths that are zero and use `extract()` to get the stem number, making sure to `convert = TRUE` to make it a number class. Store this longer data frame as an object called `clean_data`, and display the result in your console.  
+```{r}
+clean_data <- raw_data %>%
+  mutate(treeid = 1:nrow(raw_data)) %>%
+  pivot_longer(TreeGirth1:TreeGirth5, names_to = "stem", values_to = "girth") %>%
+  filter(girth != 0) %>%
+  extract(stem, 'stem', 'TreeGirth(.)', convert = TRUE)
+clean_data |>
+  head()
+```
+
+2. Stems are measured in girth (*i.e., circumference*) rather than diameter.
+   Use `mutate()` to convert girth to diameter using the following formula: `diameter = circumference / pi` and print the results in your console.    
+```{r}
+clean_data %>%
+  mutate(
+    diameter = girth / pi) |>
+  head()
+```
+
+3. Add another line to your `mutate()` function which calculates tree mass from the new diameter column you made according to the following equation: `mass = 0.124 * diameter^2.53`. Save this new data frame as `tree_mass` and print the results to the console. 
+```{r}
+tree_mass <- clean_data %>%
+  mutate(
+    diameter = girth / pi,
+    mass = 0.124 * diameter^2.53) 
+tree_mass |>
+  head()
+```
+
+4. Estimate the total biomass by summing the mass of all of the stems in the `tree_mass` data.
+```{r}
+sum(tree_mass$mass)
+```
+
+5. The `SpCode` column contains information on the genus and specific epithet (species). Use `separate()` on the `SpCode` column to make a `GenusCode` and `SpEpCode` columns by separating them at position 4. Then use `group_by` and `summarize` to calculate the total biomass for each unique `GenusCode`.
+```{r}
+tree_mass %>%
+  separate(SpCode, c("GenusCode", "SpEpCode"), 4) %>%
+  group_by(GenusCode) %>%
+  summarize(biomass = sum(mass))
+```
+
+6. Use ggplot to make a histogram of the `diameter` values in your `tree_mass` object. Make the x label `"Diameter [cm]` and the y label `"Number of Stems"`
+
+```{r}
+ggplot(tree_mass,
+       aes(x = diameter)) +
+  geom_histogram() +
+  xlab("Diameter [cm]") +
+  ylab("Number of stems")
+```
+
