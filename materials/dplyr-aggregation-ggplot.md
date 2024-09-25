@@ -132,6 +132,10 @@ survey_plots %>%
   scale_fill_viridis_d()
 ```
 
+* note that `scale_fill_viridis_d()` is for discrete data. i.e., each genus is a discrete value.  
+* there is also `scale_fill_viridis_c()` when your grouping variable is continuous (i.e. a number).  
+* If you want the color to change instead of the fill, you can use `scale_color_viridis_d()` and `scale_color_viridis_c()` for discrete and continuous variables. 
+
 * this makes it (a little) easier to see that the genus *Spermophilus* is lost in some treatments  
 
 * Some other options in viridis  
@@ -146,6 +150,16 @@ survey_plots %>%
   geom_bar(stat = "identity") +
   scale_fill_viridis_d(option = "magma")
 ```
+
+* scale options are: 
+  * "magma" (or "A")
+  * "inferno" (or "B")
+  * "plasma" (or "C")
+  * "viridis" (or "D")
+  * "cividis" (or "E")
+  * "rocket" (or "F")
+  * "mako" (or "G")
+  * "turbo" (or "H")
 
 * Plot mean weight by year and plot type
 
