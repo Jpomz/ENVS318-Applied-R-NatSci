@@ -9,7 +9,7 @@ office: 230E Wubben Science
 email: jpomeranz@coloradomesa.edu
 schedule: ['MWF, 1:00-1:50 pm MT']
 location: Wubben Science (WS) 245
-office_hours: ['MWF, 11:00-11:50 am MT'] 
+office_hours: ['MWF, 2:00-2:50 pm MT'] 
 office_hours_location: 230E Wubben Science
 ---
 
