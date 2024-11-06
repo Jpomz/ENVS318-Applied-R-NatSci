@@ -183,9 +183,11 @@ masses_apply <- mapply(est_mass, volumes, a, b)
 * Let's download some simulated satellite collar data
 
 ```r
-download.file("http://www.datacarpentry.org/semester-biology/data/locations.zip",
-              "locations.zip")
-unzip("locations.zip")
+download.file(
+  "https://jpomz.github.io/ENVS396-FA-2024/data/locations.zip",
+              destfile = "data/locations.zip")
+
+unzip("data/locations.zip", exdir = "data")
 ```
 
 * Now we need to get the names of each of the files we want to loop over
@@ -194,13 +196,22 @@ unzip("locations.zip")
 
 ```r
 list.files()
+list.files("data")
 ```
 
 * But we just want the data files so we'll add the optional `pattern` argument to only get the files that start with `"locations-"`
 
 
 ```r
-data_files = list.files(pattern = "locations-")
+list.files("data", pattern = "locations-")
+```
+
+* Since the files are in our "data/" folder, we want the full name.
+
+```r
+data_files <- list.files("data",
+                         pattern = "locations-",
+                         full.names = TRUE)
 ```
 
 * Once we have this list we can loop over it count the number of observations in each file
