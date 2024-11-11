@@ -13,6 +13,7 @@ date_02 <- "02-15-2019"
 date_03 <- "22-01-2002"
 date_04 <- "May 4th 1977"
 date_05 <- "03-July-1901"
+date_06 <- mdy("06-08-2024")
 ```
 
 1. Convert `date_01` into a `Date` class object.  
@@ -20,17 +21,10 @@ date_05 <- "03-July-1901"
 3. Convert `date_03` into a `Date` class object. 
 4. Convert `date_04` into a `Date` class object. 
 5. Convert `date_05` into a `Date` class object. 
-
-Copy the following object into your assignment.  
-
-```
-date_06 <- mdy("06-08-2024")
-```
-
 6. Extract the year information from `date_06`  
 7. Extract the month information from `date_06`   
 8. Extract the day information from `date_06`  
-9. Extract the day of the year (`yday`) information from `date_06`   
+9. Extract the day of the year (`yday`) information from `date_06`
 10.Extract the week day information from `date_06`  
 
 11. Calculate how many days old you are.  
