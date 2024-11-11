@@ -8,12 +8,23 @@ language: R
 Cut and paste the following objects into your assignment. Then use code to answer the following questions. 
 
 ```
+# problems 1.1-1.10
 date_01 <- "2019-07-28"
 date_02 <- "02-15-2019"
 date_03 <- "22-01-2002"
 date_04 <- "May 4th 1977"
 date_05 <- "03-July-1901"
 date_06 <- mdy("06-08-2024")
+
+# problem 1.12
+date_table <- data.frame(
+  month = c(10, 11, 6, 1, 8, 4),
+  day = c(17, 28, 19, 30, 10, 14),
+  year = c(2003, 2002, 1995, 2022, 2007, 2016)
+)
+
+#problem 1.13-1.14
+neon <- read.csv("data/NEON_Harvardforest_datetime.csv")
 ```
 
 1. Convert `date_01` into a `Date` class object.  
@@ -32,23 +43,9 @@ date_06 <- mdy("06-08-2024")
   * Use R commands to calculate todays date.  
   * Subtract `bday` from todays date. 
 
-
-Copy the following table of information into your assignment.  
-```
-date_table <- data.frame(
-  month = c(10, 11, 6, 1, 8, 4),
-  day = c(17, 28, 19, 30, 10, 14),
-  year = c(2003, 2002, 1995, 2022, 2007, 2016)
-)
-``` 
-
 12. Modify the `date_table` object to have a `date` column which is in the proper `Date` format and print it out on the screen.  
 
 Make sure the the [`NEON_Harvardforest_datetime.csv (link)`](https://jpomz.github.io/ENVS396-FA-2024/data/NEON_Harvardforest_datetime.csv) object is in your `data/` folder and load it into your assignment.  
-
-```
-neon <- read.csv("data/NEON_Harvardforest_datetime.csv")
-```
 
 13. Make a plot of the 15-minute temperature readings through time.  
   * You will first need to convert the `datetime` column to be in the proper format.  
