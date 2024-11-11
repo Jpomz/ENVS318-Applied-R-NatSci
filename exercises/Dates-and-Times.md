@@ -12,7 +12,7 @@ Cut and paste the following objects into your assignment. Then use code to answe
 date_01 <- "2019-07-28"
 date_02 <- "02-15-2019"
 date_03 <- "22-01-2002"
-date_04 <- "May 4th 1977"
+date_04 <- "May 4 1977"
 date_05 <- "03-July-1901"
 date_06 <- mdy("06-08-2024")
 

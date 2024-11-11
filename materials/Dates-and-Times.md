@@ -169,7 +169,6 @@ ggplot(daily,
 ```{r}
 test_date = "07-28-1977"
 as.Date(test_date)
-
 ```
 
 > Error in charToDate(x) : 
@@ -177,12 +176,18 @@ as.Date(test_date)
 
 * `as.Date()` can read other formats, we just have to tell it what we're giving it.  
 
-%d = day of month
-%m = numeric month
-%b = abbreviated month name
-%B = full month name
-%y = two digit year
-%Y = 4 digit year
+* `%d` = day of month  
+
+* `%m` = numeric month  
+
+* `%b` = abbreviated month name  
+
+* `%B` = full month name  
+
+* `%y` = two digit year  
+
+* `%Y` = 4 digit year  
+
 
 
 * What is the format of our `test_date`?  
@@ -190,6 +195,23 @@ as.Date(test_date)
 
 ```{r}
 as.Date(test_date, format = "%m-%d-%Y")
+```
+
+* Use appropriate `%_` code above for input format  
+* match spacing/separation of date pieces in `format` quotes  
+* i.e., `07 28 1977` would have `format = "%m %d %Y"`
+
+> Convert the following objects to date format
+
+```{r}
+test_date2 = "July 28, 1977"
+as.Date(test_date2, format = "%B %d, %Y")
+
+test_date3 = "77Apr01"
+as.Date(test_date3, format = "%y%b%d"")
+
+test_date4 = "2024, 25-12"
+as.Date(test_date4, format = "%Y, %d-%m")
 ```
 
 * Because R now knows that the dates are and their relationship between each other, you can do things like ask R to tell you the difference between two adjacent values in your date column.
@@ -210,8 +232,21 @@ daily |>
   filter(asdate.date > "2004-12-31")
 
 ```
+* `>` means dates after or later than given date.  
+* `<` means dates before or previous  
 
 * The full data object has 1785 rows, and the filtered data set only has 365 - one year of daily observations in 2006  
+
+* Plot just the data for 2004  
+
+```{r}
+daily |> 
+  filter(asdate.date > "2003-12-31", 
+          asdate.date < "2005-01-01") |>
+  ggplot(aes(x = asdate.date, y = airt)) +
+  geom_point()
+
+```
 
 * If you have automated data, like from a sensor or weather station, you may also have a time associated with your date.   
 * Let's look at the higher frequency data from the NEON site.
