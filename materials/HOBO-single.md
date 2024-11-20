@@ -229,7 +229,8 @@ hobo_daily
 
 * We could do the same thing to calculate yearly means  
 * Remove the `month` and `day` argument from the `group_by()` function.  
-# Rename the summary columns to reflect yearly values  
+* Rename the summary columns to reflect yearly values  
+
 
 ```
 hobo_yearly <- hobo2 %>% 
