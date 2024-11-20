@@ -6,6 +6,9 @@ language: R
 ---
 
 On Assignment Page, click on the "1. Final project (100 pts)" link to go to a correctly formatted assignment.  
+\
+\
+\
 
 **Overview**  
 
