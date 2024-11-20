@@ -5,11 +5,6 @@ title: Final project
 language: R
 ---
 
-On Assignment Page, click on the "1. Final project (100 pts)" link to go to a correctly formatted assignment.  
-\
-\
-\
-
 **Overview**  
 
 For your final project, you will be going through one of the typical data analysis procedures. This project incorporates many of the  concepts and tasks we've learned throughout the semester including:  
