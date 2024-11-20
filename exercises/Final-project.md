@@ -5,7 +5,7 @@ title: Final project
 language: R
 ---
 
-### Overview  
+**Overview**  
 
 For your final project, you will be going through one of the typical data analysis procedures. This project incorporates many of the  concepts and tasks we've learned throughout the semester including:  
 * Reading in many data files with a for loop  
@@ -18,7 +18,7 @@ For your final project, you will be going through one of the typical data analys
   * Grouping and Summarizing data  
 * and finally, Plotting your results  
 
-### Data background  
+**Data background**  
 
 You will be working with a real data set from a former CMU student's independent research project. The student deployed temperature loggers at a site in the Colorado National Monument. The hypothesis was that a sheltered canyon created a microclimate suitable for Ponderosa Pines (*Pinus ponderosa*) to survive. They deployed a number of HOBO temperature loggers in the Ponderosa grove as well as near an adjacent valley for comparison. 
 
@@ -26,7 +26,7 @@ The loggers were deployed for a few months at a time and then returned to the la
 
 Your final assignment is to work with this data to re-create two of the plots (see below) from their completed project. 
 
-### Setup  
+**Setup**  
 
 You will need to load necessary libraries (at a minimum, the `tidyverse`). You will also need to download the final project data from the website. Copy, paste, and run the following code in your assignment.  
 
@@ -46,7 +46,7 @@ After running the above code, make sure that:
 * Note that there is only part_2, part_3, or part_4, and not all loggers have all parts (some loggers malfunctioned or were lost in the field).  
 * The `HOBO_file_metadata.csv` object has information related to the files in the  `HOBO_files/` folder including relating the filename to the datalogger, and the site information.  
 
-### Assignment  
+**Assignment**  
 
 Your assignment is to create the following two figures.  
 ![Figure 1.]({{ site.baseurl }}/exercises/final_fig_01.png)
