@@ -171,6 +171,8 @@ hobo %>%
 
 ### Summarizing the data  
 
+#### Daily means  
+
 * Let's simplify the data object to only have the default HOBO logger time format  
 * We will also overwrite the column with the correct date-time format  
 * I will also save it as a `tibble()` for ease of future use  
@@ -206,30 +208,57 @@ hobo2
 * If you had multiple days or years in your data, you would want to carefully consider how to group your data and to format the dates after calculation  
 
 ```
-hobo_monthly <- hobo2 %>% 
+hobo_daily <- hobo2 %>% 
   group_by(year, month, day) %>%
-  summarize(monthly_mean = mean(temperature),
-            monthly_sd = sd(temperature))
-hobo_monthly
+  summarize(daily_mean = mean(temperature),
+            daily_sd = sd(temperature))
+hobo_daily
 ```
 
 * Now we have our summary statistics and our date, but the date information is in three separate numeric columns  
 * we can use the `make_date()` function from `lubridate` to combine this information back into a date  
 
 ```
-hobo_monthly <- hobo_monthly %>%
+hobo_daily <- hobo_daily %>%
   mutate(date = make_date(year, month, day))
-hobo_monthly
+hobo_daily
 ```
+
+
+#### Yearly means  
+
+* We could do the same thing to calculate yearly means  
+* Remove the `month` and `day` argument from the `group_by()` function.  
+# Rename the summary columns to reflect yearly values  
+
+```
+hobo_yearly <- hobo2 %>% 
+  group_by(year) %>%
+  summarize(yearly_mean = mean(temperature),
+            yearly_sd = sd(temperature)) %>%
+  mutate(date = make_date(year))
+hobo_yearly
+```
+
+
+#### Monthly means  
+
+* For practice, modify the code to calculate monthly means.  
+
+* In this case, the summary will be the same because as the daily means becasue there is only data from a single day in each month  
+
+### Plotting summaries  
+
+#### Daily  
 
 * Now we can plot our results using `ggplot()`  
 
 ```
-hobo_monthly %>%
+hobo_daily %>%
   ggplot(aes(x = date, 
-             y = monthly_mean, 
-             ymin = monthly_mean - monthly_sd,
-             ymax = monthly_mean +monthly_sd)) +
+             y = daily_mean, 
+             ymin = daily_mean - daily_sd,
+             ymax = daily_mean +daily_sd)) +
   geom_pointrange()
 ```
 
@@ -237,15 +266,15 @@ hobo_monthly %>%
 * in the y-axis label we want the "plus-minus" sign and we can add it using unicode character: `\u00B1`  
 
 ```
-hobo_monthly %>%
+hobo_daily %>%
   ggplot(aes(x = date, 
-             y = monthly_mean, 
-             ymin = monthly_mean - monthly_sd,
-             ymax = monthly_mean +monthly_sd,
+             y = daily_mean, 
+             ymin = daily_mean - daily_sd,
+             ymax = daily_mean +daily_sd,
              color = date)) +
   geom_pointrange() +
   labs(x = "Date",
-       y = "Monthly mean \u00B1 1 SD") +
+       y = "Daily mean \u00B1 1 SD") +
   theme_bw()
 ```
 
@@ -253,15 +282,15 @@ hobo_monthly %>%
 * We can use distinct colors by adding the `as.factor()` command.  
 
 ```
-hobo_monthly %>%
+hobo_daily %>%
   ggplot(aes(x = date, 
-             y = monthly_mean, 
-             ymin = monthly_mean - monthly_sd,
-             ymax = monthly_mean +monthly_sd,
+             y = daily_mean, 
+             ymin = daily_mean - daily_sd,
+             ymax = daily_mean +daily_sd,
              color = as.factor(date))) +
   geom_pointrange() +
   labs(x = "Date",
-       y = "Monthly mean \u00B1 1 SD") +
+       y = "Daily mean \u00B1 1 SD") +
   theme_bw()
 ```
 
@@ -269,15 +298,15 @@ hobo_monthly %>%
 * we can deal with this by renaming the legend title:
 
 ```
-hobo_monthly %>%
+hobo_daily %>%
   ggplot(aes(x = date, 
-             y = monthly_mean, 
-             ymin = monthly_mean - monthly_sd,
-             ymax = monthly_mean +monthly_sd,
+             y = daily_mean, 
+             ymin = daily_mean - daily_sd,
+             ymax = daily_mean +daily_sd,
              color = as.factor(date))) +
   geom_pointrange() +
   labs(x = "Date",
-       y = "Monthly mean \u00B1 1 SD") +
+       y = "Daily mean \u00B1 1 SD") +
   theme_bw() +
   guides(color=guide_legend(title="Date"))
 ```
@@ -285,15 +314,34 @@ hobo_monthly %>%
 * ... or we can get rid of it since the date is already in the x-axis  
 
 ```
-hobo_monthly %>%
+hobo_daily %>%
   ggplot(aes(x = date, 
-             y = monthly_mean, 
-             ymin = monthly_mean - monthly_sd,
-             ymax = monthly_mean +monthly_sd,
+             y = daily_mean, 
+             ymin = daily_mean - daily_sd,
+             ymax = daily_mean +daily_sd,
              color = as.factor(date))) +
   geom_pointrange() +
   labs(x = "Date",
-       y = "Monthly mean \u00B1 1 SD") +
+       y = "Daily mean \u00B1 1 SD") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+```
+
+#### Yearly  
+
+* For practice, modify the final `ggplot()` code above to plot the yearly means.  
+
+```
+hobo_yearly %>%
+  ggplot(aes(x = date, 
+             y = yearly_mean, 
+             ymin = yearly_mean - yearly_sd,
+             ymax = yearly_mean + yearly_sd,
+             color = as.factor(date))) +
+  geom_pointrange() +
+  labs(x = "Date",
+       y = "Yearly mean \u00B1 1 SD") +
   theme_bw() +
   theme(legend.position = "none")
 
