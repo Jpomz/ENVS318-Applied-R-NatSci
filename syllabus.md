@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Syllabus
-catalog: ENVS 396-001 
+catalog: ENVS 318 
 credits: 3
-semester: Fall 2024
+semester: Fall 2025
 professor: Dr. Justin Pomeranz (he/him)
 office: 230E Wubben Science
 email: jpomeranz@coloradomesa.edu
-schedule: ['MWF, 1:00-1:50 pm MT']
+schedule: ['MWF, 11:00-11:50 pm MT']
 location: Wubben Science (WS) 245
 office_hours: ['MWF, 2:00-2:50 pm MT'] 
 office_hours_location: 230E Wubben Science
@@ -52,7 +52,7 @@ hours in advance.*
 ### Website
 
 The syllabus and other relevant class information and resources will be
-posted at [https://jpomz.github.io/ENVS396-FA-2024/](https://jpomz.github.io/ENVS396-FA-2024/). Changes to
+posted at [https://jpomz.github.io/ENVS318/](https://jpomz.github.io/ENVS396-FA-2024/). Changes to
 the schedule will be posted to this site so please try to check it
 periodically for updates.
 
