@@ -9,7 +9,7 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            Intro to R for Bio and Enviro Sciences
+title:            Applied Programming in R for Natural Sciences
 description:      'Teaching the tools to use R to do cool science'
 url:              https://jpomz.github.io/ENVS318/
 baseurl:          /ENVS318
