@@ -11,7 +11,7 @@ permalink:        pretty
 # Setup
 title:            Applied Programming in R for Natural Sciences
 description:      'Teaching the tools to use R to do cool science'
-url:              https://jpomz.github.io/ENVS318/
+url:              https://jpomz.github.io/ENVS318-Applied-R-NatSci/
 baseurl:          /ENVS318
 email:            jpomeranz@coloradomesa.edu
 feedbackurl:      
