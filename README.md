@@ -4,7 +4,7 @@ This is a [forkable](https://help.github.com/articles/fork-a-repo/) set of teach
 with data through programming and computing more generally.
 
 This repository contains the complete teaching materials (excluding exams and
-answers to assignments) and [website](https://jpomz.github.io/ENVS396-FA-2024/) for a university style and self-guided 
+answers to assignments) and [website](https://jpomz.github.io/ENVS318/) for a university style and self-guided 
 course teaching computational data skills. The course is designed
 to work primarily as a flipped classroom, with students reading and viewing
 videos before coming to class and then spending the bulk of class time working
