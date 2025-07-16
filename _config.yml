@@ -11,8 +11,8 @@ permalink:        pretty
 # Setup
 title:            Intro to R for Bio and Enviro Sciences
 description:      'Teaching the tools to use R to do cool science'
-url:              https://jpomz.github.io/ENVS396-FA-2024/
-baseurl:          /ENVS396-FA-2024
+url:              https://jpomz.github.io/ENVS318/
+baseurl:          /ENVS318
 email:            jpomeranz@coloradomesa.edu
 feedbackurl:      
 author:
@@ -20,7 +20,7 @@ author:
   url:            
 
 github:
-  repo:           https://github.com/Jpomz/ENVS396-FA-2024
+  repo:           https://github.com/Jpomz/ENVS318-Applied-R-NatSci.git
   #               Be sure the 'Issues' feature is activated in 'Settings'
 
 plugins:
