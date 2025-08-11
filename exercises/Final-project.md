@@ -31,7 +31,7 @@ Your final assignment is to work with this data to re-create two of the plots (s
 You will need to load necessary libraries (at a minimum, the `tidyverse`). You will also need to download the final project data from the website. Copy, paste, and run the following code in your assignment.  
 
 ```
-download.file("https://jpomz.github.io/ENVS396-FA-2024/data/final_project_CMU.zip",
+download.file("https://jpomz.github.io/ENVS318-Applied-R-NatSci/data/final_project_CMU.zip",
               destfile = "data/final_project.zip")
 
 unzip("data/final_project.zip", exdir = "data/")

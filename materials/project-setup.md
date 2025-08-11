@@ -21,15 +21,15 @@ title: Project Setup
 
 ### Create Project
 
-1. Create an ENVS396 folder somewhere on your computer  
+1. Create an ENVS318 folder somewhere on your computer  
   * Could be on Desktop, in your Documents, etc.  
   * Doesn't matter, as long as you know where it is.  
   
 2. Open RStudio  
-3. Click on `File` --> `New Project` --> `Existing Directory` then `Browse` and select your "ENVS396" Folder.  
-4. Check that you can see "ENVS396" in the top right corner of RStudio  
+3. Click on `File` --> `New Project` --> `Existing Directory` then `Browse` and select your "ENVS318" Folder.  
+4. Check that you can see "ENVS318" in the top right corner of RStudio  
 
-  * When you are taking notes in class, working on homework assignments, etc., **ALWAYS MAKE SURE YOU ARE IN THE CORRECT PROJECT!** i.e., check that is says "ENVS396" in top right corner
+  * When you are taking notes in class, working on homework assignments, etc., **ALWAYS MAKE SURE YOU ARE IN THE CORRECT PROJECT!** i.e., check that is says "ENVS318" in top right corner
   
 #### Worskpace save option: Never  
 * **Never** save your work space image
