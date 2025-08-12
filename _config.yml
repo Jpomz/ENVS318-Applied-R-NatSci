@@ -9,7 +9,7 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            ENVS318: Applied Programming in R for Natural Sciences
+title:            ENVS318 Applied Programming in R for Natural Sciences
 description:      'Teaching the tools to use R to do cool science'
 url:              https://jpomz.github.io/ENVS318-Applied-R-NatSci/
 baseurl:          /ENVS318-Applied-R-NatSci
