@@ -7,12 +7,12 @@ title: Computer Setup
 
 Make sure you install these in order
 
-## R
+## 1. R
 
-1. Download and install the [R base system](http://cran.rstudio.com/) on your laptop. Click the link above and follow the instructions for your operating system (i.e., Windows, Apple, Linux).  
+* Download and install the [R base system](http://cran.rstudio.com/) on your laptop. Click the link above and follow the instructions for your operating system (i.e., Windows, Apple, Linux).  
 
-## RStudio  
+## 2. RStudio  
 
-2. After you install R, download and install [RStudio](http://www.rstudio.com/products/rstudio/download/). Click the link above and follow the instructions for your operating system. Installing RStudio will not automatically install R. 
+* After you install R, download and install [RStudio](http://www.rstudio.com/products/rstudio/download/). Click the link above and follow the instructions for your operating system. Installing RStudio will not automatically install R. 
 
 
