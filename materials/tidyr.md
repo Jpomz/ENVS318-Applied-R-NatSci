@@ -11,6 +11,9 @@ language: SQL
 2. One row per observation
 3. One value in each cell
 
+![Graphic showing principles of tidy data. The following three rules make a dataset tidy: variables are columns, observations are rows, and values are cells. Figure from r4ds.hadley.nz](tidy-1.png)  
+
+
 * Unfortunately lots of existing data doesn't follow these rules
 * Need to convert them to this tidy structure for analysis
 * Use a package called `tidyr`, which is included in the `tidyverse`
