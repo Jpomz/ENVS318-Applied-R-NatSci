@@ -55,6 +55,9 @@ plots <- read.csv("data/plots.csv")
         * A single observation or data point
     * Each column or field contains a single attribute.
         * A single type of information
+        
+        
+![Graphic showing principles of tidy data. The following three rules make a dataset tidy: variables are columns, observations are rows, and values are cells. Figure from r4ds.hadley.nz](({{ site.baseurl }}/materials/tidy-1.png))
 
 ### Packages
 
