@@ -142,5 +142,5 @@ as.numeric(v_char_num) + v_numeric
 ```
 
 
-> Do [Exercise 9 - Vector classes]({{ site.baseurl }}/exercises/Objects-classes-types/).
+> Do [Vector classes]({{ site.baseurl }}/exercises/Objects-classes-types/).
 

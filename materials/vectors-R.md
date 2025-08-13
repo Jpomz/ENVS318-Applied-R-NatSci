@@ -48,7 +48,7 @@ min(count)
 sum(count)
 ```
 
-> Do [Exercise 6 - Basic Vectors]({{ site.baseurl }}/exercises/Vectors-basic-vectors-R/).
+> Do [Basic Vectors]({{ site.baseurl }}/exercises/Vectors-basic-vectors-R/).
 
 ### Null values
 
@@ -78,7 +78,7 @@ mean(count_na)
 mean(count_na, na.rm = TRUE)
 ```
 
-> Do [Exercise 7 - Nulls in Vectors]({{ site.baseurl }}/exercises/Vectors-nulls-in-vectors-R/).
+> Do [Nulls in Vectors]({{ site.baseurl }}/exercises/Vectors-nulls-in-vectors-R/).
 
 ### Working with multiple vectors
 

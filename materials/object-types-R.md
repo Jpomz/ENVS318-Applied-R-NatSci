@@ -52,6 +52,7 @@ sites <- c("a", "a", "b", "c")
   
 * create a matrix with values 1 to 10 and 2 rows 
 * note order of numbers when set `byrow = TRUE`  
+
 ```
 m1 <- matrix(1:10, nrow = 2)
 m1_row <- matrix(1:10, nrow = 2, byrow = TRUE)
@@ -146,4 +147,4 @@ list2[[3]]
 list1[[3]]
 ```
 
-> Do [Exercise 6 - object types]({{ site.baseurl }}/exercises/object-types-R/).
+> Do [Exercise - object types]({{ site.baseurl }}/exercises/object-types-R/).
