@@ -6,7 +6,7 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# rmarkdown::render("code/solution-code/object-types.RMD", output_dir = "solutions")
+# rmarkdown::render("code/solution-code/object-types-R.RMD", output_dir = "solutions")
 
 # rmarkdown::render("current-file-name.RMD",
 #                   output_dir = "solutions")
@@ -46,7 +46,7 @@ df
 # question 5 
 ```{r}
 l <- list(question1 = my_scalar,
-          question2 = list(v1, v2, v3),
+          question2 = list(v1 = v1, v2 = v2, v3 = v3),
           question3 = m, 
           question4 = df)
 l
