@@ -7,4 +7,5 @@ language: R
 
 1. [Course Introduction]({{ site.baseurl }}/materials/course-intro)
 2. [Demo Code for Where Students Can Get in the Course]({{ site.baseurl }}/materials/first-day-demo)
-3. [R Project setup]({{ site.baseurl }}/materials/project-setup)
+3. [R Project setup]({{ site.baseurl }}/materials/project-setup)  
+4. [Intro to R]({{ site.baseurl }}/materials/r-intro)
