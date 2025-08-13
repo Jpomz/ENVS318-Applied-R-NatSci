@@ -52,7 +52,7 @@ hours in advance.*
 ### Website
 
 The syllabus and other relevant class information and resources will be
-posted at [https://jpomz.github.io/ENVS318/](https://jpomz.github.io/ENVS396-FA-2024/). Changes to
+posted at [https://jpomz.github.io/ENVS318/](https://jpomz.github.io/ENVS318-FA-2024/). Changes to
 the schedule will be posted to this site so please try to check it
 periodically for updates.
 
