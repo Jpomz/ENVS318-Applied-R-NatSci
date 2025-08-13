@@ -1,0 +1,54 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/object-types.RMD", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD",
+#                   output_dir = "solutions")
+
+```
+
+# question 1 
+```{r}
+# question 1  
+my_scalar = TRUE
+my_scalar
+```
+
+# question 2 
+# your specific values may be different
+```{r}
+v1 <- 1:3
+v2 <- c(TRUE, FALSE, TRUE)
+v3 <- letters[1:3]
+v1
+v2
+v3
+```
+
+# Question 3 
+```{r}
+m <- matrix(letters, ncol = 2, byrow = TRUE)
+m
+```
+# question 4
+```{r}
+df <- data.frame(numeric = v1, 
+                 logical = v2,
+                 character = v3)
+df
+```
+# question 5 
+```{r}
+l <- list(question1 = my_scalar,
+          question2 = list(v1, v2, v3),
+          question3 = m, 
+          question4 = df)
+l
+```
+

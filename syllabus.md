@@ -60,7 +60,7 @@ periodically for updates.
 
 Email: [{{ page.email }}](mailto:%7B%7B%20page.email%20%7D%7D) This is
 the best way to get in touch with me. Please include the course code
-[ENVS396] and a brief description of the topic in the email subject
+[ENVS318] and a brief description of the topic in the email subject
 line.
 
 D2L: Course announcements and class-wide emails will be delivered via
