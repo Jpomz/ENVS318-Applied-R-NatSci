@@ -14,7 +14,14 @@ title: Course Introduction
 * Data and how to work with it
 * Data entry & storage -> Import -> Manipulate -> Visualize -> Model -> Evaluate
 * This class focuses on  the first 4
-* Not statistics or machine learning
+* Not statistics or machine learning  
+
+### Software  
+
+* R is the language which works "under the hood"  
+* RStudio is the car which we will be driving  
+* Need to install both on your machine (laptop, desktop, etc.)  
+* See [computer setup page]({{ site.baseurl }}/computer-setup)
 
 ### Expected background
 
