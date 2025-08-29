@@ -6,10 +6,9 @@ title: Assignment Submission & Checklist
 - All assignments should be submitted through [D2L](https://d2l.coloradomesa.edu/d2l/home/233299)
 
 - What files to submit: 
-    - **Week 1** - Show instructor that you have completed assignment
-    - **Week 2-17** - an R script
+    - **Week 1-17** - an R script
     
-**NOTE for Fall 2024:** 
+**NOTE for Fall 2025:** 
   - Week 15 is Thanksgiving Break
   - Week 17 is Finals week
 
