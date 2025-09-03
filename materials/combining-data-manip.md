@@ -90,9 +90,19 @@ ds_weight_by_year <- surveys |>
 ### What if I want to pipe to an argument other than the first argument
 
 ```
+surveys %>%
+  filter(species_id == "DS", !is.na(weight)) %>%
+  arrange(year) %>%
+  select(year, weight) %>%
+  lm(weight ~ year, data = .)
+```
+
+If you want to do this using the `|>` pipe, you use `_` instead of `.`
+
+```
 surveys |>
   filter(species_id == "DS", !is.na(weight)) |>
   arrange(year) |>
   select(year, weight) |>
-  lm(weight ~ year, data = .)
+  lm(weight ~ year, data = _)
 ```

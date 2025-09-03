@@ -378,3 +378,20 @@ ggsave("acacia_by_treatment.pdf", height = 5, width = 5)
 ```
 
 > Assign the rest of the exercises.
+
+
+## Changing text size for publication  
+
+* default text sizes are small  
+* generally don't look great when using in a document, presentation, etc.  
+* there are numerous arguments to change all aspects of `ggplot` objects  
+  * see `?theme` for a full list  
+  
+* One basic improvement is to increase font size  
+
+* You can do this with the following line of code:  
+  * `theme(text = element_text(size = 16))`  
+  * where `size` controls the font size  
+  
+  
+  
