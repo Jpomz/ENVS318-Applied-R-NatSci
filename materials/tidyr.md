@@ -35,7 +35,7 @@ raw_data = read.csv("http://datacarpentry.org/semester-biology/data/Macroplot_da
 > View data
 
 * Data on tree girth from the Western Ghats
-* Western Ghats is a mountainous region on the western edge of the Indian peninsula considered one of the works 8 biodiversity hotspots. 
+* Western Ghats is a mountainous region on the western edge of the Indian peninsula considered one of the worlds 8 biodiversity hotspots. 
 * When a tree had multiple stems the diameter of each stem was entered in a separate column
 * What would a better structure be?
 
