@@ -82,7 +82,8 @@ clean_data <- raw_data %>%
 * Want `stem` column to contain numbers 1-5 not `TreeGirth1`
 * `extract()`
     * Extracts one or more values from a column
-    * Uses regular expressions
+    * Uses regular expressions  
+      * More on [Regular Expressions here](https://r4ds.hadley.nz/regexps.html)  
     * Arguments:
         * `data.frame`
         * Column name

@@ -11,4 +11,5 @@ language: R
 
 * Readings (optional)
 
-  * [Introducing tidyr](https://www.rstudio.com/blog/introducing-tidyr/)
+  * [Introducing tidyr](https://www.rstudio.com/blog/introducing-tidyr/)  
+  * [Regular Expressions](https://r4ds.hadley.nz/regexps.html)
