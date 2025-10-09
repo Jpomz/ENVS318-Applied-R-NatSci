@@ -6,15 +6,23 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# rmarkdown::render("code/solution-code/functions-multiple-outputs.Rmd", output_dir = "solutions")
+# need to paste the following into the console to run  
+
+# rmarkdown::render("code/solution-code/Functions-multiple-outputs-R.Rmd", output_dir = "solutions")
 
 # rmarkdown::render("current-file-name.RMD", output_dir = "solutions")
 ```
 
+### Part1   
+
 ```{r}
 # part 1 
 (x <- 25:50)
+```
 
+### Part 2  
+
+```{r}
 # part 2
 multiple_outputs <- function(x){
   n = length(x)
@@ -25,7 +33,11 @@ multiple_outputs <- function(x){
   return(out)
 }
 multiple_outputs(x)
+```
 
+### Part 3 
+
+```{r}
 # part 3
 multiple_outputs_df <- function(x){
   n = length(x)
