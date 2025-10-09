@@ -48,23 +48,24 @@ function_name <- function(inputs) {
 
 * The basic workflow is:  
     * Make a vector  
-    
     * Sum the vector  
-    
     * Get the sample size, n (using `length()`)  
-    
     * Divide the sum by n  
     
-
 ```
 # make a vector
 z <- 1:10
+
 # sum the vector
 total <- sum(z)
+
 # use length() to get sample size or n
 sample_size <- length(z)
+
 # divide sum by n  
 average <- sum_z / n_z
+
+# print final answer
 average 
 ```
 
@@ -112,14 +113,21 @@ average
 * But first, let's assign a function  
 
 ```
-my_mean <- function(input){ # function name and input/arguments
+# function name and name of argument(s)
+
+my_mean <- function(input){ 
+
 # body of the function, what it does
+
   input_total = sum(input)
   input_sample_size = length(input)
   input_average = input_total / input_sample_size
+  
 # use return to designate what comes out of the function
   return(input_average)
 }
+
+# make sure to have the } at the very end of the function
 ```
 * We assign the function by giving it a name (`my_mean`) and then telling R it is a `function()` 
 * Inside the `function()` command, we name the input arguments (in this case `input`)  
@@ -209,8 +217,8 @@ my_mean3(x)
 ### Functions with multiple arguments  
 
 * Let's make a function to calculate volume  
-* $v = l * w * h$  
-* where l is length, w is width, and h is height  
+* Volume = length * width * height
+
 ```
 calc_shrub_vol <- function(length, width, height) {
   area <- length * width
