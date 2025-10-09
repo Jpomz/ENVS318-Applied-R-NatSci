@@ -1,0 +1,40 @@
+---
+title: ""
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# rmarkdown::render("code/solution-code/functions-multiple-outputs.Rmd", output_dir = "solutions")
+
+# rmarkdown::render("current-file-name.RMD", output_dir = "solutions")
+```
+
+```{r}
+# part 1 
+(x <- 25:50)
+
+# part 2
+multiple_outputs <- function(x){
+  n = length(x)
+  total = sum(x)
+  average = mean(x)
+  standard_deviation = sd(x)
+  out <- c(n, total, average, standard_deviation)
+  return(out)
+}
+multiple_outputs(x)
+
+# part 3
+multiple_outputs_df <- function(x){
+  n = length(x)
+  total = sum(x)
+  average = mean(x)
+  standard_deviation = sd(x)
+  out <- data.frame(n, total, average, standard_deviation)
+  return(out)
+}
+multiple_outputs_df(x)
+```
+
