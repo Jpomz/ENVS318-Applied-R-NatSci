@@ -181,7 +181,7 @@ survey_plots %>%
 * Sometimes we need to modify the data before summarizing  
 
 * For example, let's say we want to know the number of genera in each plot type  
-* We first need to get the `distinct()` combinations of `plote_type` and `genus`  
+* We first need to get the `distinct()` combinations of `plot_type` and `genus`  
 * Then group it by plot type  
 * Then summarize using the special `n()` function which gives us the count  
 

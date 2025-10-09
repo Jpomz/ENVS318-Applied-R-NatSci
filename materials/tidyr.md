@@ -35,7 +35,7 @@ raw_data = read.csv("http://datacarpentry.org/semester-biology/data/Macroplot_da
 > View data
 
 * Data on tree girth from the Western Ghats
-* Western Ghats is a mountainous region on the western edge of the Indian peninsula considered one of the works 8 biodiversity hotspots. 
+* Western Ghats is a mountainous region on the western edge of the Indian peninsula considered one of the worlds 8 biodiversity hotspots. 
 * When a tree had multiple stems the diameter of each stem was entered in a separate column
 * What would a better structure be?
 
@@ -82,7 +82,8 @@ clean_data <- raw_data %>%
 * Want `stem` column to contain numbers 1-5 not `TreeGirth1`
 * `extract()`
     * Extracts one or more values from a column
-    * Uses regular expressions
+    * Uses regular expressions  
+      * More on [Regular Expressions here](https://r4ds.hadley.nz/regexps.html)  
     * Arguments:
         * `data.frame`
         * Column name

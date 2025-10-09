@@ -16,6 +16,9 @@ acacia <- read.csv("data/ACACIA_DREPANOLOBIUM_SURVEY.txt",
                     sep="\t",
                     na.strings = c("dead"))
 trees <- read_tsv("data/TREE_SURVEYS.txt",
+                  col_types = list(HEIGHT = col_double(),
+                                   AXIS_2 = col_double())) 
+                                   
 ```
 
 We want to compare the circumference to height relationship in acacia and to the same relationship for trees in the region. These data are stored in two different tables. Make a graph with the relationship between `CIRC` and `HEIGHT` for the trees as gray circles in the background and the same relationship for acacia as red circles plotted on top of the grah circles. Scale the both axes logarithmically. Inlude linear models for both sets of data. Provide clear labels for the axes.
