@@ -3,8 +3,8 @@ layout: page
 element: assignment
 title: Functions
 language: R
-exercises: ['Writing Functions', 'Use and Modify', 'Default Arguments', 'Combining Functions', 'Tree Biomass Challenge', 'Portal Species Time-Series']
-points: [15, 15, 15, 15, 40, optional]
+exercises: ['Writing Functions', 'Multiple Outputs', 'Use and Modify', 'Default Arguments', 'Combining Functions', 'Tree Biomass Challenge', 'Portal Species Time-Series']
+points: [15, 15, 15, 15, 15, 40, optional]
 ---
 
 ### Learning Objectives
