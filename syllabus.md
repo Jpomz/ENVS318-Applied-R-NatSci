@@ -3,13 +3,13 @@ layout: page
 title: Syllabus
 catalog: ENVS 318 
 credits: 3
-semester: Fall 2025
+semester: Fall 2026
 professor: Dr. Justin Pomeranz (he/him)
 office: 230E Wubben Science
 email: jpomeranz@coloradomesa.edu
-schedule: ['MWF, 11:00-11:50 pm MT']
-location: Wubben Science (WS) 245
-office_hours: ['MWF, 2:00-2:50 pm MT'] 
+schedule: ['MWF, 12:00-12:50 pm MT']
+location: Wubben Science (WS) 117
+office_hours: ['MWF, 1:00-1:50 pm MT'] 
 office_hours_location: 230E Wubben Science
 ---
 
@@ -252,14 +252,33 @@ Grading for this course is based on 15 equally weighted homework assignments.
 
 Exercises in assignments will be graded as follows:
 
--   Produces the correct answer using the requested approach: 100%
--   Generally uses the right approach, but a minor mistake results in an
-    incorrect answer: 90%
--   Attempts to solve the problem and makes some progress using the core
-    concept: 50%
--   Answer demonstrates a lack of understanding of the core concept: 0%
+### Completion (up to 5 points)
+-   Complete assignment = 5 points
+At least half the assignment is complete = 3 points
+Less than half is complete = 1 point
+Not turned in or nearly incomplete = 0 points
 
-### Grading scale
+### Values (up to 4 points)
+
+-   All the graded parts are correct. The values/plots/interpretations match the solution key = 4 points
+
+-   Most of the graded sections are correct and match the solution key = 3 points
+
+-   Some of the graded sections are correct and match the solution key = 1 points
+
+-   None of the graded sections are correct and match the solution key = 0 points
+
+### Syntax (1 point)
+
+-   All code runs correctly. There is no superfluous code in the document. Quarto documents render correctly = 1 point
+
+-   Nearly all code runs correctly, with only a minor error and/or very little superfluous code in the document. Quarto documents render correctly = 0.8 points
+
+-   Not all the code runs correctly. There are a few minor or one major errors and/or some superfluous code = 0.4 points
+
+-   Very little or none of the code runs correctly. There are several minor or more than two major errors and/or excessive superfluous code = 0 points
+
+## Grading scale
 
 -   **A 89.5-100**
 -   **B 79.5-89.4**
