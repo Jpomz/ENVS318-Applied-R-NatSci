@@ -26,6 +26,10 @@ The data needs to be tidied before all of the tree stems can be used for analysi
 f
 If the [`Macroplot_data_Rev.txt`](http://datacarpentry.org/semester-biology/data/Macroplot_data_Rev.txt) is not already in your working directory download a copy.
 
+```
+raw_data <- read.csv("http://jpomz.github.io/ENVS318-Applied-R-NatSci/data/Macroplot_data_Rev.txt", sep = "\t")
+```
+
 1. Use the data pipeline (including `mutate()` and `pivot_longer()`) we developed in class to create a longer data frame with one row for each measured stem. Use dplyr's `filter` function to remove all of the girths that are zero and use `extract()` to get the stem number, making sure to `convert = TRUE` to make it a number class. Store this longer data frame as an object called `clean_data`, and use `head()` to display the first few rows in your console.  
 2. Stems are measured in girth (*i.e., circumference*) rather than diameter.
    Use `mutate()` to convert girth to diameter using the following formula: `diameter = circumference / pi` and use `head()` to display the first few rows in your console.  
