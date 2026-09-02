@@ -56,10 +56,10 @@ title: Course Introduction
 * All exercises are part of the assignments.
 * Work on them until you get stuck and then ask for help, don't struggle for hours on online help sites
 * Weekly assignments 
-* Assignments due end of the day on Sunday (11:59 pm)
+* Assignments due end of the day on Friday (11:59 pm)
 * I encourage you to keep up with deadlines whenever possible.
 Each step of the course builds on the last step and students who get behind often have a hard time catching up.
-* That said, life happens, so there is an automatic 48 hour extension if you need it. You don't need to ask, you can just turn things in up to 48 hours late (Tuesday at 11:59 pm).
+* That said, life happens, so there is an automatic 48 hour extension if you need it. You don't need to ask, you can just turn things in up to 48 hours late (Sunday at 11:59 pm).
 * If you need a longer extension just ask. You don't need to disclose personal information to me to get an extension. Just let me know how long you need.
 
 ### Website
