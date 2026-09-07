@@ -5,7 +5,7 @@ title: Shrub Volume Join
 language: R
 ---
 
-In addition to the main data table on shrub dimensions, Dr. Granger has two additional data tables.
+In addition to the main data table on [shrub dimensions]({{ site.baseurl }}/data/shrub-volume-data.csv), Dr. Granger has two additional data tables.
 The first describes the manipulation for each experiment.
 The second provides information about the different sites.
 Download the [shrub-volume-experiments.csv file]({{ site.baseurl }}/data/shrub-volume-experiments.csv) and the [shrub-volume-sites.csv file]({{ site.baseurl }}/data/shrub-volume-sites.csv) and put them in your `data/` subfolder. 

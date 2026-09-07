@@ -3,8 +3,8 @@ layout: page
 element: assignment
 title: Joining & Binding Data
 language: R
-exercises: ['Shrub Volume Join', 'Fix the Code', 'Portal Data Joins', 'AMD Join Bind', 'Portal Data dplyr Review', 'Extracting vectors from data frames', 'Building data frames from vectors']
-points: [10, 15, 15, 15, 20, 10, 10]
+exercises: ['Shrub Volume Join',  'Portal Data Joins', 'AMD Join Bind', 'Portal Data dplyr Review', 'Extracting vectors from data frames', 'Building data frames from vectors']
+points: [10, 15, 15, 20, 10, 10]
 ---
 
 ### Learning Objectives
