@@ -11,8 +11,10 @@ Load the file into R using `read.csv()`.
 
 ***Do not use pipes for this exercise.***
 
+At the end of each sub-problem, print out your final object.
+
 1. Use `select()` to create a new data frame with just the `year`, `month`,
-   `day`, and `species_id` columns in that order.
+   `day`, and `species_id` columns in that order. 
 2. Use `mutate()`, `select()`, and `filter()` with `!is.na()` to create a new
    data frame with
    the `year`, `species_id`, and weight **in kilograms** of each individual,

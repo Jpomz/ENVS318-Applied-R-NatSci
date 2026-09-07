@@ -11,6 +11,8 @@ Load the file into R using `read.csv()`.
 
 Use pipes (either `|>` or `%>%`) to combine the following operations to manipulate the data.
 
+At the end of each sub-problem, print out your final object.
+
 1. Use `mutate()`, `select()`, and `filter()` with `is.na()` to create a new data frame with
    the `year`, `species_id`, and weight **in kilograms** of each individual,
    with no null weights.
