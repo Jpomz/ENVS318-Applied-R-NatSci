@@ -1,0 +1,172 @@
+---
+title: "Quarto KEY"
+author: "Justin Pomeranz"
+execute: 
+  echo: true
+  eval: true
+  message: false
+  warning: false
+format: 
+  html:
+    embed-resources: true
+  pdf: default
+editor: visual
+toc: true
+toc-depth: 2
+embed-resources: true
+theme:
+  light: flatly
+  dark: darkly
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+surveys <- read.csv(here::here("data/surveys.csv"))
+```
+
+# Problems
+
+# Section 1: preliminaries
+
+## My level 2 header
+
+### My level 3 header
+
+# Section 2: Lists
+
+## 2.1  
+
+## My favorite animals
+
+1.  Bugs (obviously)
+2.  Here's another bug
+3.  And a third
+
+## 2.2
+
+## Why Use Quarto
+
+-   You can make lots of outputs
+
+-   You can incorporate code/analysis/results directly in (don't need to copy/paste plots and stuff every time analysis changes
+
+-   Focus on writing, not formatting
+
+## 2.3
+
+## Sub Bulleted list
+
+-   Mountain Running
+
+    -   Get to see all the sites on a backpacking trip without having to carry so much stuff
+
+    -   Makes me feel cool
+
+-   Playing the banjo
+
+    -   Also makes me feel cool
+
+# Section 3: Equations
+
+## 3.1
+
+inline: $x \sim Normal(\mu = 0, \sigma = 1)$
+
+## 3.2 Block equations:
+
+$$ Y = \beta_0 + \beta_1 * X + $$
+## 3.3
+
+$$
+HA: \mu_{reference} \neq \mu_{treatment}
+$$
+
+## 3.4  
+
+$$
+s^2 = \frac{\Sigma(y_i - \bar{y})^2}{n-1}
+$$
+
+# Section 4: Code Chunks
+
+## 4.1 
+
+1.  Add a code chunk which loads the tidyverse and reads in the surveys.csv file as an object called `finch` . At the end of the code chunk, display the `finch` object as a tibble
+
+```{r}
+library(tidyverse)
+surveys <- read.csv(here::here("data/surveys.csv"))
+as_tibble(surveys)
+```
+
+## 4.2
+
+2.  Add a code chunk which uses the `group_by()` and `summarize()` functions to get a count of the number of individuals in each species ID, and display it as a tibble
+
+```{r}
+surveys |>
+  group_by(species_id) |>
+  summarize(count = n())
+```
+
+## 4.3 
+
+3.  Add a code chunk which uses the `group_by()` and `summarize()` functions to get a count of the number of individuals in each species ID for each year, and display it as a tibble
+
+```{r}
+surveys |>
+  group_by(species_id, year) |>
+  summarize(count = n())
+```
+
+## 4.4
+
+4.  Add a code chunk which uses the `group_by()`, `filter()` and `summarize()` functions to get a mean weight for the `DO` and the `DM` species ID and display it as a tibble
+
+```{r}
+surveys |>
+  group_by(species_id) |>
+  filter(species_id == "DO" |
+           species_id == "DM") |>
+  summarize(mean_wt = mean(weight, na.rm = TRUE))
+```
+
+
+## 4.5  
+
+5. Make a bar graph showing the mean weight for the `SO` and the `DM` species for only the years 1980 trough 2000. Make it so the fill of the bars changes color based on the two species IDs, the bar positions are "dodged" and not "stacked". Finally, use use a colorblind friendly palette and choose a theme for the plot that is not the default. 
+
+```{r}
+surveys |>
+  group_by(species_id, year) |>
+  filter(species_id == "SO" |
+           species_id == "DM",
+         year >= 1980,
+         year <=2000) |>
+  summarize(mean_wt = mean(weight, na.rm = TRUE)) |>
+  ggplot(aes(x = year,
+             y = mean_wt,
+             fill = species_id)) +
+  geom_col(position = "dodge") +
+  scale_fill_viridis_d() +
+  theme_bw()
+```
+
+
+## Problem 5: Miscellany
+
+1.  
+
+2.  my cmu email address is [jpomeranz\@colroadomesa.edu](jpomeranz@colroadomesa.edu)
+
+3.  Include a line of text which includes at least one
+
+    1.  **bold**
+    2.  *italicized*
+    3.  subscript H~2~O
+    4.  superscript M^2^
+
+## 

@@ -1,0 +1,160 @@
+---
+title: "Quarto Assignment"
+execute: 
+  echo: false
+  eval: false
+  message: false
+  warning: false
+format: html
+editor: visual
+toc: true
+toc-depth: 2
+embed-resources: true
+theme:
+  light: flatly
+  dark: darkly
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+surveys <- read.csv(here::here("data/surveys.csv"))
+```
+
+# Learning Objectives
+
+-   You will make your first Quarto document and render the final product as a pdf document
+
+-   Practice editing the YAML header
+
+-   Change text formats (headings, fonts, lists)
+
+-   Write mathematical equations
+
+-   Produce simple summaries and plots of `surveys` data
+
+# Setup
+
+-   Start a new quarto document
+
+-   **Title**: HW 07 Quarto
+
+-   **Author**: Put your name in the author section
+
+-   **Select PDF output**
+
+-   Each Section of your homework should have a level 1 header i.e.:
+
+# Section 1 : Preliminaries
+
+-   Each subproblem should have a level 2 header i.e.:
+
+## Section 1.1
+
+## Section 1.2, etc.
+
+# Assignment
+
+# Section 1: preliminaries
+
+Complete the following steps by editing the YAML header in your R Markdown file to include the following (no level 2 headers necessary for each subproblem, but see part 4 and 5):
+
+1.  Add the code to include a table of contents with `toc_depth : 2`\
+
+2.  Add the code to include all resources to make your .qmd a standalone document with 
+
+```         
+format: 
+  html:
+    embed-resources: true
+  pdf: default
+```
+
+3.  Add code to define both a light and a dark theme: i.e., add `theme:` to the yaml header, enter a new line with `light: flatly`, enter a new line and add `dark: darkly`  
+
+    -   You can add whatever themes you want. 
+    
+    -   See [here](https://quarto.org/docs/output-formats/html-themes.html) for available themes
+
+4.  Add a level 2 header called "My Level 2 Header"
+
+5.  Add a level 3 header called "My Level 3 Header"
+
+6.  Click `Render` to ensure that a pdf document is created.
+
+    -   Double check that the author field is correct
+
+    -   Make sure that you have three headers, one of each level (1-3)
+
+    -   Make sure that the table of contents at the top of your document *only* includes the first two levels.
+
+-   **NOTE** You may want to `render` your document after you complete each problem to ensure that the out put format is correct.
+
+# Section 2: Lists
+
+1.  Create a level 2 header titled "Problem 2.1: My favorite animals". Then create a numbered list, ranking your top three favorite animals.
+
+2.  Create a level 2 header called "Problem 2.2: Why use Quarto?". Then make a bulleted list (min 3 bullets) with a few of the benefits for using Quarto in your own words.
+
+3.  Create a level 2 header called "Problem 3.3: Sub-bulleted list". Then create a bulleted list (min 2 main bullets) with some of your favorite hobbies. For each main bullet, add at least one sub-bullet briefly explaining why you like that hobby.
+
+# Section 3: Equations 
+
+For each sub-problem below, make a level 2 header with the section and sub-problem number, i.e., 3.1, 3.2, etc. 
+
+1.  Create an inline equation which produces the following: $x \sim Normal(\mu = 0, \sigma = 1)$
+    -   **hint** the $\sim$ symbol can be added by typing `\sim` in your equation
+    
+2.  Create a block (AKA display) equation for a simple linear model. Your equation should look like this:
+    1.  **Hint** the greek letters in use are beta and epsilon
+
+$$ Y = \beta_0 + \beta_1 * X + $$
+
+3.  Create a block equation that looks like this:
+
+$$
+HA: \mu_{reference} \neq \mu_{treatment}
+$$
+
+4.  Create the following block equation:
+    -   **Hint** the symbol on the top is capital Sigma
+    -   You can add a bar above a variable with `\bar{y}`
+
+$$
+s^2 = \frac{\Sigma(y_i - \bar{y})^2}{n-1}
+$$
+
+# Section 4: Code Chunks  
+
+Add a level 2 header for each sub-problem below. 
+
+1.  Add a code chunk which loads the tidyverse and reads in the surveys.csv file as an object called `finch` . At the end of the code chunk, display the `finch` object as a tibble
+
+```{r}
+library(tidyverse)
+surveys <- read.csv(here::here("data/surveys.csv"))
+as_tibble(surveys)
+```
+
+
+5. Make a bar graph showing the mean weight for the `SO` and the `DM` species for only the years 1980 trough 2000. Make it so the fill of the bars changes color based on the two species IDs, the bar positions are "dodged" and not "stacked". Finally, use use a colorblind friendly palette and choose a theme for the plot that is not the default. 
+
+
+# Section 5: Miscellany
+
+Add a level 2 header for each of the following sub-problems
+
+1.  Make a line with the following: "My CMU email address is:". Then, include your email address as a hyperlink.
+
+2.  Include a line of text which includes at least one **bold** and one *italicized* word as well as one subscript and one superscript.
+
+# Render your Document  
+
+Once your homework file is completed, you will need to render the document into a pdf. **Be sure to go over the rendered document to see if all the answer formats are correct.**
+
+
+# Submission
+
+For credit, you will submit both the .qmd and .pdf files on D2L.
