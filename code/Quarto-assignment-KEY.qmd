@@ -9,7 +9,9 @@ execute:
 format: 
   html:
     embed-resources: true
-  pdf: default
+  pdf: 
+    execute:
+      echo: false
 editor: visual
 toc: true
 toc-depth: 2
