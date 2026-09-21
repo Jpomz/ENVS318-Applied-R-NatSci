@@ -5,7 +5,10 @@ execute:
   eval: false
   message: false
   warning: false
-format: html
+format: 
+  html:
+    embed-resources: true
+  pdf: default
 editor: visual
 toc: true
 toc-depth: 2

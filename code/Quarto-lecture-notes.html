@@ -3232,21 +3232,21 @@ window.Quarto = {
   <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup"><span class="header-section-number">2</span> Setup</a>
   <ul class="collapse">
   <li><a href="#install-packages" id="toc-install-packages" class="nav-link" data-scroll-target="#install-packages"><span class="header-section-number">2.0.1</span> Install packages</a></li>
+  <li><a href="#install-tinytex-in-terminal" id="toc-install-tinytex-in-terminal" class="nav-link" data-scroll-target="#install-tinytex-in-terminal"><span class="header-section-number">2.0.2</span> Install tinyTeX in Terminal</a></li>
   <li><a href="#open-a-quarto-document" id="toc-open-a-quarto-document" class="nav-link" data-scroll-target="#open-a-quarto-document"><span class="header-section-number">2.1</span> Open a Quarto document</a></li>
   </ul></li>
   <li><a href="#lecture-outline" id="toc-lecture-outline" class="nav-link" data-scroll-target="#lecture-outline"><span class="header-section-number">3</span> Lecture Outline</a>
   <ul class="collapse">
   <li><a href="#get-to-know-quarto" id="toc-get-to-know-quarto" class="nav-link" data-scroll-target="#get-to-know-quarto"><span class="header-section-number">3.1</span> Get to know Quarto</a></li>
   <li><a href="#yaml-header" id="toc-yaml-header" class="nav-link" data-scroll-target="#yaml-header"><span class="header-section-number">3.2</span> YAML Header</a></li>
-  <li><a href="#notes-on-editors" id="toc-notes-on-editors" class="nav-link" data-scroll-target="#notes-on-editors"><span class="header-section-number">3.3</span> Notes on Editors</a></li>
-  <li><a href="#render-your-quarto" id="toc-render-your-quarto" class="nav-link" data-scroll-target="#render-your-quarto"><span class="header-section-number">3.4</span> Render your Quarto</a></li>
+  <li><a href="#render-your-quarto" id="toc-render-your-quarto" class="nav-link" data-scroll-target="#render-your-quarto"><span class="header-section-number">3.3</span> Render your Quarto</a></li>
+  <li><a href="#notes-on-editors" id="toc-notes-on-editors" class="nav-link" data-scroll-target="#notes-on-editors"><span class="header-section-number">3.4</span> Notes on Editors</a></li>
   <li><a href="#why-use-quarto" id="toc-why-use-quarto" class="nav-link" data-scroll-target="#why-use-quarto"><span class="header-section-number">3.5</span> Why use Quarto</a></li>
   <li><a href="#more-yaml" id="toc-more-yaml" class="nav-link" data-scroll-target="#more-yaml"><span class="header-section-number">3.6</span> More YAML</a>
   <ul class="collapse">
   <li><a href="#toc" id="toc-toc" class="nav-link" data-scroll-target="#toc"><span class="header-section-number">3.6.1</span> TOC</a></li>
   <li><a href="#themes" id="toc-themes" class="nav-link" data-scroll-target="#themes"><span class="header-section-number">3.6.2</span> Themes</a></li>
-  <li><a href="#changing-output" id="toc-changing-output" class="nav-link" data-scroll-target="#changing-output"><span class="header-section-number">3.6.3</span> Changing output</a></li>
-  <li><a href="#multiple-outputs" id="toc-multiple-outputs" class="nav-link" data-scroll-target="#multiple-outputs"><span class="header-section-number">3.6.4</span> Multiple outputs</a></li>
+  <li><a href="#multiple-outputs" id="toc-multiple-outputs" class="nav-link" data-scroll-target="#multiple-outputs"><span class="header-section-number">3.6.3</span> Multiple outputs</a></li>
   </ul></li>
   <li><a href="#text-sections" id="toc-text-sections" class="nav-link" data-scroll-target="#text-sections"><span class="header-section-number">3.7</span> Text sections</a>
   <ul class="collapse">
@@ -3317,8 +3317,17 @@ window.Quarto = {
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;here&quot;</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;rmarkdown&quot;</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;tinytex&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># If necessary</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;tinytex&quot;)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="install-tinytex-in-terminal" class="level3" data-number="2.0.2">
+<h3 data-number="2.0.2" class="anchored" data-anchor-id="install-tinytex-in-terminal"><span class="header-section-number">2.0.2</span> Install tinyTeX in Terminal</h3>
+<ul>
+<li><p>Go to the “Terminal” tab in your console</p></li>
+<li><p>Type <code>quarto install tinytex</code> and press enter</p></li>
+<li><p>Wait until it finishes before moving on to the next steps.</p></li>
+</ul>
 </section>
 <section id="open-a-quarto-document" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="open-a-quarto-document"><span class="header-section-number">2.1</span> Open a Quarto document</h2>
@@ -3326,7 +3335,7 @@ window.Quarto = {
 <li><p>New file drop down icon in top right of Rstudio</p></li>
 <li><p>New Quarto Document</p></li>
 <li><p>Title: My First Quarto</p></li>
-<li><p>Select HTML</p></li>
+<li><p>Select PDF</p></li>
 <li><p>Engine = knitr</p></li>
 <li><p>Select “Use Visual Editor”</p></li>
 </ul>
@@ -3356,7 +3365,7 @@ window.Quarto = {
 </ul>
 <pre><code>---
 title: &quot;My First Quarto&quot;
-format: html
+format: pdf
 editor: visual
 ---</code></pre>
 <ul>
@@ -3373,11 +3382,30 @@ editor: visual
     embed-resources: true
   pdf: default</code></pre>
 <ul>
-<li>This code ensures that the rendered document can be read by other machines, even if they don’t have all the libraries and software downloaded on their local machine.</li>
+<li><p>This code ensures that the html rendered document can be read by other machines, even if they don’t have all the libraries and software downloaded on their local machine.</p></li>
+<li><p>The PDF should work under default settings</p></li>
 </ul>
 </section>
-<section id="notes-on-editors" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="notes-on-editors"><span class="header-section-number">3.3</span> Notes on Editors</h2>
+<section id="render-your-quarto" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="render-your-quarto"><span class="header-section-number">3.3</span> Render your Quarto</h2>
+<ul>
+<li><p>You can render your document into an .html or .pdf document by clicking the dropdown arrow by the “render” at the top and selecting the output.</p></li>
+<li><p>I recommend rendering frequently to observe the changes you are making, and ensure that they are working properly</p>
+<ul>
+<li>If you have a lot of new text/code/content and it doesn’t render, it can be difficult to figure out where the issue is</li>
+</ul></li>
+<li><p>If you get an error</p>
+<ul>
+<li>Try running <code>install.packages(&quot;tinytex&quot;)</code></li>
+</ul></li>
+<li><p><strong>If you cannot get a pdf to work</strong></p>
+<ul>
+<li>You may render and submit html documents on D2L</li>
+</ul></li>
+</ul>
+</section>
+<section id="notes-on-editors" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="notes-on-editors"><span class="header-section-number">3.4</span> Notes on Editors</h2>
 <ul>
 <li><p>You can use the “visual” editor or the “source” editor</p>
 <ul>
@@ -3414,26 +3442,6 @@ Delete the three ``` at the top and the bottom
 
 ```</code></pre>
 </section>
-<section id="render-your-quarto" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="render-your-quarto"><span class="header-section-number">3.4</span> Render your Quarto</h2>
-<ul>
-<li><p>You can render your document into an .html or .pdf document by clicking the dropdown arrow by the “render” at the top and selecting the output.</p></li>
-<li><p>I recommend rendering frequently to observe the changes you are making, and ensure that they are working properly</p>
-<ul>
-<li>If you have a lot of new text/code/content and it doesn’t render, it can be difficult to figure out where the issue is</li>
-</ul></li>
-<li><p>If you get an error about <code>tlmgr</code> or “Local TeX Live”, you may need to install a new version of Tex Live</p>
-<ul>
-<li>For Macs, go <a href="https://tug.org/mactex/">here</a></li>
-<li>For Windows, go <a href="https://tug.org/texlive/windows.html">here</a></li>
-</ul></li>
-<li><p><strong>If you cannot get a pdf to work</strong></p>
-<ul>
-<li><p>You may render and submit html documents on D2L</p></li>
-<li></li>
-</ul></li>
-</ul>
-</section>
 <section id="why-use-quarto" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="why-use-quarto"><span class="header-section-number">3.5</span> Why use Quarto</h2>
 <p>R Markdown has many advantages compared to creating reports in Word or GoogleDocs. These advantages include:</p>
@@ -3458,7 +3466,7 @@ toc-depth: 3
 number-sections: true</code></pre>
 <ul>
 <li><p><code>toc-depth: 2</code> means that the table of contents will only show heading levels 1 to 3</p></li>
-<li><p>Render your HTML</p></li>
+<li><p>Render your document</p></li>
 </ul>
 </section>
 <section id="themes" class="level3" data-number="3.6.2">
@@ -3472,20 +3480,8 @@ number-sections: true</code></pre>
 <li>Now when we render, there will be an icon to switch between light and dark themes</li>
 </ul>
 </section>
-<section id="changing-output" class="level3" data-number="3.6.3">
-<h3 data-number="3.6.3" class="anchored" data-anchor-id="changing-output"><span class="header-section-number">3.6.3</span> Changing output</h3>
-<ul>
-<li><p>to change the output to pdf, just switch <code>format: html</code> to <code>format: pdf</code></p>
-<ul>
-<li><p><strong>note</strong>, you may need to install a Latex distribution to knit to pdf. If you get an error message at this step</p></li>
-<li><p>Try running <code>install.packages(&quot;tinytex&quot;)</code></p></li>
-<li><p>If this doesn’t work, try clicking in your terminal (tab in console pane) and type:</p></li>
-<li><p><code>quarto install tinytex</code></p></li>
-</ul></li>
-</ul>
-</section>
-<section id="multiple-outputs" class="level3" data-number="3.6.4">
-<h3 data-number="3.6.4" class="anchored" data-anchor-id="multiple-outputs"><span class="header-section-number">3.6.4</span> Multiple outputs</h3>
+<section id="multiple-outputs" class="level3" data-number="3.6.3">
+<h3 data-number="3.6.3" class="anchored" data-anchor-id="multiple-outputs"><span class="header-section-number">3.6.3</span> Multiple outputs</h3>
 <ul>
 <li>We will not do this in class, but if you wanted to have multiple outputs, you would modify your YAML header as follows:</li>
 </ul>
@@ -3510,6 +3506,7 @@ number-sections: true</code></pre>
 <ul>
 <li>Be sure to keep the YAML header changes we just made above.</li>
 </ul></li>
+<li>When you’re ready to make your output, click on the drop down menu by “Render” and choose the correct output.</li>
 </ul>
 <section id="headers" class="level3" data-number="3.7.1">
 <h3 data-number="3.7.1" class="anchored" data-anchor-id="headers"><span class="header-section-number">3.7.1</span> Headers</h3>

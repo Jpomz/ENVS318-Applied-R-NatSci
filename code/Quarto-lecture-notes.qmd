@@ -39,8 +39,17 @@ This week, you will be introduced to Quarto. Quarto is a powerful editor which i
 #| eval: false
 install.packages("here")
 install.packages("rmarkdown")
-install.packages("tinytex")
+# If necessary
+# install.packages("tinytex")
 ```
+
+### Install tinyTeX in Terminal
+
+-   Go to the "Terminal" tab in your console  
+
+-   Type `quarto install tinytex` and press enter
+
+-   Wait until it finishes before moving on to the next steps. 
 
 ## Open a Quarto document
 
@@ -50,7 +59,7 @@ install.packages("tinytex")
 
 -   Title: My First Quarto
 
--   Select HTML
+-   Select PDF
 
 -   Engine = knitr
 
@@ -76,7 +85,7 @@ There are three main sections
 ```         
 ---
 title: "My First Quarto"
-format: html
+format: pdf
 editor: visual
 ---
 ```
@@ -98,7 +107,26 @@ format:
   pdf: default
 ```
 
--   This code ensures that the rendered document can be read by other machines, even if they don't have all the libraries and software downloaded on their local machine.
+-   This code ensures that the html rendered document can be read by other machines, even if they don't have all the libraries and software downloaded on their local machine.  
+
+-   The PDF should work under default settings
+
+## Render your Quarto
+
+-   You can render your document into an .html or .pdf document by clicking the dropdown arrow by the "render" at the top and selecting the output. 
+
+-   I recommend rendering frequently to observe the changes you are making, and ensure that they are working properly
+
+    -   If you have a lot of new text/code/content and it doesn't render, it can be difficult to figure out where the issue is
+    
+-   If you get an error   
+
+    -   Try running `install.packages("tinytex")`
+    
+-   **If you cannot get a pdf to work**
+
+    -   You may render and submit html documents on D2L
+    
 
 ## Notes on Editors
 
@@ -146,25 +174,6 @@ Delete the three ``` at the top and the bottom
 ```
 ````
 
-## Render your Quarto
-
--   You can render your document into an .html or .pdf document by clicking the dropdown arrow by the "render" at the top and selecting the output. 
-
--   I recommend rendering frequently to observe the changes you are making, and ensure that they are working properly
-
-    -   If you have a lot of new text/code/content and it doesn't render, it can be difficult to figure out where the issue is
-    
--   If you get an error about `tlmgr` or "Local TeX Live", you may need to install a new version of Tex Live  
-
-    -   For Macs, go [here](https://tug.org/mactex/)
-    -   For Windows, go [here](https://tug.org/texlive/windows.html)
-    
--   **If you cannot get a pdf to work**
-
-    -   You may render and submit html documents on D2L
-    
-    - 
-
 ## Why use Quarto
 
 R Markdown has many advantages compared to creating reports in Word or GoogleDocs. These advantages include:
@@ -190,7 +199,7 @@ number-sections: true
 
 -   `toc-depth: 2` means that the table of contents will only show heading levels 1 to 3
 
--   Render your HTML
+-   Render your document
 
 ### Themes
 
@@ -202,17 +211,6 @@ number-sections: true
 
 -   Now when we render, there will be an icon to switch between light and dark themes
 
-### Changing output
-
--   to change the output to pdf, just switch `format: html` to `format: pdf`
-
-    -   **note**, you may need to install a Latex distribution to knit to pdf. If you get an error message at this step
-
-    -   Try running `install.packages("tinytex")`
-
-    -   If this doesn't work, try clicking in your terminal (tab in console pane) and type:
-
-    -   `quarto install tinytex`
 
 ### Multiple outputs
 
@@ -237,6 +235,8 @@ format:
 -   The text section is where you can type text as in a word or similar document
 -   Let's start by deleting all text in our Quarto to start fresh
     -   Be sure to keep the YAML header changes we just made above.
+    
+-   When you're ready to make your output, click on the drop down menu by "Render" and choose the correct output. 
 
 ### Headers
 
