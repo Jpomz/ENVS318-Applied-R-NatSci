@@ -35,7 +35,7 @@ For Instructors
 : <a href="{{ site.baseurl}}/docs">
   <i class="fa fa-question-circle fa-fw"></i> Course Development Help</a>
 
-The material is designed to be modify and remixed to create your own 
+The material is designed to be modified and remixed to create your own 
 courses. Collaborative development and contributions by 
 are welcome. 
 
