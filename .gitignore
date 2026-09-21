@@ -8,3 +8,7 @@ Gemfile.lock
 node_modules/
 .Rproj.user
 notes-for-post-2024
+
+/.quarto/
+*_cache/
+*_files/
