@@ -18,10 +18,13 @@ the file at a `url` to a specific `filename`.
    loads the file into a data frame and displays the first few rows using the `head()`
    function. The url needs to be in quotes since it is character data.
 
-2. Make a version of this conditional statement that is a function, where the
+2. (OPTIONAL) Make a version of this conditional statement that is a function, where the
    name of the file is the first argument and the link for downloading the file
    is the second argument. The function should return the resulting data frame.
    Add some documentation to the top of the function describing what it does.
    Call this function using "species.csv" as the file name and
    <https://ndownloader.figshare.com/files/3299483> as the link. Print the first
    few rows of the resulting data frame using `head()`.
+   Hint - You will most likely need the `paste0()` function to combine the full file path
+   to search to see if it already exists, and where to download it, where to read it
+   in from, etc. run`?paste0` in your console for more information. 
