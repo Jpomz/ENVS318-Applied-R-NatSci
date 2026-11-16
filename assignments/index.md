@@ -19,7 +19,7 @@ title: Assignments
 * [Making Choices](R-conditionals)
 * [Repeating 1](r-iteration-1)
 * [Repeating 2](r-iteration-2)
-* [Dates and Times](r-Dates-andTimes)
+* [Dates and Times](r-Dates-and-Times)
 * [HOBO Temperature Loggers](r-HOBO_single)
 * [Final Project](r-Final-project)
 
