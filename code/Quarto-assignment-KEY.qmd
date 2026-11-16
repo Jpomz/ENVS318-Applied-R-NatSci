@@ -139,7 +139,7 @@ surveys |>
 
 ## 4.5  
 
-5. Make a bar graph showing the mean weight for the `SO` and the `DM` species for only the years 1980 trough 2000. Make it so the fill of the bars changes color based on the two species IDs, the bar positions are "dodged" and not "stacked". Finally, use use a colorblind friendly palette and choose a theme for the plot that is not the default. 
+5. Make a bar graph showing the mean weight in each year for the `SO` and the `DM` species, but only for the years 1980 trough 2000. Make it so the fill of the bars changes color based on the two species IDs, the bar positions are "dodged" and not "stacked". Finally, use use a colorblind friendly palette and choose a theme for the plot that is not the default.
 
 ```{r}
 surveys |>
